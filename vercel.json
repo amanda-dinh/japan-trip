@@ -1,0 +1,5 @@
+{
+  "buildCommand": "cd japan-trip-site && npm install && npm run build",
+  "outputDirectory": "japan-trip-site/dist",
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}
