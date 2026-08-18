@@ -1,0 +1,70 @@
+{
+  "slug": "nara",
+  "name": "Nara",
+  "days": "1 (day trip, solo, while friend is in Hokkaido)",
+  "imageQuery": "Nara deer park Japan",
+  "overview": "Famous for over 1,000 free-roaming sacred deer that bow for crackers (shika-senbei) in exchange. Winter is a genuinely good time to visit, not a downside.",
+  "recommendations": [
+    {
+      "slug": "nara-park-deer",
+      "title": "Nara Park deer",
+      "category": "wildlife",
+      "imageQuery": "Nara deer bowing crackers",
+      "summary": "Present year-round; winter brings fewer crowds and snow-dusted deer.",
+      "body": "Present year-round, unaffected by winter since deer don't hibernate. Winter brings fewer tourists and a chance of snow-dusted deer for striking photos. Deer near the entrance are more assertive/handsy than ones further into the park — keep bags zipped, watch loose straps."
+    },
+    {
+      "slug": "shikayose",
+      "title": "Shikayose (deer calling)",
+      "category": "wildlife",
+      "imageQuery": "Shikayose deer calling Nara horn",
+      "summary": "Winter-only tradition; 10am weekends/holidays, Jan-Feb 2026.",
+      "body": "10am on Saturdays, Sundays, and public holidays in Jan/Feb 2026, at Tobihino near Kasuga Taisha. Staff blow a horn and deer gather from the woods — a winter-only tradition (less natural food available, so they're drawn in more reliably). Worth building the morning around if the day trip lands on a weekend."
+    },
+    {
+      "slug": "todai-ji",
+      "title": "Todai-ji",
+      "category": "historic",
+      "imageQuery": "Todai-ji temple giant Buddha Nara",
+      "summary": "Giant Buddha hall, one of the world's largest wooden buildings.",
+      "body": "One of several stops rather than the main draw, but easy to combine since it's inside/adjacent to the park."
+    },
+    {
+      "slug": "kasuga-taisha",
+      "title": "Kasuga Taisha",
+      "category": "historic",
+      "imageQuery": "Kasuga Taisha shrine lanterns Nara",
+      "summary": "The shrine tied to the deer legend.",
+      "body": "The shrine tied to the deer legend — a deity is said to have ridden a deer to Nara. Pairs naturally with the deer-calling event."
+    },
+    {
+      "slug": "nara-park-forest",
+      "title": "Nara Park itself",
+      "category": "nature",
+      "imageQuery": "Nara Park forest walking path",
+      "summary": "The whole park is a large, forested green space, not just deer-viewing.",
+      "body": "The walk between Todai-ji and Kasuga Taisha passes through genuine woodland — the whole park is a large, forested green space, not just a deer-viewing area."
+    },
+    {
+      "slug": "kasugayama-forest",
+      "title": "Kasugayama Primeval Forest",
+      "category": "nature",
+      "imageQuery": "Kasugayama primeval forest Nara",
+      "summary": "Old-growth forest, UNESCO World Heritage site.",
+      "body": "Old-growth forest bordering Kasuga Taisha, a UNESCO World Heritage site — a real step up in \"nature\" from the main park if more forest time is wanted."
+    },
+    {
+      "slug": "mount-wakakusa",
+      "title": "Mount Wakakusa",
+      "category": "nature",
+      "imageQuery": "Mount Wakakusa Nara view",
+      "summary": "Hill with walking trails and open views over Nara.",
+      "body": "A hill just behind the park with walking trails and open views over Nara from the top — more effort than the flat park paths but not a full hike."
+    }
+  ],
+  "openQuestions": [
+    "Food options in Nara not yet researched",
+    "Anything beyond the park (Naramachi historic district, etc.)",
+    "Confirm which day of the week the Nara day trip lands on, to catch Shikayose if possible"
+  ]
+}

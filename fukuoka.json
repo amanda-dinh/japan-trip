@@ -1,0 +1,52 @@
+{
+  "slug": "fukuoka",
+  "name": "Fukuoka",
+  "days": "~half day (transit stop en route from Beppu/Yufuin to Tokyo, together with friend)",
+  "imageQuery": "Fukuoka yatai food stalls night",
+  "overview": "Food-focused stop, since it's short. Willing to flex vegetarian for the real Hakata ramen experience rather than hunting for a veg-only version.",
+  "recommendations": [
+    {
+      "slug": "hakata-ramen",
+      "title": "Hakata ramen",
+      "category": "food",
+      "imageQuery": "Hakata tonkotsu ramen bowl",
+      "summary": "Signature tonkotsu (pork bone) broth — willing to flex vegetarian for this.",
+      "body": "Rich, milky tonkotsu (pork bone) broth, thin firm noodles. Well-regarded spots: Ichiran (famous individual-booth chain, originated here) and Shin Shin. Most counters open 11am-midnight, some 24-hour spots near Nakasu. If ever wanting a vegetarian version without flexing, BUGORO All Vegan makes a vegan Hakata-style ramen."
+    },
+    {
+      "slug": "yatai-stalls",
+      "title": "Yatai (open-air stalls)",
+      "category": "food",
+      "imageQuery": "Fukuoka yatai stalls Nakasu river",
+      "summary": "Nakasu/Tenjin districts — tiny stalls along the river, for the atmosphere.",
+      "body": "Nakasu and Tenjin are the main yatai districts — tiny stalls along the river serving ramen, yakitori, oden, and more. Don't operate in heavy rain — check the evening forecast if planning a specific night around this."
+    },
+    {
+      "slug": "mentaiko",
+      "title": "Mentaiko",
+      "category": "food",
+      "imageQuery": "mentaiko spicy cod roe Japan",
+      "summary": "Beloved local specialty, good food souvenir.",
+      "body": "Spicy marinated cod roe, a beloved Fukuoka specialty. Often not vegetarian-compatible as a dish itself, but a good food-culture souvenir (vacuum-packed, keeps 2-3 weeks refrigerated)."
+    },
+    {
+      "slug": "ohori-park",
+      "title": "Ohori Park",
+      "category": "nature",
+      "imageQuery": "Ohori Park Fukuoka lake",
+      "summary": "Large park built around a lake, former outer moat of Fukuoka Castle.",
+      "body": "Walking paths circling the water — genuine green space in the city, easy half-day fit."
+    },
+    {
+      "slug": "uminonakamichi",
+      "title": "Uminonakamichi Seaside Park",
+      "category": "nature",
+      "imageQuery": "Uminonakamichi Seaside Park Fukuoka",
+      "summary": "Coastal park further out, beaches and flower fields.",
+      "body": "More expansive than Ohori if there's time for it — beaches, flower fields, open space."
+    }
+  ],
+  "openQuestions": [
+    "Given this is a short transit stop, may need to pick just one or two recommendations rather than fitting everything — revisit once exact timing is locked"
+  ]
+}

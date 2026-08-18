@@ -1,0 +1,52 @@
+{
+  "slug": "fukuoka",
+  "name": "Fukuoka",
+  "days": "~half day (transit stop en route from Beppu/Yufuin to Tokyo, together with friend)",
+  "imageQuery": "Fukuoka yatai food stalls night",
+  "overview": "Fukuoka is Kyushu's largest city and, thanks to its position facing the Korean Strait, has historically been one of Japan's main gateways for trade and cultural exchange with continental Asia — a legacy still visible in its food culture and cosmopolitan feel relative to its size. It's consistently ranked among the most livable cities in Japan, with a notably relaxed, less frenetic pace than Tokyo or Osaka. Given the short transit-stop timing here, the day is food-focused, with a deliberate choice to flex vegetarian preferences for the city's single most famous dish rather than seek out substitutes.",
+  "recommendations": [
+    {
+      "slug": "hakata-ramen",
+      "title": "Hakata ramen",
+      "category": "food",
+      "imageQuery": "Hakata tonkotsu ramen bowl",
+      "summary": "Signature tonkotsu (pork bone) broth — willing to flex vegetarian for this.",
+      "body": "Hakata ramen (Hakata being Fukuoka's historic core district) is credited as the birthplace of tonkotsu ramen — a broth made by boiling pork bones for many hours until they break down into a rich, cloudy, deeply savory liquid, paired with thin, firm noodles designed to be ordered in small portions with the option to request a free noodle refill (kaedama) once the first batch runs out, extending the meal without a second bowl of broth. Well-regarded spots include Ichiran (the famous individual-booth chain built around focused, distraction-free eating, which originated in Fukuoka) and Shin Shin, both considered strong, reliable introductions to the style. Most ramen counters operate from around 11am to midnight, with a handful of 24-hour spots concentrated near Nakasu, making this a naturally good evening activity. For anyone wanting a vegetarian version without flexing on this occasion, BUGORO All Vegan makes a dedicated vegan Hakata-style tonkotsu broth as a genuine alternative for a future visit."
+    },
+    {
+      "slug": "yatai-stalls",
+      "title": "Yatai (open-air stalls)",
+      "category": "food",
+      "imageQuery": "Fukuoka yatai stalls Nakasu river",
+      "summary": "Nakasu/Tenjin districts — tiny stalls along the river, for the atmosphere.",
+      "body": "Yatai are small, mobile open-air food stalls, each seating perhaps 8-10 people on stools around a central cooking counter, set up fresh each evening and packed away by morning — Fukuoka has the largest concentration of these left in Japan, heavily clustered along the riverside in Nakasu and around Tenjin. Menus vary stall to stall but commonly include ramen, yakitori, oden, and gyoza, and part of the appeal is the close, convivial seating that puts strangers shoulder-to-shoulder in a way regular restaurants don't. They're weather-dependent and don't operate in heavy rain, so it's worth checking the evening forecast if this is planned for a specific night rather than treated as a flexible option."
+    },
+    {
+      "slug": "mentaiko",
+      "title": "Mentaiko",
+      "category": "food",
+      "imageQuery": "mentaiko spicy cod roe Japan",
+      "summary": "Beloved local specialty, good food souvenir.",
+      "body": "Mentaiko is spicy, marinated pollock roe, a Fukuoka specialty since a local restaurant popularized a Korean-inspired preparation in the 1940s-50s; it's now sold throughout Japan but still strongly associated with the city as its origin point, often eaten simply over rice or as an accompaniment to other dishes. As a dish itself, it's not vegetarian-compatible, but it makes a genuinely good food souvenir — sold vacuum-packed at shops and the airport, keeping refrigerated for 2-3 weeks, letting the food-culture experience travel home even without eating it on this particular stop."
+    },
+    {
+      "slug": "ohori-park",
+      "title": "Ohori Park",
+      "category": "nature",
+      "imageQuery": "Ohori Park Fukuoka lake",
+      "summary": "Large park built around a lake, former outer moat of Fukuoka Castle.",
+      "body": "Ohori Park was built around what was originally the outer moat of Fukuoka Castle, converted into a landscaped public park in the early 20th century modeled partly on a classical Chinese garden design, centered on a large lake with a walking path circling the water and several small connected islands. It's a genuine, spacious green space within easy reach of central Fukuoka, well suited to a relaxed half-day walk without requiring a dedicated trip out of the city."
+    },
+    {
+      "slug": "uminonakamichi",
+      "title": "Uminonakamichi Seaside Park",
+      "category": "nature",
+      "imageQuery": "Uminonakamichi Seaside Park Fukuoka",
+      "summary": "Coastal park further out, beaches and flower fields.",
+      "body": "Uminonakamichi is a large seaside park built on a narrow peninsula, considerably more expansive than Ohori Park, with beaches, extensive seasonal flower fields (different flowers bloom through the year, so the specific display in February would be worth checking closer to the date), cycling paths, and an aquarium and amusement park within the grounds. It requires more travel time from central Fukuoka than Ohori Park, so it's a better fit if there's genuinely more than a couple of hours to spend on the nature side of the day rather than squeezed in alongside the food stops."
+    }
+  ],
+  "openQuestions": [
+    "Given this is a short transit stop, may need to pick just one or two recommendations rather than fitting everything — revisit once exact timing is locked"
+  ]
+}

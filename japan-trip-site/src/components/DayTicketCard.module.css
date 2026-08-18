@@ -1,0 +1,158 @@
+/* ── Ticket card ─────────────────────────────────────────── */
+.card {
+  display: flex;
+  align-items: stretch;
+  background: var(--color-surface-raised);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+  text-decoration: none;
+  text-align: left;
+  width: 100%;
+  color: inherit;
+  cursor: pointer;
+  transition:
+    box-shadow var(--duration-fast) var(--ease-standard),
+    transform var(--duration-fast) var(--ease-standard);
+}
+
+.card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-1px);
+}
+
+/* Travel / null-destination days are deliberately de-emphasized */
+.card[data-transit] {
+  opacity: 0.6;
+}
+
+/* ── Stub (left panel: day number) ── */
+.stub {
+  background: var(--color-ai-iro);
+  color: var(--color-text-on-dark);
+  min-width: 68px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-1);
+  padding: var(--space-3);
+  /* perforated tear-line: dashed right border */
+  border-right: 2px dashed rgba(170, 192, 198, 0.45);
+}
+
+.card[data-transit] .stub {
+  background: var(--color-border-strong);
+}
+
+/* "DAY" eyebrow label */
+.dayLabel {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  font-weight: var(--weight-semibold);
+  letter-spacing: var(--tracking-widest);
+  text-transform: uppercase;
+  color: var(--color-mist-blue);
+  line-height: 1;
+}
+
+/* Large stamped day number */
+.dayNum {
+  font-family: var(--font-mono);
+  font-size: var(--text-xl);
+  font-weight: var(--weight-bold);
+  line-height: 1;
+  color: var(--color-text-on-dark);
+  letter-spacing: -0.04em;
+}
+
+.departureIcon {
+  font-size: var(--text-lg);
+  line-height: 1;
+}
+
+/* ── Body (right panel: ticket fields) ── */
+.body {
+  flex: 1;
+  padding: var(--space-3) var(--space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  min-width: 0;
+}
+
+/* Top row: date (mono) + destination name (display serif) */
+.topRow {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+}
+
+.date {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.location {
+  font-family: var(--font-display);
+  font-size: var(--text-md);
+  font-weight: var(--weight-semibold);
+  color: var(--color-ai-iro);
+  text-decoration: none;
+  line-height: var(--leading-tight);
+}
+
+a.location:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* Plan description */
+.plan {
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  line-height: var(--leading-snug);
+  margin: 0;
+}
+
+/* Friend/companion field */
+.friend {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  margin: 0;
+  padding-top: var(--space-1);
+  margin-top: auto;
+}
+
+.friendMarker {
+  color: var(--color-ai-iro);
+  font-size: 0.7em;
+  flex-shrink: 0;
+}
+
+/* ── Mobile: tighter stub ── */
+@media (max-width: 480px) {
+  .stub {
+    min-width: 56px;
+  }
+
+  .dayNum {
+    font-size: var(--text-lg);
+  }
+
+  .location {
+    font-size: var(--text-base);
+  }
+}

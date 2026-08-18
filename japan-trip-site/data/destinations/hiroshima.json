@@ -1,0 +1,53 @@
+{
+  "slug": "hiroshima",
+  "name": "Hiroshima",
+  "days": "1 (together with friend, part of the reconvened group leg)",
+  "imageQuery": "Hiroshima Peace Memorial Park",
+  "overview": "Hiroshima was destroyed by the world's first wartime use of an atomic bomb on August 6, 1945, and the city has rebuilt itself around remembrance and a global message of peace ever since — it's now a genuinely thriving modern city, not a somber ruin, but the Peace Memorial site remains the emotional and historical center of any visit. Given only 1 day here and a stated wish to take real time with the memorial, the day is built around it as the anchor, with the nearby island of Miyajima treated as a bonus rather than a planned certainty.",
+  "recommendations": [
+    {
+      "slug": "peace-memorial-museum",
+      "title": "Peace Memorial Museum",
+      "category": "historic",
+      "imageQuery": "Hiroshima Peace Memorial Museum",
+      "summary": "Heavy, emotional site — wants real time here, not rushed. ~2-3 hours.",
+      "body": "The museum walks visitors through the events of August 6, 1945 and their aftermath using personal artifacts (clothing, watches stopped at 8:15am, photographs) alongside scientific and historical context, deliberately balancing the personal and the geopolitical. Most visitors spend 2-3 hours here, and many describe it as one of the more emotionally demanding museum experiences they've had — not something to move through quickly. Given the explicit wish to take real time with this, it's worth scheduling as the first major activity of the day while energy and attention are freshest, and building in quiet, undemanding time immediately afterward rather than transitioning straight into something else."
+    },
+    {
+      "slug": "peace-memorial-park",
+      "title": "Peace Memorial Park",
+      "category": "historic",
+      "imageQuery": "A-Bomb Dome Hiroshima",
+      "summary": "A-Bomb Dome, Children's Peace Monument, Memorial Cenotaph.",
+      "body": "The park surrounding the museum includes the A-Bomb Dome, the skeletal ruin of a building that was almost directly beneath the bomb's hypocenter and left deliberately unrepaired as a permanent reminder (now a UNESCO World Heritage Site); the Children's Peace Monument, dedicated to Sadako Sasaki, a girl who developed leukemia from radiation exposure and famously folded paper cranes in hope of recovery, now surrounded by millions of cranes sent from around the world; and the Memorial Cenotaph, an arched monument holding the names of all known bomb victims, positioned so that looking through it aligns with both the Flame of Peace and the A-Bomb Dome in the distance. The park is free and open-air, easy to walk at a slow, reflective pace after the museum."
+    },
+    {
+      "slug": "miyajima",
+      "title": "Miyajima",
+      "category": "if-time-allows",
+      "imageQuery": "Miyajima floating torii gate",
+      "summary": "Famous floating torii gate; only if time allows given the day's anchor.",
+      "body": "Miyajima ('Shrine Island') is home to Itsukushima Shrine and its iconic vermillion torii gate, which appears to float on the water at high tide and stand on exposed sand at low tide — check tide tables in advance, since the visual effect people expect only happens at certain times of day. The island is also home to hundreds of freely roaming, tame deer (similar in spirit to Nara's, though considered messengers of the shrine's deity here rather than a separate legend) and is well known for grilled oysters, a local specialty sold from stalls near the ferry terminal. Reaching it requires a ferry from Miyajimaguchi (about an hour round trip including the connecting tram/train from central Hiroshima), and doing the island justice — shrine, torii gate at the right tide, a walk through the town, maybe the ropeway up Mount Misen — realistically needs another 2-3 hours beyond the ferry itself, which is why it's positioned here as a bonus rather than a certainty on a day already anchored by the memorial."
+    },
+    {
+      "slug": "mount-misen",
+      "title": "Mount Misen",
+      "category": "nature",
+      "imageQuery": "Mount Misen Miyajima ropeway",
+      "summary": "Forested mountain on Miyajima, ropeway access, wild monkeys, sweeping views.",
+      "body": "Mount Misen is Miyajima's highest point at 535 meters, considered sacred and traditionally linked to the Buddhist monk Kobo Daishi, who is said to have meditated there in the 9th century — a small eternal flame in a temple near the summit has reportedly burned continuously since that time. A two-stage ropeway covers most of the ascent, followed by a roughly 30-minute walk to the actual summit, where wild (but generally docile) monkeys are commonly seen and views extend across the Seto Inland Sea's scattering of small islands. This is really the nature payoff of a Miyajima visit beyond the torii gate photo — worth knowing about even though the overall Miyajima trip here is rated 'if time allows.'"
+    },
+    {
+      "slug": "shukkeien-garden",
+      "title": "Shukkeien Garden",
+      "category": "nature",
+      "imageQuery": "Shukkeien Garden Hiroshima",
+      "summary": "Traditional landscape garden in central Hiroshima, low time commitment.",
+      "body": "Shukkeien ('shrunken-scenery garden') is a traditional Edo-period landscape garden built in 1620, designed to recreate miniature versions of famous scenic landscapes (mountains, valleys, a lake) within a compact space — a classic and quite literal expression of the Japanese landscape garden tradition. It's centrally located in Hiroshima itself, requiring far less time commitment than the Miyajima ferry trip, making it a realistic option for garden/nature time on days when the ferry crossing doesn't fit the schedule."
+    }
+  ],
+  "openQuestions": [
+    "Food beyond Miyajima oysters (Hiroshima-style okonomiyaki is the local specialty — not yet researched for vegetarian adaptability)",
+    "Decide day-of whether Miyajima happens at all, based on how the memorial visit goes"
+  ]
+}

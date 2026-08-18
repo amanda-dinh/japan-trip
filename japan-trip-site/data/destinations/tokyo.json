@@ -1,0 +1,158 @@
+{
+  "slug": "tokyo",
+  "name": "Tokyo",
+  "days": "3 (Day 1 arrival/jet lag, Day 2 full day with friend, Day 3 extra day before she flies out)",
+  "imageQuery": "Tokyo skyline night",
+  "overview": "Tokyo is the trip's opening and closing anchor — the world's largest metro area, a sprawl of distinct neighborhoods that each feel like their own city. It's the shared leg with friend for all 3 days, so it needs to balance her one specific ask (a full day of icons plus a Pokemon Center) with enough breathing room to explore at a relaxed pace given jet lag on arrival. Expect a mix of hyper-modern (neon, skyscrapers, vending machines every block) and deeply traditional (shrines, temples, century-old shops) sitting side by side, often on the same street.",
+  "recommendations": [
+    {
+      "slug": "shojin-ryori",
+      "title": "Shojin ryori",
+      "category": "food",
+      "imageQuery": "Buddhist temple vegetarian cuisine Japan",
+      "summary": "Buddhist temple cuisine, fully vegetarian, historically rooted.",
+      "body": "Shojin ryori is the traditional cuisine developed in Buddhist temples, built entirely around vegetables, tofu, and grains, with no meat, fish, or even pungent alliums like garlic and onion — a discipline tied to Buddhist precepts around mindful eating. Dishes tend to be seasonal, delicately presented, and often served as a multi-course set (similar in spirit to kaiseki but meat-free by design), so it's a genuinely elegant dining experience rather than a workaround meal. Because it's built to be vegetarian from the ground up rather than adapted, it sidesteps the dashi (fish stock) problem that trips up a lot of otherwise-vegetarian-looking Japanese food. Worth booking a reservation in advance for well-regarded spots, and expect a slower, contemplative pace."
+    },
+    {
+      "slug": "depachika",
+      "title": "Depachika food halls",
+      "category": "food",
+      "imageQuery": "Japanese department store food hall",
+      "summary": "Department store basement food halls, good for a mixed-diet group.",
+      "body": "Depachika are the basement floors of major department stores (Isetan, Mitsukoshi, Takashimaya are the big names), turned entirely over to food — rows of counters selling elaborate bento boxes, pickles, pastries, sushi, and prepared deli items, much of it made fresh in-house and presented like jewelry under glass. They're a Tokyo institution in their own right, not just a practical food court. For a group with mixed diets, this format is ideal: everyone browses independently and picks exactly what they want rather than negotiating a shared menu, and prices drop in the evening as unsold items get discounted. Isetan Shinjuku and Mitsukoshi Nihonbashi are both considered among the best for variety and quality."
+    },
+    {
+      "slug": "izakaya",
+      "title": "Izakaya-style dining",
+      "category": "food",
+      "imageQuery": "Japanese izakaya small plates",
+      "summary": "Small shareable plates, works well for mixed-diet groups.",
+      "body": "Izakaya are casual, pub-like restaurants built around small shared plates and drinks — the Japanese equivalent of tapas, ordered a few dishes at a time throughout the evening rather than all at once. The format solves the mixed-diet problem: everyone orders their own small plates and shares, so a vegetarian and a non-vegetarian can eat comfortably at the same table without either compromising. Look for menus with a good vegetable section (agedashi tofu, edamame, yaki-onigiri, vegetable tempura are common and reliably meat-free) and don't be shy about asking staff for vegetarian recommendations. Izakaya are also a genuinely social, low-key evening activity in their own right, often loud and lively, and a good way to experience local nightlife without it being a dedicated bar night."
+    },
+    {
+      "slug": "akihabara",
+      "title": "Akihabara",
+      "category": "pop-culture",
+      "imageQuery": "Akihabara Tokyo neon arcade",
+      "summary": "Arcades, retro game shops, anime merch, maid cafes.",
+      "body": "Akihabara ('Akiba' to locals) is Tokyo's electronics-and-otaku-culture district, a few blocks packed with multi-story arcades, retro and current video game shops, anime and manga merchandise stores, and maid cafes. It grew out of a post-war electronics market and evolved into the center of Japan's otaku (obsessive fan) culture through the 80s and 90s. Multi-floor stores like Mandarake (used manga, figures, collectibles) and Super Potato (retro gaming, several floors, genuinely museum-like for older consoles) are worth a dedicated browse rather than a walk-through. Arcades here are taller and denser than a typical Western arcade, with claw machines, rhythm games, and fighting game cabinets stacked across multiple floors. Evenings are most atmospheric, with neon signage lit up."
+    },
+    {
+      "slug": "nakano-broadway",
+      "title": "Nakano Broadway",
+      "category": "pop-culture",
+      "imageQuery": "Nakano Broadway Tokyo shopping",
+      "summary": "Quieter, more collector-focused alternative to Akihabara.",
+      "body": "Nakano Broadway is a somewhat run-down 1960s shopping complex a few subway stops from Shinjuku that's become a mecca for serious collectors — vintage toys, rare manga, idol merchandise, and figures, much of it in specialty shops run by individual dealers rather than big retail chains. It has a distinctly different feel from Akihabara: quieter, less touristy, more like browsing a series of specialist antique shops than a flashy entertainment district. Mandarake actually has its original flagship store here, spread across multiple small shopfronts within the complex rather than one big store. Good pick if Akihabara's density and crowds feel like too much, or if genuine rare/vintage finds matter more than mainstream merchandise."
+    },
+    {
+      "slug": "pokemon-center",
+      "title": "Pokemon Center",
+      "category": "pop-culture",
+      "imageQuery": "Pokemon Center Tokyo store",
+      "summary": "Friend's specific ask — confirm which location before the day it's slotted into.",
+      "body": "Pokemon Center is the official Pokemon retail chain — a step above generic merchandise stores, with exclusive plush toys, region- and store-specific limited items, life-size character displays, and often a photo-worthy centerpiece statue. Tokyo has several locations: Pokemon Center Shibuya (compact, central, easy to combine with a Shibuya/Harajuku day), Pokemon Center Mega Tokyo in Ikebukuro's Sunshine City (one of the largest, more of a dedicated destination), and a few others. Since this is friend's one specific ask for Tokyo, worth confirming which location and building the day's route around it — Shibuya's is the easier one to fold into an icons-heavy shared day, while Ikebukuro's is worth the detour if a bigger selection matters more."
+    },
+    {
+      "slug": "teamlab",
+      "title": "teamLab (Planets / Borderless)",
+      "category": "art-design",
+      "imageQuery": "teamLab digital art Tokyo",
+      "summary": "Immersive digital art, photogenic, fits \"iconic in small doses.\"",
+      "body": "teamLab is a Japanese art collective known for large-scale immersive digital installations — rooms of projected, responsive light and color that react to visitors' movement, often involving water, mirrors, or fog for added effect. There are typically two exhibits running in the Tokyo area under different names/locations (Planets tends to involve wading through water barefoot; Borderless-style exhibits are more walk-through light rooms), and both are intensely photogenic. Tickets should be booked online in advance, as popular time slots sell out. Plan for 2-3 hours, and note that Planets specifically requires rolling up pants/going barefoot in parts, so dress accordingly."
+    },
+    {
+      "slug": "daikanyama-nakameguro",
+      "title": "Daikanyama / Nakameguro",
+      "category": "art-design",
+      "imageQuery": "Daikanyama Tokyo neighborhood cafe",
+      "summary": "Slower, boutique/gallery neighborhoods, less crowded.",
+      "body": "Daikanyama and Nakameguro are adjacent, low-key upscale neighborhoods known for independent boutiques, design-forward cafes, and a slower pace than Shibuya or Harajuku just a few stops away. Daikanyama's centerpiece is T-Site (Tsutaya Books), an architecturally striking bookstore-and-lifestyle complex worth a browse even without buying anything. Nakameguro runs along a canal lined with cherry trees (spectacular in bloom season, quietly pleasant even without blossoms) and has a strong concentration of small design shops and specialty coffee spots. This pairing works well as a half-day break from the crowds — walkable, browsable, good for people who want a design/aesthetic experience without an agenda."
+    },
+    {
+      "slug": "golden-gai",
+      "title": "Golden Gai",
+      "category": "nightlife",
+      "imageQuery": "Golden Gai Shinjuku alley bars",
+      "summary": "Tiny themed bars in narrow alleys, iconic nightlife.",
+      "body": "Golden Gai is a warren of roughly 200 tiny bars packed into a few narrow alleys in Shinjuku, most seating only 5-10 people, each with its own theme, owner personality, and regulars. It survived post-war Tokyo's redevelopment and retains a genuinely old-school, slightly gritty atmosphere despite being firmly on the tourist map now. Some bars charge a seating/table fee (usually a few hundred to ~1000 yen) on top of drinks, and a handful are locals-only or unwelcoming to tourists — look for English signage or tourist-friendly signals outside, or just peek in before committing. It's less about any single bar and more about the alley-hopping experience itself — an atmospheric, photogenic hour or two rather than a full night in one place."
+    },
+    {
+      "slug": "shimokitazawa",
+      "title": "Shimokitazawa",
+      "category": "nightlife",
+      "imageQuery": "Shimokitazawa Tokyo street vintage",
+      "summary": "More local, indie bar and vintage shop scene.",
+      "body": "Shimokitazawa ('Shimokita') is a bohemian, indie neighborhood popular with students and young creatives, known for vintage clothing shops, small live-music venues, theater, and a dense concentration of casual bars and izakaya down narrow pedestrian streets. It feels distinctly less polished and less touristy than central Tokyo nightlife spots — more like a local college-town district than a destination built for visitors. Good for an evening of wandering into whatever bar looks interesting rather than following a plan, and a strong contrast to Golden Gai's tourist-adjacent version of hidden-bar charm."
+    },
+    {
+      "slug": "asakusa",
+      "title": "Asakusa (Senso-ji Temple)",
+      "category": "historic",
+      "imageQuery": "Senso-ji Temple Asakusa Tokyo",
+      "summary": "Most concentrated traditional atmosphere in central Tokyo.",
+      "body": "Senso-ji is Tokyo's oldest temple, founded in 645 AD, and its approach via the Nakamise-dori shopping street — about 200 meters of stalls selling traditional snacks, souvenirs, and crafts leading up to the massive Kaminarimon ('Thunder Gate') and the temple itself — is one of the most recognizable scenes in Tokyo. The temple grounds include a five-story pagoda and are free to enter. Because it's both a major religious site and a major tourist draw, it gets genuinely crowded by mid-morning; arriving before 8am gives a very different, quieter experience of the same place. The surrounding Asakusa neighborhood retains an old-Tokyo, low-rise character that contrasts sharply with the skyscraper districts, making it a good gentle first stop for adjusting to the city."
+    },
+    {
+      "slug": "meiji-shrine",
+      "title": "Meiji Shrine",
+      "category": "historic",
+      "imageQuery": "Meiji Shrine Tokyo forest",
+      "summary": "Forested shrine grounds, next to Harajuku.",
+      "body": "Meiji Shrine is dedicated to Emperor Meiji and Empress Shoken, set within a 170-acre forest of some 100,000 trees donated from across Japan when the shrine was built in the 1920s — meaning the ancient-feeling forest is actually a deliberately engineered one, now genuinely mature and dense. The walk from the entrance torii gate to the shrine buildings takes 10-15 minutes through this forest, a striking transition from the Harajuku crowds right outside. Free to enter, and worth timing for a morning visit if catching a traditional Shinto wedding procession (still held here on weekends) would be a nice bonus."
+    },
+    {
+      "slug": "imperial-palace-gardens",
+      "title": "Imperial Palace East Gardens",
+      "category": "historic",
+      "imageQuery": "Imperial Palace East Gardens Tokyo",
+      "summary": "Another traditional/historic option if more is wanted.",
+      "body": "The East Gardens are the publicly accessible portion of the Imperial Palace grounds (the Palace itself, where the Emperor resides, is not open to general visitors), built on the site of the original Edo Castle. The gardens include stone castle foundations, a few restored guardhouses, and manicured lawns and seasonal plantings, free to enter but closed Mondays and Fridays. It's a quieter, more spacious alternative to Meiji Shrine for palace/imperial history specifically, though less atmospheric overall — best paired with a walk around the palace's outer moat and Nijubashi Bridge (the iconic double-bridge photo spot)."
+    },
+    {
+      "slug": "shinjuku-gyoen",
+      "title": "Shinjuku Gyoen",
+      "category": "nature",
+      "imageQuery": "Shinjuku Gyoen garden Tokyo",
+      "summary": "Large formal garden park, English/French/Japanese sections.",
+      "body": "Shinjuku Gyoen is one of Tokyo's largest and most highly regarded parks, notable for combining three distinct garden styles within one grounds: a French formal garden, an English landscape garden, and a traditional Japanese garden with ponds and teahouses. There's a small entrance fee (a few hundred yen), which keeps it noticeably less crowded than free city parks. It's large enough to spend a genuine couple of hours wandering rather than a quick pass-through, and its size and variety make it feel more like an actual retreat from the city than a pocket park."
+    },
+    {
+      "slug": "yoyogi-park",
+      "title": "Yoyogi Park",
+      "category": "nature",
+      "imageQuery": "Yoyogi Park Tokyo",
+      "summary": "Open lawns and casual strolling space, adjacent to Meiji Shrine.",
+      "body": "Yoyogi Park is a large, free, open public park directly adjacent to Meiji Shrine — broad lawns, a pond, and wide paths that make it popular for picnics, casual sports, and people-watching rather than formal garden viewing. On weekends it often has informal performers, musicians practicing, or small gatherings, giving it a livelier, more spontaneous feel than the shrine grounds next door. Because it's directly connected to Meiji Shrine and Harajuku, it's an easy, low-effort add rather than a special trip."
+    },
+    {
+      "slug": "shibuya-crossing",
+      "title": "Shibuya Crossing",
+      "category": "iconic",
+      "imageQuery": "Shibuya Crossing Tokyo",
+      "summary": "The famous scramble crossing.",
+      "body": "Shibuya Crossing is the busiest pedestrian intersection in the world, where all directions of traffic stop simultaneously and reportedly up to 3,000 people cross at once from every angle. It's genuinely more impressive to see from above than at street level — the Shibuya Sky observation deck or the window of the Starbucks in the Tsutaya building both offer good vantage points to watch the scramble pattern. Best experienced at least once walking through it, and once from above to appreciate the scale; evenings with the surrounding video billboards lit up are more atmospheric than daytime."
+    },
+    {
+      "slug": "harajuku",
+      "title": "Harajuku / Takeshita Street",
+      "category": "iconic",
+      "imageQuery": "Takeshita Street Harajuku Tokyo",
+      "summary": "Quirky shopping, food stalls, very photogenic.",
+      "body": "Takeshita Street is a roughly 400-meter pedestrian street packed dense with youth fashion boutiques, crepe stands, candy shops, and photo-op storefronts — the epicenter of Harajuku's famously colorful, trend-driven street style culture. It's narrow and gets extremely crowded, especially weekends, so a weekday or early visit is noticeably more pleasant. Crepe stands here are something of a local specialty in their own right — sweet, overloaded, and a fun casual snack. The street feeds directly into the quieter, more upscale Omotesando avenue nearby if the crowds become too much."
+    },
+    {
+      "slug": "omoide-yokocho",
+      "title": "Omoide Yokocho",
+      "category": "iconic",
+      "imageQuery": "Omoide Yokocho Shinjuku yakitori alley",
+      "summary": "Tiny alley yakitori stalls in Shinjuku.",
+      "body": "Omoide Yokocho ('Memory Lane') is a narrow, lantern-lit alley near Shinjuku Station packed with tiny yakitori (grilled skewer) stalls, most seating only a handful of people at a counter. It survived redevelopment and retains a genuinely old, smoky, atmospheric character — one of the most photographed 'old Tokyo' scenes precisely because it looks like it hasn't changed in decades. Most stalls are meat-skewer-focused, so vegetarian options are limited here specifically — worth treating as an atmosphere stop with a drink rather than the meal itself."
+    }
+  ],
+  "openQuestions": [
+    "Which specific Pokemon Center location to target",
+    "Day 3 direction: food-focused (Tsukiji Outer Market), history-focused, or modern/quirky (Akihabara)",
+    "Not yet slotted into specific days beyond the 3-day structure"
+  ]
+}

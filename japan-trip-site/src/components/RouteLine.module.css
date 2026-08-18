@@ -1,0 +1,132 @@
+/* ── Route line ─────────────────────────────────────────────── */
+.routeLine {
+  list-style: none;
+  max-width: 680px;
+}
+
+.stop {
+  display: grid;
+  grid-template-columns: 44px 1fr;
+  /* stretch so markerCol fills the full stop height for the connector */
+  align-items: stretch;
+}
+
+/* ── Left column: marker dot + connector ── */
+.markerCol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Small top offset so the marker center sits at the cap-height of the
+     station name beside it, rather than at the top of the line box. */
+  padding-top: 4px;
+}
+
+.markerDot {
+  width: var(--route-marker-size-lg);   /* 20px */
+  height: var(--route-marker-size-lg);
+  border-radius: var(--radius-full);
+  background: var(--color-route-marker);
+  border: 3px solid var(--color-surface);
+  box-shadow: 0 0 0 2px var(--color-route-marker);
+  flex-shrink: 0;
+  position: relative;
+  z-index: var(--z-raised);
+
+  animation: markerPop 0.25s var(--ease-standard) both;
+  animation-delay: calc(var(--stop-index, 0) * 0.1s);
+}
+
+/* Transit stops (null slug: departure / arrival days) are smaller & muted */
+.markerDot[data-transit] {
+  width: var(--route-marker-size);      /* 14px */
+  height: var(--route-marker-size);
+  background: var(--color-border-strong);
+  box-shadow: 0 0 0 2px var(--color-border-strong);
+}
+
+/* Connector: vertical line between this stop and the next */
+.connector {
+  width: var(--route-line-width);       /* 3px */
+  flex: 1;
+  min-height: var(--space-6);
+  transform-origin: top center;
+
+  animation: drawConnector 0.4s var(--ease-standard) both;
+  animation-delay: calc(var(--stop-index, 0) * 0.1s + 0.18s);
+}
+
+/* Shinkansen / train leg: solid vermillion */
+.connector[data-type='train'] {
+  background: var(--color-route-train);
+}
+
+/* Ferry leg: dashed mist-blue — visually distinct from train */
+.connector[data-type='ferry'] {
+  background-image: repeating-linear-gradient(
+    to bottom,
+    var(--color-route-ferry) 0,
+    var(--color-route-ferry) 8px,
+    transparent 8px,
+    transparent 14px
+  );
+}
+
+/* ── Right column: station name + day cards ── */
+.stopContent {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  padding-top: 2px;            /* optical align with marker center */
+  padding-bottom: var(--space-8);
+}
+
+/* No bottom padding on the very last stop */
+.stop:last-child .stopContent {
+  padding-bottom: 0;
+}
+
+.stationName {
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  font-weight: var(--weight-semibold);
+  color: var(--color-ai-iro);
+  text-decoration: none;
+  line-height: 1;
+  text-align: left;
+  cursor: pointer;
+}
+
+.stationName:hover {
+  color: var(--color-link-hover);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.dayList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+/* ── Draw-in animations ── */
+@keyframes drawConnector {
+  from { transform: scaleY(0); }
+  to   { transform: scaleY(1); }
+}
+
+@keyframes markerPop {
+  from { transform: scale(0); opacity: 0; }
+  to   { transform: scale(1); opacity: 1; }
+}
+
+/* ── Mobile ── */
+@media (max-width: 640px) {
+  .stop {
+    grid-template-columns: 36px 1fr;
+  }
+
+  .stationName {
+    font-size: var(--text-md);
+  }
+}

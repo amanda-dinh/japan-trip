@@ -1,0 +1,94 @@
+{
+  "slug": "nagoya",
+  "name": "Nagoya / Ghibli Park",
+  "days": "1 full day for Ghibli Park (together with friend, her must-see too), plus reconvene-day free time on arrival",
+  "imageQuery": "Ghibli Park Studio Ghibli",
+  "overview": "Ghibli Park is a must-do for both — full day dedicated to it, no split with Nagoya city time. No particular favorite film/area, wants to see everything, so this means targeting the Premium All-Access Pass over individual area tickets. On the reconvene day before Ghibli Park, there's likely free time before friend's flight lands — that window can be used for Nagoya city recommendations.",
+  "recommendations": [
+    {
+      "slug": "grand-warehouse",
+      "title": "Ghibli's Grand Warehouse",
+      "category": "ghibli-park",
+      "imageQuery": "Ghibli Park Grand Warehouse",
+      "summary": "Largest indoor area, exhibition zones and film set recreations. ~3 hours.",
+      "body": "The largest indoor area, exhibition zones and film set recreations across multiple movies, plus a cinema showing original Ghibli shorts. Budget about 3 hours here alone."
+    },
+    {
+      "slug": "hill-of-youth",
+      "title": "Hill of Youth",
+      "category": "ghibli-park",
+      "imageQuery": "Ghibli Park Hill of Youth",
+      "summary": "Antique shop from Whisper of the Heart, Cat Bureau from The Cat Returns.",
+      "body": "Features the antique shop from Whisper of the Heart and the Cat Bureau from The Cat Returns."
+    },
+    {
+      "slug": "dondoko-forest",
+      "title": "Dondoko Forest",
+      "category": "ghibli-park",
+      "imageQuery": "Ghibli Park Totoro house forest",
+      "summary": "Satsuki & Mei's House from My Neighbor Totoro. Premium ticket required for interior.",
+      "body": "Includes Satsuki & Mei's House from My Neighbor Totoro — interior access requires the Premium ticket, not Standard."
+    },
+    {
+      "slug": "mononoke-village",
+      "title": "Mononoke Village",
+      "category": "ghibli-park",
+      "imageQuery": "Ghibli Park Mononoke village",
+      "summary": "Themed area based on Princess Mononoke.",
+      "body": "One of the five themed areas at Ghibli Park."
+    },
+    {
+      "slug": "valley-of-witches",
+      "title": "Valley of Witches",
+      "category": "ghibli-park",
+      "imageQuery": "Ghibli Park Howl's Moving Castle",
+      "summary": "Newest area — Howl's Moving Castle, Okino Residence, Witch's House.",
+      "body": "The newest area, featuring Howl's Moving Castle, the Okino Residence, and the Witch's House — interior access also requires Premium."
+    },
+    {
+      "slug": "ghibli-ticket-logistics",
+      "title": "Ghibli Park ticket logistics",
+      "category": "logistics",
+      "imageQuery": "Studio Ghibli Park entrance",
+      "summary": "Time-sensitive — tickets release 2 months out, Premium pass recommended.",
+      "body": "Tickets release at 2pm JST on the 10th of the month, two months before the visit date. For a February 2026 visit, that's a December on-sale date. Since the goal is seeing everything, get the Premium All-Access Pass, not individual area tickets — Standard doesn't include interior access to Satsuki & Mei's House or the Howl's Castle buildings, and there's no day-of upgrade. International visitors use the official overseas purchase page, which has fewer time slots than the domestic version — book within the first 15-30 minutes of sales opening. Passport number required at booking; passport shown at the gate. This is the one piece of the whole trip worth locking in early, since tickets sell out fast."
+    },
+    {
+      "slug": "moricoro-park-nature",
+      "title": "Expo 2005 Aichi Commemorative Park (Moricoro Park)",
+      "category": "nature",
+      "imageQuery": "Moricoro Park Aichi forest",
+      "summary": "The forested grounds surrounding Ghibli Park itself.",
+      "body": "Ghibli Park sits inside this larger park, which has forested walking paths, gardens, and a satoyama (traditional rural landscape) area — free to enter even without a Ghibli Park ticket. Given the day is fully dedicated to Ghibli Park, this is more of an ambient note than a separate stop."
+    },
+    {
+      "slug": "atsuta-shrine",
+      "title": "Atsuta Shrine",
+      "category": "historic",
+      "imageQuery": "Atsuta Shrine Nagoya forest",
+      "summary": "Major shrine with old-growth forest grounds — best pick for the reconvene-day window.",
+      "body": "One of Shinto's most important shrines, said to house one of Japan's three sacred imperial treasures. Quieter and less touristed than the Kyoto/Nara shrines already on the itinerary, with heavily forested old-growth grounds — hits both traditional-sites and nature interests in one stop. Easy to cut short or leave whenever friend's flight status firms up, unlike something with a fixed showtime."
+    },
+    {
+      "slug": "osu-shopping-street",
+      "title": "Osu Shopping Street",
+      "category": "food",
+      "imageQuery": "Osu Shopping Street Nagoya",
+      "summary": "Nagoya's international food district — best bet for vegetarian options.",
+      "body": "Nagoya's signature dishes (miso katsu, tebasaki wings, hitsumabushi eel) are all meat/fish, not vegetarian-friendly by default. Osu Shopping Street is the reliable vegetarian option — home to halal grocers and a growing cluster of Indian, Nepali, and Middle Eastern kitchens. Also doubles as a retro/subculture shopping district (vintage, anime, electronics), some overlap with the Akihabara/Nakano Broadway pull noted for Tokyo."
+    },
+    {
+      "slug": "nagoya-castle",
+      "title": "Nagoya Castle",
+      "category": "historic",
+      "imageQuery": "Nagoya Castle Japan",
+      "summary": "Major castle (largely reconstructed), if a second castle stop fits.",
+      "body": "One of Japan's major castles, though largely a reconstruction (the original keep was lost in WWII). Recall Matsuyama Castle is already \"if convenient\" elsewhere on the trip, so this would be a second castle option, not necessarily both. Surrounding grounds have a moat and garden areas, similar to Osaka Castle Park."
+    }
+  ],
+  "openQuestions": [
+    "Confirm exact on-sale date once actual trip dates are locked",
+    "Confirm friend's actual flight arrival time, to know how much of the reconvene-day window is really available",
+    "Specific vegetarian restaurant picks in Osu, if that ends up being the food stop during the free window"
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "slug": "tokyo",
+  "name": "Tokyo",
+  "days": "3 (Day 1 arrival/jet lag, Day 2 full day with friend, Day 3 extra day before she flies out)",
+  "imageQuery": "Tokyo skyline night",
+  "overview": "First stop, together with friend for all 3 days. Friend's only specific ask here is one full day covering the icons plus a Pokemon Center. Everything else is open.",
+  "recommendations": [
+    {
+      "slug": "shojin-ryori",
+      "title": "Shojin ryori",
+      "category": "food",
+      "imageQuery": "Buddhist temple vegetarian cuisine Japan",
+      "summary": "Buddhist temple cuisine, fully vegetarian, historically rooted.",
+      "body": "Vegetarian-friendly food is genuinely strong in Tokyo now, but traditional dishes often use dashi (fish stock), so it's worth targeting dishes and restaurants built to be vegetarian rather than assuming. Shojin ryori is Buddhist temple cuisine — fully vegetarian by tradition — and it fits the traditional-sites interest as well as the food one."
+    },
+    {
+      "slug": "depachika",
+      "title": "Depachika food halls",
+      "category": "food",
+      "imageQuery": "Japanese department store food hall",
+      "summary": "Department store basement food halls, good for a mixed-diet group.",
+      "body": "Depachika (department store basement food halls) are good for a group with different diets — everyone can pick their own thing rather than sharing one dish."
+    },
+    {
+      "slug": "izakaya",
+      "title": "Izakaya-style dining",
+      "category": "food",
+      "imageQuery": "Japanese izakaya small plates",
+      "summary": "Small shareable plates, works well for mixed-diet groups.",
+      "body": "Izakaya-style places work well for a group with different diets — small shareable plates mean everyone can pick their own mix rather than ordering one fixed dish for the table."
+    },
+    {
+      "slug": "akihabara",
+      "title": "Akihabara",
+      "category": "pop-culture",
+      "imageQuery": "Akihabara Tokyo neon arcade",
+      "summary": "Arcades, retro game shops, anime merch, maid cafes.",
+      "body": "Akihabara is the hub for anime, gaming, and pop culture — arcades, retro game shops, anime merchandise, and maid cafes if that's of interest."
+    },
+    {
+      "slug": "nakano-broadway",
+      "title": "Nakano Broadway",
+      "category": "pop-culture",
+      "imageQuery": "Nakano Broadway Tokyo shopping",
+      "summary": "Quieter, more collector-focused alternative to Akihabara.",
+      "body": "A quieter, more collector-focused alternative to Akihabara if something less crowded but similar in spirit is wanted."
+    },
+    {
+      "slug": "pokemon-center",
+      "title": "Pokemon Center",
+      "category": "pop-culture",
+      "imageQuery": "Pokemon Center Tokyo store",
+      "summary": "Friend's specific ask — confirm which location before the day it's slotted into.",
+      "body": "Confirm which Pokemon Center location to target — Shibuya, Ikebukuro's Sunshine City, and others all exist. This is friend's one specific request for Tokyo, so worth locking in early."
+    },
+    {
+      "slug": "teamlab",
+      "title": "teamLab (Planets / Borderless)",
+      "category": "art-design",
+      "imageQuery": "teamLab digital art Tokyo",
+      "summary": "Immersive digital art, photogenic, fits \"iconic in small doses.\"",
+      "body": "teamLab's immersive digital art exhibits (Planets and/or Borderless) are photogenic and fit the comfort level of iconic spots in small doses."
+    },
+    {
+      "slug": "daikanyama-nakameguro",
+      "title": "Daikanyama / Nakameguro",
+      "category": "art-design",
+      "imageQuery": "Daikanyama Tokyo neighborhood cafe",
+      "summary": "Slower, boutique/gallery neighborhoods, less crowded.",
+      "body": "Slower, boutique/gallery neighborhoods, less crowded than Shibuya/Harajuku — a design-focused breather if wanted."
+    },
+    {
+      "slug": "golden-gai",
+      "title": "Golden Gai",
+      "category": "nightlife",
+      "imageQuery": "Golden Gai Shinjuku alley bars",
+      "summary": "Tiny themed bars in narrow alleys, iconic nightlife.",
+      "body": "Tiny themed bars packed into narrow alleys in Shinjuku — iconic, a good \"small dose\" of touristy nightlife."
+    },
+    {
+      "slug": "shimokitazawa",
+      "title": "Shimokitazawa",
+      "category": "nightlife",
+      "imageQuery": "Shimokitazawa Tokyo street vintage",
+      "summary": "More local, indie bar and vintage shop scene.",
+      "body": "A more local, indie bar and vintage shop scene — less touristy contrast to Golden Gai."
+    },
+    {
+      "slug": "asakusa",
+      "title": "Asakusa (Senso-ji Temple)",
+      "category": "historic",
+      "imageQuery": "Senso-ji Temple Asakusa Tokyo",
+      "summary": "Most concentrated traditional atmosphere in central Tokyo.",
+      "body": "Senso-ji Temple and Nakamise-dori shopping street give the most concentrated traditional atmosphere in central Tokyo — good, low-key first day, very walkable."
+    },
+    {
+      "slug": "meiji-shrine",
+      "title": "Meiji Shrine",
+      "category": "historic",
+      "imageQuery": "Meiji Shrine Tokyo forest",
+      "summary": "Forested shrine grounds, next to Harajuku.",
+      "body": "Forested shrine grounds right next to Harajuku — also doubles as a real green pocket in the middle of the city (see Nature section)."
+    },
+    {
+      "slug": "imperial-palace-gardens",
+      "title": "Imperial Palace East Gardens",
+      "category": "historic",
+      "imageQuery": "Imperial Palace East Gardens Tokyo",
+      "summary": "Another traditional/historic option if more is wanted.",
+      "body": "Another traditional/historic option if more depth is wanted beyond Asakusa and Meiji Shrine."
+    },
+    {
+      "slug": "shinjuku-gyoen",
+      "title": "Shinjuku Gyoen",
+      "category": "nature",
+      "imageQuery": "Shinjuku Gyoen garden Tokyo",
+      "summary": "Large formal garden park, English/French/Japanese sections.",
+      "body": "A large formal garden park with English, French, and Japanese landscape sections — a step up in scale and quiet from Meiji Shrine if more nature time is wanted."
+    },
+    {
+      "slug": "yoyogi-park",
+      "title": "Yoyogi Park",
+      "category": "nature",
+      "imageQuery": "Yoyogi Park Tokyo",
+      "summary": "Open lawns and casual strolling space, adjacent to Meiji Shrine.",
+      "body": "Adjacent to Meiji Shrine, more open lawns and casual strolling space — easy to combine with a Harajuku/Shibuya day."
+    },
+    {
+      "slug": "shibuya-crossing",
+      "title": "Shibuya Crossing",
+      "category": "iconic",
+      "imageQuery": "Shibuya Crossing Tokyo",
+      "summary": "The famous scramble crossing.",
+      "body": "The famous scramble crossing — good for the shared day with friend, a classic Tokyo icon."
+    },
+    {
+      "slug": "harajuku",
+      "title": "Harajuku / Takeshita Street",
+      "category": "iconic",
+      "imageQuery": "Takeshita Street Harajuku Tokyo",
+      "summary": "Quirky shopping, food stalls, very photogenic.",
+      "body": "Quirky shopping and food stalls, very photogenic, easy walk from Shibuya and Meiji Shrine."
+    },
+    {
+      "slug": "omoide-yokocho",
+      "title": "Omoide Yokocho",
+      "category": "iconic",
+      "imageQuery": "Omoide Yokocho Shinjuku yakitori alley",
+      "summary": "Tiny alley yakitori stalls in Shinjuku.",
+      "body": "A tiny alley of yakitori stalls in Shinjuku — casual, atmospheric evening food option."
+    }
+  ],
+  "openQuestions": [
+    "Which specific Pokemon Center location to target",
+    "Day 3 direction: food-focused (Tsukiji Outer Market), history-focused, or modern/quirky (Akihabara)",
+    "Not yet slotted into specific days beyond the 3-day structure"
+  ]
+}

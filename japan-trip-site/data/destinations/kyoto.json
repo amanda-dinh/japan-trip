@@ -1,0 +1,109 @@
+{
+  "slug": "kyoto",
+  "name": "Kyoto",
+  "days": "~3 (solo, while friend is in Hokkaido)",
+  "imageQuery": "Kyoto temple autumn",
+  "overview": "Kyoto was Japan's imperial capital for over a thousand years (794-1868) and it shows — this is the country's deepest concentration of temples, shrines, traditional wooden architecture, and preserved historic districts, with over 1,600 Buddhist temples and 400 Shinto shrines within city limits. It's the trip's dedicated traditional/historic-sites stretch, done solo while friend is in Hokkaido, and has enough variety beyond temples (markets, historic streets, hands-on experiences) that a handful of the standout temples fits comfortably alongside everything else rather than feeling like a checklist.",
+  "recommendations": [
+    {
+      "slug": "fushimi-inari",
+      "title": "Fushimi Inari Taisha",
+      "category": "historic",
+      "imageQuery": "Fushimi Inari torii gates Kyoto",
+      "summary": "Thousands of vermilion torii gates up the mountainside. Absolute must.",
+      "body": "Fushimi Inari is the head shrine of Inari, the Shinto god of rice and prosperity, and its signature feature — thousands of vermilion torii gates forming continuous tunnels up the slopes of Mount Inari — was built up over centuries by individuals and businesses donating gates in gratitude for good fortune, each inscribed with the donor's name. The full mountain loop is about 2-3 hours and roughly 4 km round trip, though most visitors only walk the first 20-30 minutes to the Yotsutsuji intersection, which already covers the most iconic, densely-packed gate tunnels. It's free, always open (no closing time, unusual for a major site), and completely transforms in character depending on time of day — arriving right at dawn means largely empty gate tunnels and soft light, while midday brings the heaviest crowds of any single spot in Kyoto."
+    },
+    {
+      "slug": "kinkaku-ji",
+      "title": "Kinkaku-ji (Golden Pavilion)",
+      "category": "historic",
+      "imageQuery": "Kinkaku-ji Golden Pavilion Kyoto",
+      "summary": "Gold-leaf building over a reflecting pond, very photogenic.",
+      "body": "Kinkaku-ji is a Zen Buddhist temple whose top two floors are covered entirely in gold leaf, built originally in 1397 as a retirement villa before being converted to a temple; the current structure is a 1955 reconstruction after the previous building was burned down by a monk in 1950 (an event fictionalized in Yukio Mishima's novel of the same name). The building sits directly over a reflecting pond, so on a still, clear day the gold structure doubles in the water — this reflection shot is the reason it's one of the most photographed buildings in Japan. Visits are a controlled one-way walking path around the pond and gardens rather than entry into the building itself, so it's a relatively quick visit (about 30-45 minutes) but a striking one."
+    },
+    {
+      "slug": "kiyomizu-dera",
+      "title": "Kiyomizu-dera",
+      "category": "historic",
+      "imageQuery": "Kiyomizu-dera temple Kyoto",
+      "summary": "Wooden hillside temple with a viewing stage, near historic streets.",
+      "body": "Kiyomizu-dera ('Pure Water Temple') is a UNESCO World Heritage wooden temple built without a single nail, famous for its large wooden veranda/stage jutting out over the hillside on a forest of supporting pillars, offering sweeping views over Kyoto (and a particularly striking scene during autumn foliage or cherry blossom season). The temple takes its name from the Otowa Waterfall beneath the main hall, where visitors traditionally drink from one of three separate streams, each said to grant a different benefit (longevity, success in studies, or a fortunate love life — though tradition holds that drinking from all three is considered greedy). It sits right at the top of the Higashiyama historic district, so the approach through Sannenzaka and Ninenzaka — preserved sloped streets lined with traditional wooden shops and teahouses — is as much a part of the experience as the temple itself."
+    },
+    {
+      "slug": "ginkaku-ji",
+      "title": "Ginkaku-ji (Silver Pavilion) + Philosopher's Path",
+      "category": "historic",
+      "imageQuery": "Ginkaku-ji Silver Pavilion Kyoto",
+      "summary": "Optional 4th temple, quieter and less crowded.",
+      "body": "Ginkaku-ji ('Silver Pavilion') is, somewhat famously, never actually covered in silver — the plan was abandoned, and the name stuck anyway as an ironic contrast to Kinkaku-ji's gold. What it lacks in precious metal it makes up for in its meticulously raked dry sand garden (including a distinctive cone-shaped sand mound said to represent Mount Fuji) and moss gardens, considered by some to be more subtle and refined than its flashier golden counterpart. It sits at one end of the Philosopher's Path, a roughly 2km canal-side walking route named for a 20th-century philosopher who reportedly used it for daily meditation walks — a quiet, low-key way to end a temple-heavy day."
+    },
+    {
+      "slug": "kimono-rental",
+      "title": "Kimono rental + historic streets walk",
+      "category": "traditional-experience",
+      "imageQuery": "kimono rental Kyoto Gion",
+      "summary": "Hands-on traditional experience, paired with the Kiyomizu-dera walk.",
+      "body": "Kimono rental shops throughout Kyoto (concentrated especially near Kiyomizu-dera and Gion) provide a full kimono, obi (sash), and often hair styling and accessories for a half or full day, typically running ¥3,000-6,000 depending on how elaborate the package is. It's become such a normalized visitor activity in Kyoto specifically that walking the historic streets in kimono doesn't stand out the way it would elsewhere — the backdrop of traditional wooden streets was essentially built for exactly this photo. Comfort note: kimono restrict stride length and the traditional sandals (zori) take some getting used to for walking distances, so it pairs better with a leisurely wander through Higashiyama than a packed sightseeing day."
+    },
+    {
+      "slug": "tea-ceremony",
+      "title": "Tea ceremony",
+      "category": "traditional-experience",
+      "imageQuery": "Japanese tea ceremony Kyoto",
+      "summary": "Widely available, English-friendly options, about an hour.",
+      "body": "A traditional tea ceremony (chado, 'the way of tea') is a ritualized preparation and serving of matcha (powdered green tea), rooted in Zen Buddhist principles of mindfulness and hospitality — every movement, from how the tea is whisked to how the bowl is turned before drinking, follows centuries-old convention. Kyoto has many English-friendly ceremonies aimed specifically at visitors, usually about an hour, that explain the etiquette and history as they go rather than assuming prior knowledge. It's a genuinely calming, unhurried counterpoint to a day of temple-hopping, and a good pairing with the kimono rental if wanting to lean fully into a 'traditional day' theme."
+    },
+    {
+      "slug": "nishiki-market",
+      "title": "Nishiki Market",
+      "category": "food",
+      "imageQuery": "Nishiki Market Kyoto food stalls",
+      "summary": "Covered shopping street, lots of food stalls for grazing.",
+      "body": "Nishiki Market is a roughly 400-meter covered shopping arcade nicknamed 'Kyoto's Kitchen,' with a history stretching back over 400 years as a wholesale fish and produce market before evolving into today's mix of about 100 specialty food stalls, restaurants, and shops. It's a grazing destination — small bites from many stalls rather than a sit-down meal — covering pickles, skewered foods, sweets, and specialty items like yuba (tofu skin, often vegetarian-friendly) alongside plenty of seafood-forward stalls. Weekday mornings are noticeably less crowded than weekend afternoons, and scouting vegetarian-friendly stalls ahead of time helps, since a good portion of the market leans seafood."
+    },
+    {
+      "slug": "pontocho-alley",
+      "title": "Pontocho Alley",
+      "category": "food",
+      "imageQuery": "Pontocho Alley Kyoto river dining",
+      "summary": "Atmospheric riverside dining alley, more sit-down.",
+      "body": "Pontocho is a narrow, atmospheric alley running parallel to the Kamo River, lined with restaurants ranging from casual to very high-end, many with traditional wooden facades and, in summer, outdoor riverside dining platforms (kawadoko) overlooking the water. It's one of Kyoto's remaining geisha districts, so there's a genuine chance of spotting a geiko or maiko (geisha or apprentice geisha) heading to an appointment in the early evening. Unlike Nishiki's grazing format, this is proper sit-down dining — worth a reservation at popular spots, especially for river-view seating."
+    },
+    {
+      "slug": "arashiyama-bamboo",
+      "title": "Arashiyama Bamboo Grove",
+      "category": "nature",
+      "imageQuery": "Arashiyama bamboo grove Kyoto",
+      "summary": "Nice-to-have, not a must; half-day add-on with Tenryu-ji.",
+      "body": "The Arashiyama Bamboo Grove is a roughly 500-meter path through towering bamboo stalks that creak and sway distinctively in the wind (the sound itself was selected by Japan's Ministry of the Environment as one of the country's '100 Soundscapes to Preserve'). It's free and always accessible, but extremely popular, meaning midday brings dense crowds packed onto the relatively narrow path; early morning (before 8-9am) is a genuinely different, near-empty experience. It sits right next to Tenryu-ji, a UNESCO World Heritage Zen temple with an excellent traditional garden, making the grove a natural half-day pairing rather than a standalone destination worth the trip alone."
+    },
+    {
+      "slug": "fushimi-inari-hike",
+      "title": "Fushimi Inari's mountain trail",
+      "category": "nature",
+      "imageQuery": "Mount Inari hiking trail forest",
+      "summary": "The torii path continues up the mountain into genuine forest.",
+      "body": "Past the Yotsutsuji intersection (where most visitors turn back), the torii gate path continues up Mount Inari through genuine forest, with the gates thinning out and eventually giving way to a quieter hiking trail with small shrines, teahouses, and viewpoints over the city. The full loop to the 233-meter summit and back takes roughly 2-3 hours total. The crowd drop-off past Yotsutsuji is dramatic — it goes from the densest crowds in Kyoto to genuinely peaceful within 10-15 minutes of extra walking, which makes the extra effort disproportionately rewarding for anyone willing to keep climbing."
+    },
+    {
+      "slug": "philosophers-path",
+      "title": "Philosopher's Path",
+      "category": "nature",
+      "imageQuery": "Philosopher's Path Kyoto canal",
+      "summary": "Canal-side walking path near Ginkaku-ji.",
+      "body": "A roughly 2km stone path running alongside a canal between Ginkaku-ji and Nanzen-ji temples, lined with hundreds of cherry trees that make it one of Kyoto's best-known hanami (blossom viewing) spots in spring — though outside bloom season it's a quiet, shaded, unhurried walk in its own right, dotted with small cafes, shops, and side-temples along the way. It's named for 20th-century philosopher Nishida Kitaro, who is said to have used the walk daily for meditation, and it retains that unhurried, contemplative character even now."
+    },
+    {
+      "slug": "gion",
+      "title": "Gion",
+      "category": "historic",
+      "imageQuery": "Gion district Kyoto evening",
+      "summary": "Historic geisha district, good for an evening walk.",
+      "body": "Gion is Kyoto's most famous geisha district, with preserved wooden machiya townhouses, traditional teahouses (many operating by invitation/introduction only, not walk-in), and the atmospheric main street Hanamikoji-dori. Dusk is the best time to walk it — soft lantern light, and the best (though not guaranteed) chance of spotting a geiko or maiko en route to an evening appointment; a 2019 rule now bans photography on some smaller private streets specifically to curb overly aggressive tourist behavior toward geisha, so it's worth being respectful and asking before any photo of a passing geisha rather than assuming it's fair game."
+    }
+  ],
+  "openQuestions": [
+    "Pin down which 3-4 temples make the final cut",
+    "Specific tea ceremony / kimono rental provider options"
+  ]
+}

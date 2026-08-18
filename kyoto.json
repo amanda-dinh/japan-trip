@@ -1,0 +1,109 @@
+{
+  "slug": "kyoto",
+  "name": "Kyoto",
+  "days": "~3 (solo, while friend is in Hokkaido)",
+  "imageQuery": "Kyoto temple autumn",
+  "overview": "Kyoto has enough beyond temples that visiting a handful of the standout ones makes sense — the top picks are each visually distinct rather than repetitive, so it doesn't feel like a checklist.",
+  "recommendations": [
+    {
+      "slug": "fushimi-inari",
+      "title": "Fushimi Inari Taisha",
+      "category": "historic",
+      "imageQuery": "Fushimi Inari torii gates Kyoto",
+      "summary": "Thousands of vermilion torii gates up the mountainside. Absolute must.",
+      "body": "Thousands of vermilion torii gates up the mountainside, free, no closing time — great early morning before crowds. Unlike anything else on the trip."
+    },
+    {
+      "slug": "kinkaku-ji",
+      "title": "Kinkaku-ji (Golden Pavilion)",
+      "category": "historic",
+      "imageQuery": "Kinkaku-ji Golden Pavilion Kyoto",
+      "summary": "Gold-leaf building over a reflecting pond, very photogenic.",
+      "body": "Gold-leaf building over a reflecting pond, extremely photogenic, quick visit (about an hour)."
+    },
+    {
+      "slug": "kiyomizu-dera",
+      "title": "Kiyomizu-dera",
+      "category": "historic",
+      "imageQuery": "Kiyomizu-dera temple Kyoto",
+      "summary": "Wooden hillside temple with a viewing stage, near historic streets.",
+      "body": "Wooden temple on a hillside with a large viewing stage, near the Higashiyama historic streets (Sannenzaka/Ninenzaka) — pairs naturally with wandering and shopping rather than being a standalone stop."
+    },
+    {
+      "slug": "ginkaku-ji",
+      "title": "Ginkaku-ji (Silver Pavilion) + Philosopher's Path",
+      "category": "historic",
+      "imageQuery": "Ginkaku-ji Silver Pavilion Kyoto",
+      "summary": "Optional 4th temple, quieter and less crowded.",
+      "body": "Quieter, less crowded than the other three — paired with the Philosopher's Path walk alongside it, a canal-side route lined with cherry trees (not blooming in February, but still a quiet forested walk)."
+    },
+    {
+      "slug": "kimono-rental",
+      "title": "Kimono rental + historic streets walk",
+      "category": "traditional-experience",
+      "imageQuery": "kimono rental Kyoto Gion",
+      "summary": "Hands-on traditional experience, paired with the Kiyomizu-dera walk.",
+      "body": "Kimono rental paired with walking the historic streets (Gion/Higashiyama) is probably the most efficient combo of the traditional-experience options — get the experience and a scenic backdrop in one go."
+    },
+    {
+      "slug": "tea-ceremony",
+      "title": "Tea ceremony",
+      "category": "traditional-experience",
+      "imageQuery": "Japanese tea ceremony Kyoto",
+      "summary": "Widely available, English-friendly options, about an hour.",
+      "body": "Widely available with many English-friendly options in the Gion/central area, usually about an hour — good if wanted in addition to the kimono/streets combo."
+    },
+    {
+      "slug": "nishiki-market",
+      "title": "Nishiki Market",
+      "category": "food",
+      "imageQuery": "Nishiki Market Kyoto food stalls",
+      "summary": "Covered shopping street, lots of food stalls for grazing.",
+      "body": "Covered shopping street with lots of food stalls for grazing — scout vegetarian options ahead, some stalls are seafood/skewer-heavy."
+    },
+    {
+      "slug": "pontocho-alley",
+      "title": "Pontocho Alley",
+      "category": "food",
+      "imageQuery": "Pontocho Alley Kyoto river dining",
+      "summary": "Atmospheric riverside dining alley, more sit-down.",
+      "body": "Atmospheric riverside dining alley — more sit-down than Nishiki Market's grazing style."
+    },
+    {
+      "slug": "arashiyama-bamboo",
+      "title": "Arashiyama Bamboo Grove",
+      "category": "nature",
+      "imageQuery": "Arashiyama bamboo grove Kyoto",
+      "summary": "Nice-to-have, not a must; half-day add-on with Tenryu-ji.",
+      "body": "Nice-to-have rather than a must-do — slot as a half-day add-on paired with nearby Tenryu-ji temple grounds, not a full day."
+    },
+    {
+      "slug": "fushimi-inari-hike",
+      "title": "Fushimi Inari's mountain trail",
+      "category": "nature",
+      "imageQuery": "Mount Inari hiking trail forest",
+      "summary": "The torii path continues up the mountain into genuine forest.",
+      "body": "Most visitors turn back after the first viewpoint, but the fuller hike moves into genuine forest and is much quieter than the crowded lower gates."
+    },
+    {
+      "slug": "philosophers-path",
+      "title": "Philosopher's Path",
+      "category": "nature",
+      "imageQuery": "Philosopher's Path Kyoto canal",
+      "summary": "Canal-side walking path near Ginkaku-ji.",
+      "body": "A quiet forested canal-side walk near Ginkaku-ji, lined with cherry trees."
+    },
+    {
+      "slug": "gion",
+      "title": "Gion",
+      "category": "historic",
+      "imageQuery": "Gion district Kyoto evening",
+      "summary": "Historic geisha district, good for an evening walk.",
+      "body": "Historic geisha district, good for an evening walk — possible geisha/maiko sightings near dusk around Hanamikoji-dori."
+    }
+  ],
+  "openQuestions": [
+    "Pin down which 3-4 temples make the final cut",
+    "Specific tea ceremony / kimono rental provider options"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "slug": "matsuyama-shikoku",
+  "name": "Matsuyama (Shikoku)",
+  "days": "1 (transit day, ferry-to-ferry, together with friend)",
+  "imageQuery": "Matsuyama Castle Shikoku",
+  "overview": "Shikoku is the smallest and least-visited of Japan's four main islands, historically connected to the rest of the country mainly by ferry rather than land routes (bridges to Honshu weren't completed until the late 20th century), giving it a slower, less internationally touristed character than Honshu's major cities. Matsuyama is the island's largest city and the natural stop given the ferry routing on this trip — a light, food/wandering-focused stopover between the Hiroshima and Beppu legs rather than a packed sightseeing day, with Dogo Onsen bathing skipped (there's dedicated onsen time coming up in Beppu/Yufuin) and the castle treated as 'only if convenient.'",
+  "recommendations": [
+    {
+      "slug": "ferry-logistics",
+      "title": "Ferry logistics",
+      "category": "logistics",
+      "imageQuery": "Setouchi ferry Japan",
+      "summary": "Hiroshima→Matsuyama ~70 min jet; Matsuyama→Beppu is a 2-leg journey.",
+      "body": "Hiroshima to Matsuyama runs via high-speed jet ferry across the Seto Inland Sea, taking about 70 minutes with roughly 8 daily departures — considerably faster than the standard car ferry option, which takes about 2.5 hours. The onward Matsuyama to Beppu leg is less direct: it requires first getting from Matsuyama to Yawatahama port (about an hour by bus or train), then a separate ferry from Yawatahama to Beppu taking roughly 2 hours 50 minutes. Some ferry operators on regional Japanese routes run overnight sailings specifically to let passengers sleep through longer crossings rather than lose a full day of travel time — worth checking whether this specific route offers that option once closer to actual booking, since it could meaningfully change how the day is structured."
+    },
+    {
+      "slug": "matsuyama-castle",
+      "title": "Matsuyama Castle",
+      "category": "historic",
+      "imageQuery": "Matsuyama Castle Japan",
+      "summary": "Only if convenient — central, reachable by tram, ropeway up.",
+      "body": "Matsuyama Castle, completed in 1603, is one of only twelve Japanese castles remaining with its original wooden keep intact (most surviving 'castles' visitors see elsewhere in Japan, including Osaka and Nagoya, are concrete post-war reconstructions) — a genuine distinction for anyone interested in authentic castle architecture specifically. It sits atop a hill in the center of the city, reachable by a chairlift or ropeway that itself offers pleasant views over Matsuyama on the way up. Rated 'if convenient' rather than a priority here, but worth knowing it's a more historically significant structure than some of the other castles mentioned elsewhere on this trip, if that distinction matters when deciding whether to fit it in."
+    },
+    {
+      "slug": "dogo-onsen-honkan",
+      "title": "Dogo Onsen Honkan building",
+      "category": "art-design",
+      "imageQuery": "Dogo Onsen Honkan building architecture",
+      "summary": "Striking bathhouse architecture — worth a look even while skipping the bath.",
+      "body": "Dogo Onsen is considered one of Japan's oldest hot springs, referenced in texts over a thousand years old, and the main bathhouse building (Honkan), completed in 1894, is an elaborate wooden structure with a distinctive multi-tiered roof and a rooftop watchtower historically used to signal bathing times to the town. It's widely cited as a visual inspiration for the bathhouse in Hayao Miyazaki's Spirited Away, giving it a specific resonance for Ghibli fans beyond its own historical merit. Even while skipping the actual bathing experience here (given the dedicated onsen time already planned in Beppu/Yufuin), the building's exterior architecture is distinctive enough to be worth a look if it fits naturally into the day's route."
+    },
+    {
+      "slug": "okaido-gintengai",
+      "title": "Okaido / Gintengai shopping arcades",
+      "category": "food",
+      "imageQuery": "Okaido shopping arcade Matsuyama",
+      "summary": "Covered shopping streets, casual food and browsing between ferries.",
+      "body": "These connected covered shopping arcades form the commercial heart of central Matsuyama, sheltered from weather year-round and lined with a mix of local shops, casual eateries, and cafes. Given the day's ferry-to-ferry structure, this is a practical, flexible spot for a casual lunch or snack stop between other activities without committing to a specific reservation or long sit-down meal."
+    },
+    {
+      "slug": "taruto",
+      "title": "Taruto",
+      "category": "food",
+      "imageQuery": "Taruto Japanese sweet cake",
+      "summary": "Local specialty, rolled sponge cake with sweet bean paste.",
+      "body": "Taruto is Matsuyama's signature confection — a rolled sponge cake filled with sweet red bean paste, distinct from a typical Western jelly-roll cake in its denser, more traditional Japanese sweet flavor profile. It's a shelf-stable, well-packaged item, making it a genuinely practical food souvenir to carry through the rest of the ferry-heavy travel days ahead rather than something that needs to be eaten immediately."
+    },
+    {
+      "slug": "shiroyama-park",
+      "title": "Shiroyama Park",
+      "category": "nature",
+      "imageQuery": "Shiroyama Park Matsuyama forest",
+      "summary": "The forested hill the castle sits on.",
+      "body": "Shiroyama Park is the wooded hill supporting Matsuyama Castle, and the ropeway/chairlift ride up passes directly through mature forest before reaching the more open castle grounds at the top. Even without going inside the castle itself, the hill's park areas offer a genuine green-space walk with city views, making a 'castle if convenient' visit double as nature time regardless of whether the castle interior is actually toured."
+    },
+    {
+      "slug": "mount-ishizuchi",
+      "title": "Mount Ishizuchi",
+      "category": "nature",
+      "imageQuery": "Mount Ishizuchi Shikoku",
+      "summary": "Highest peak in Shikoku — likely not realistic on this transit day.",
+      "body": "Mount Ishizuchi is the highest mountain in western Japan and one of the country's traditionally recognized Seven Holy Mountains, with a serious multi-hour hike including chain-assisted rock scrambles near the summit for experienced hikers. Matsuyama serves as a common gateway city for reaching it, but the mountain itself is a genuine day-trip commitment on its own, well beyond what a single ferry-to-ferry transit day here can accommodate — worth flagging as a strong candidate for a future, longer Shikoku-focused visit rather than something to squeeze into this trip."
+    }
+  ],
+  "openQuestions": [
+    "Confirm exact Matsuyama → Yawatahama → Beppu connection timing once dates are locked, including whether an overnight sailing option exists",
+    "Vegetarian food options in Matsuyama not yet researched in detail"
+  ]
+}

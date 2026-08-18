@@ -1,0 +1,53 @@
+{
+  "slug": "hiroshima",
+  "name": "Hiroshima",
+  "days": "1 (together with friend, part of the reconvened group leg)",
+  "imageQuery": "Hiroshima Peace Memorial Park",
+  "overview": "Given only 1 day and wanting to take real time with the Peace Memorial, Miyajima likely doesn't fit — the museum deserves its full time, and Miyajima needs roughly another half day on top of that. The day should be built around the Peace Memorial as the anchor, with Miyajima as a bonus only if hours remain.",
+  "recommendations": [
+    {
+      "slug": "peace-memorial-museum",
+      "title": "Peace Memorial Museum",
+      "category": "historic",
+      "imageQuery": "Hiroshima Peace Memorial Museum",
+      "summary": "Heavy, emotional site — wants real time here, not rushed. ~2-3 hours.",
+      "body": "Walks through personal accounts and artifacts from the atomic bombing; most visitors spend 2-3 hours. This is a heavy, emotional site — don't schedule anything demanding immediately after; leave quiet buffer time."
+    },
+    {
+      "slug": "peace-memorial-park",
+      "title": "Peace Memorial Park",
+      "category": "historic",
+      "imageQuery": "A-Bomb Dome Hiroshima",
+      "summary": "A-Bomb Dome, Children's Peace Monument, Memorial Cenotaph.",
+      "body": "Includes the A-Bomb Dome (preserved skeletal ruin), the Children's Peace Monument (covered in paper cranes, tied to Sadako Sasaki's story), and the Memorial Cenotaph."
+    },
+    {
+      "slug": "miyajima",
+      "title": "Miyajima",
+      "category": "if-time-allows",
+      "imageQuery": "Miyajima floating torii gate",
+      "summary": "Famous floating torii gate; only if time allows given the day's anchor.",
+      "body": "Famous \"floating\" torii gate (appears to float at high tide), friendly roaming deer similar to Nara, known for oysters. Ferry departs from Miyajimaguchi, reachable by tram/train from central Hiroshima. Ferry alone is about an hour round trip; realistically needs another 2-3 hours for the island itself to not feel rushed."
+    },
+    {
+      "slug": "mount-misen",
+      "title": "Mount Misen",
+      "category": "nature",
+      "imageQuery": "Mount Misen Miyajima ropeway",
+      "summary": "Forested mountain on Miyajima, ropeway access, wild monkeys, sweeping views.",
+      "body": "A forested mountain reachable by ropeway, with hiking trails and wild monkeys near the summit alongside sweeping views over the Seto Inland Sea. This is really the nature payoff of a Miyajima trip, beyond the torii gate itself — worth knowing about even though Miyajima overall is only \"if time allows\" here."
+    },
+    {
+      "slug": "shukkeien-garden",
+      "title": "Shukkeien Garden",
+      "category": "nature",
+      "imageQuery": "Shukkeien Garden Hiroshima",
+      "summary": "Traditional landscape garden in central Hiroshima, low time commitment.",
+      "body": "A traditional landscape garden in central Hiroshima itself, much lower time commitment than Miyajima — a real option if the day doesn't stretch to the ferry trip but some nature/garden time is still wanted."
+    }
+  ],
+  "openQuestions": [
+    "Food beyond Miyajima oysters (Hiroshima-style okonomiyaki is the local specialty — not yet researched for vegetarian adaptability)",
+    "Decide day-of whether Miyajima happens at all, based on how the memorial visit goes"
+  ]
+}

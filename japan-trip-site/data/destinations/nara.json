@@ -1,0 +1,70 @@
+{
+  "slug": "nara",
+  "name": "Nara",
+  "days": "1 (day trip, solo, while friend is in Hokkaido)",
+  "imageQuery": "Nara deer park Japan",
+  "overview": "Nara was Japan's first permanent capital (710-784 AD), predating Kyoto in that role, and it packs an outsized concentration of ancient temples and shrines into a compact, walkable park area — several of its sites are older than anything in Kyoto. It's most famous today for its 1,000+ free-roaming sacred deer, considered messengers of the gods in local Shinto tradition, who wander the park and bow for shika-senbei (deer crackers) sold by vendors throughout. Easily done as a day trip from Kyoto or Osaka (about 45 minutes by train), and winter is a genuinely good time to visit rather than a compromise season.",
+  "recommendations": [
+    {
+      "slug": "nara-park-deer",
+      "title": "Nara Park deer",
+      "category": "wildlife",
+      "imageQuery": "Nara deer bowing crackers",
+      "summary": "Present year-round; winter brings fewer crowds and snow-dusted deer.",
+      "body": "Over 1,000 sika deer roam freely throughout the 500-hectare park, a population descended from deer considered sacred messengers of the Shinto deity enshrined at Kasuga Taisha, protected in this role since the 8th century (killing one was a capital offense for much of Japanese history). Shika-senbei crackers, sold by vendors around the park for a few hundred yen a stack, are the deer's official approved snack — many have genuinely learned to bow their heads for a cracker before being given one, a behavior visitors find charmingly deliberate. They're present and active year-round since deer don't hibernate, and winter specifically brings fewer tourists overall and, on snow days, a striking scene of deer against white ground. One practical note from experienced visitors: deer near the park entrance and cracker vendors are noticeably more assertive and will nip at bags, pockets, or loose clothing looking for food, so keeping bags zipped and being mindful of anything dangling is worth doing."
+    },
+    {
+      "slug": "shikayose",
+      "title": "Shikayose (deer calling)",
+      "category": "wildlife",
+      "imageQuery": "Shikayose deer calling Nara horn",
+      "summary": "Winter-only tradition; 10am weekends/holidays, Jan-Feb 2026.",
+      "body": "Shikayose is a horn-calling ceremony held at 10am on Saturdays, Sundays, and public holidays during January and February at Tobihino, a clearing near Kasuga Taisha — a park ranger blows a traditional horn (originally used historically to call deer for feeding during the leanest winter months when natural forage is scarcest) and dozens of deer emerge from the surrounding woods and gather on cue. It's a genuine seasonal tradition rather than a tourist performance built for visitors, timed to winter specifically because that's when deer are hungriest and most reliably responsive to the call. If the Nara day trip happens to land on a weekend, building the morning schedule around this 10am start is worth it — arrive a little early to get a good vantage point as the deer file in from the treeline."
+    },
+    {
+      "slug": "todai-ji",
+      "title": "Todai-ji",
+      "category": "historic",
+      "imageQuery": "Todai-ji temple giant Buddha Nara",
+      "summary": "Giant Buddha hall, one of the world's largest wooden buildings.",
+      "body": "Todai-ji's Great Buddha Hall (Daibutsuden) is, despite being a reconstruction roughly two-thirds the size of the 8th-century original, still one of the largest wooden buildings in the world, and houses a bronze Buddha statue nearly 15 meters tall — one of the largest bronze Buddha statues on Earth, cast in 752 AD using an amount of bronze and precious metal that reportedly strained the entire country's resources at the time. A popular bit of temple lore: one of the massive supporting pillars has a hole carved through its base said to be exactly the size of the Buddha's nostril, and squeezing through it is said to guarantee enlightenment in the next life — a fun, low-stakes activity many visitors (mostly kids and smaller adults) attempt. It sits inside Nara Park itself, so it's naturally combined with the deer-viewing rather than requiring separate travel."
+    },
+    {
+      "slug": "kasuga-taisha",
+      "title": "Kasuga Taisha",
+      "category": "historic",
+      "imageQuery": "Kasuga Taisha shrine lanterns Nara",
+      "summary": "The shrine tied to the deer legend.",
+      "body": "Kasuga Taisha, founded in 768 AD, is the shrine most directly tied to Nara's deer legend — its enshrined deity is said to have arrived in Nara riding a white deer, which is the origin of the animals' sacred status in the area. The shrine is famous for its roughly 3,000 bronze and stone lanterns lining the approach and grounds, donated by worshippers over centuries; twice a year (in early February and mid-August) all of them are lit simultaneously for the Mantoro lantern festival, a strikingly atmospheric event if the trip dates happen to align, though outside those festivals the lanterns remain a notable sight even unlit. Its forested approach and setting pair naturally with the deer-calling ceremony held nearby."
+    },
+    {
+      "slug": "nara-park-forest",
+      "title": "Nara Park itself",
+      "category": "nature",
+      "imageQuery": "Nara Park forest walking path",
+      "summary": "The whole park is a large, forested green space, not just deer-viewing.",
+      "body": "Nara Park spans roughly 500 hectares of forested, hilly parkland connecting Todai-ji, Kasuga Taisha, and the Nara National Museum, with the deer roaming throughout rather than confined to any one section. The walking route between the major sites passes through genuine woodland rather than manicured garden paths, giving the whole visit a more natural, less curated feel than a typical city park — worth allowing time to actually wander rather than moving directly point-to-point between the named sites."
+    },
+    {
+      "slug": "kasugayama-forest",
+      "title": "Kasugayama Primeval Forest",
+      "category": "nature",
+      "imageQuery": "Kasugayama primeval forest Nara",
+      "summary": "Old-growth forest, UNESCO World Heritage site.",
+      "body": "Kasugayama Primeval Forest borders Kasuga Taisha and has been protected from logging for over 1,000 years due to its sacred status tied to the shrine, making it a genuine old-growth forest — a UNESCO World Heritage site in its own right as part of the 'Historic Monuments of Ancient Nara' listing. It's a meaningfully different experience from the main park: denser, quieter, and less manicured, offering real forest hiking trails for those wanting more nature depth than the open deer-park areas provide."
+    },
+    {
+      "slug": "mount-wakakusa",
+      "title": "Mount Wakakusa",
+      "category": "nature",
+      "imageQuery": "Mount Wakakusa Nara view",
+      "summary": "Hill with walking trails and open views over Nara.",
+      "body": "Mount Wakakusa is a grassy hill directly behind Nara Park, low enough to summit in a reasonably easy 30-45 minute walk from the base but tall enough to offer genuinely sweeping views back over Nara Park and the city. It's known for an annual controlled grass-burning festival (Wakakusa Yamayaki) held in January, so depending on exact dates, scorched-hillside evidence of the burn may still be visible. The climb is a good option for anyone wanting a bit more physical activity and a view without committing to a full hike."
+    }
+  ],
+  "openQuestions": [
+    "Food options in Nara not yet researched",
+    "Anything beyond the park (Naramachi historic district, etc.)",
+    "Confirm which day of the week the Nara day trip lands on, to catch Shikayose if possible"
+  ]
+}

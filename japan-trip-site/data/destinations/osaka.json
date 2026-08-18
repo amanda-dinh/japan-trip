@@ -1,0 +1,61 @@
+{
+  "slug": "osaka",
+  "name": "Osaka",
+  "days": "1 (day trip/stop, solo, while friend is in Hokkaido)",
+  "imageQuery": "Dotonbori Osaka neon night",
+  "overview": "Osaka is nicknamed 'Tenka no Daidokoro' — Japan's Kitchen — a title earned from centuries as the country's main rice and produce trading hub, and it remains today the birthplace of several of Japan's most beloved street foods (takoyaki, okonomiyaki) and a generally louder, more indulgent 'kuidaore' ('eat till you drop') food culture than the more restrained Kyoto just next door. Historically a merchant city rather than an imperial or shogunate capital, it has a distinctly different, more boisterous personality than Kyoto or Tokyo. Skipping Universal Studios Japan (needs a full day to be worth it) and treating Osaka Castle as skippable frees the single day here for food and neighborhood wandering.",
+  "recommendations": [
+    {
+      "slug": "dotonbori",
+      "title": "Dotonbori",
+      "category": "food",
+      "imageQuery": "Dotonbori canal neon signs Osaka",
+      "summary": "Iconic neon-lit canal strip; also doubles as the nightlife area.",
+      "body": "Dotonbori is Osaka's most famous entertainment and dining strip, a canal-side stretch dense with oversized, animated signage — the moving Glico Running Man billboard (in place in some form since 1935) is the single most photographed spot in the city, alongside a giant mechanical crab and other theatrical storefronts competing for attention. It's the birthplace of takoyaki (octopus-filled batter balls, invented here in the 1930s) but isn't vegetarian; look instead for negiyaki or veggie-adapted okonomiyaki, since many stalls can do a vegetable-only version on request. The area is at its best after dark, when the full density of neon reflects off the canal — worth timing a visit for evening rather than daytime."
+    },
+    {
+      "slug": "kuromon-ichiba",
+      "title": "Kuromon Ichiba Market",
+      "category": "food",
+      "imageQuery": "Kuromon Ichiba Market Osaka",
+      "summary": "Covered market, Osaka's answer to Kyoto's Nishiki.",
+      "body": "Kuromon Ichiba is a roughly 600-meter covered market with a nearly 200-year history, originally a fish and produce wholesale market for local restaurants before becoming a visitor-friendly grazing destination in its own right. It has a notably heavier seafood skew than Kyoto's Nishiki Market (fresh sashimi, grilled seafood skewers, and whole king crab legs are signature sights), so vegetarian grazing here takes more scouting, though fruit stalls, sweets, and a handful of vegetable-forward stalls exist. Good for a mid-morning wander before the lunch crowds peak."
+    },
+    {
+      "slug": "shinsekai",
+      "title": "Shinsekai",
+      "category": "food",
+      "imageQuery": "Shinsekai district Osaka retro",
+      "summary": "Older, retro district known for kushikatsu (fried skewers).",
+      "body": "Shinsekai ('New World') was built in 1912 modeled partly on Paris and Coney Island, centered on the Tsutenkaku Tower, and has since taken on a distinctly retro, slightly worn-in character that contrasts with Osaka's more polished districts. It's the birthplace of kushikatsu — breaded, deep-fried skewers of meat, seafood, and vegetables — traditionally eaten with a strict one-dip-only rule on the shared sauce pot at communal-style shops (double-dipping is a real etiquette breach here). Vegetable-only kushikatsu (lotus root, mushroom, quail egg, etc.) is common enough to build a full vegetarian meal from, since the format is inherently about variety across many small skewers rather than one big meat-centric dish."
+    },
+    {
+      "slug": "umeda-sky-building",
+      "title": "Umeda Sky Building",
+      "category": "art-design",
+      "imageQuery": "Umeda Sky Building Osaka",
+      "summary": "Modern architecture, rooftop observation deck, if time allows.",
+      "body": "Completed in 1993, the Umeda Sky Building consists of two 40-story towers connected at the top by a 'Floating Garden Observatory' — an open-air rooftop platform linking the towers via escalators that appear to float in open space between them, a design distinctive enough to be included in a global list of top 20 buildings by Time magazine's photo essays. The observation deck offers 360-degree views over Osaka and, on clear days, out toward the bay and surrounding mountains; it's especially popular at sunset and after dark when the city lights come on, though that also means it's busiest then. A relatively quick visit (an hour or so including the elevator/escalator sequence up) that pairs well as a bookend to a day otherwise spent in the food districts below."
+    },
+    {
+      "slug": "osaka-castle-park",
+      "title": "Osaka Castle Park",
+      "category": "nature",
+      "imageQuery": "Osaka Castle Park moat",
+      "summary": "Honest note: Osaka is thin on nature. Only if the castle is convenient.",
+      "body": "Osaka Castle, originally built in 1583 by Toyotomi Hideyoshi (one of Japan's three great unifiers) and rebuilt in concrete in 1931 after multiple destructions, sits within a large park featuring a wide moat, stone walls, and several hundred cherry and plum trees (not blooming in February, but the tree-lined paths and moat views are still a pleasant green break regardless of season). If the castle itself ends up being genuinely on the way, the surrounding park is worth the walk; but realistically, Osaka's single day here is better spent as a food/urban day than a nature day — a fuller nature fix is better found in Kyoto/Nara (already well covered on this trip) or the Kyushu/onsen leg."
+    },
+    {
+      "slug": "nakanoshima-park",
+      "title": "Nakanoshima Park",
+      "category": "nature",
+      "imageQuery": "Nakanoshima Park Osaka river",
+      "summary": "Riverside park between two branches of the Yodo River.",
+      "body": "Nakanoshima is a narrow island park sitting between two branches of the Yodo River in central Osaka, home to a rose garden, walking paths, and several notable buildings nearby (including Osaka's historic Central Public Hall). It's more of a quiet, central stroll than a destination in itself — good for a short break between food-district stops rather than a planned activity."
+    }
+  ],
+  "openQuestions": [
+    "Loose day structure: daytime wander through Kuromon Ichiba and maybe Shinsekai, then Dotonbori for evening food and neon — not yet timed out in detail",
+    "Universal Studios Japan and Osaka Castle deliberately skipped for this trip"
+  ]
+}

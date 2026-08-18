@@ -1,0 +1,29 @@
+{
+  "tripTitle": "Japan Trip 2026",
+  "workingDates": "Assumes Fri Jan 30 US departure — adjust if actual dates shift",
+  "days": [
+    { "day": null, "date": "Fri Jan 30", "location": null, "plan": "Depart US", "friend": null, "destinationSlug": null },
+    { "day": 1, "date": "Sat Jan 31", "location": "Tokyo", "plan": "Arrive, jet lag day", "friend": "Together", "destinationSlug": "tokyo" },
+    { "day": 2, "date": "Sun Feb 1", "location": "Tokyo", "plan": "Full day together + Pokemon Center", "friend": "Together", "destinationSlug": "tokyo" },
+    { "day": 3, "date": "Mon Feb 2", "location": "Tokyo", "plan": "Extra day; she flies Haneda→New Chitose that evening", "friend": "Together, then departs", "destinationSlug": "tokyo" },
+    { "day": 4, "date": "Tue Feb 3", "location": "Kyoto", "plan": "Travel, settle in", "friend": "Hokkaido", "destinationSlug": "kyoto" },
+    { "day": 5, "date": "Wed Feb 4", "location": "Kyoto", "plan": "Temples/shrines", "friend": "Hokkaido (festival begins)", "destinationSlug": "kyoto" },
+    { "day": 6, "date": "Thu Feb 5", "location": "Kyoto", "plan": "Arashiyama, more temples", "friend": "Hokkaido", "destinationSlug": "kyoto" },
+    { "day": 7, "date": "Fri Feb 6", "location": "Nara", "plan": "Day trip", "friend": "Hokkaido", "destinationSlug": "nara" },
+    { "day": 8, "date": "Sat Feb 7", "location": "Osaka", "plan": "Food, Dotonbori", "friend": "Hokkaido", "destinationSlug": "osaka" },
+    { "day": 9, "date": "Sun Feb 8", "location": "Nagoya", "plan": "Travel from Osaka (quick shinkansen); likely free time before friend's flight lands — Atsuta Shrine is the pick for this window; reconvene once she flies New Chitose→Centrair", "friend": "Reconvene", "destinationSlug": "nagoya" },
+    { "day": 10, "date": "Mon Feb 9", "location": "Nagoya", "plan": "Ghibli Park together", "friend": "Together", "destinationSlug": "nagoya" },
+    { "day": 11, "date": "Tue Feb 10", "location": "Hiroshima", "plan": "Peace Park + Miyajima", "friend": "Together", "destinationSlug": "hiroshima" },
+    { "day": 12, "date": "Wed Feb 11", "location": "Matsuyama (Shikoku)", "plan": "Ferry from Hiroshima; Dogo Onsen building, castle if convenient", "friend": "Together (festival ends)", "destinationSlug": "matsuyama-shikoku" },
+    { "day": 13, "date": "Thu Feb 12", "location": "Beppu/Yufuin (Kyushu)", "plan": "Ferry from Matsuyama; settle in, onsen", "friend": "Together", "destinationSlug": "beppu-yufuin" },
+    { "day": 14, "date": "Fri Feb 13", "location": "Beppu/Yufuin", "plan": "Second day, hike/scenic viewpoint, relaxed pace", "friend": "Together", "destinationSlug": "beppu-yufuin" },
+    { "day": 15, "date": "Sat Feb 14", "location": "Fukuoka → Tokyo", "plan": "Food stop in Fukuoka, continue to Tokyo", "friend": "Together", "destinationSlug": "fukuoka" },
+    { "day": 16, "date": "Sun Feb 15", "location": null, "plan": "Fly home", "friend": "Together", "destinationSlug": null }
+  ],
+  "notes": [
+    "Friend's Hokkaido stretch: evening Feb 2 through morning Feb 8 (~5.5 days), overlapping the first 5 days of the 8-day Sapporo Snow Festival (Feb 4-11).",
+    "Nagoya→Hiroshima and the Kyoto/Osaka/Hiroshima/Fukuoka corridor all run on the Tokaido-Sanyo Shinkansen line — a JR Pass may be worth pricing out.",
+    "Hiroshima→Matsuyama and Matsuyama→Beppu legs are by ferry, not shinkansen — confirm actual sailing times once closer to booking.",
+    "Flying in/out of Tokyo (vs. open-jaw into Tokyo/out of Fukuoka) costs a backtrack day at the end — worth pricing both before locking in."
+  ]
+}

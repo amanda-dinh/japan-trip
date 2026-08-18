@@ -1,0 +1,69 @@
+{
+  "slug": "beppu-yufuin",
+  "name": "Beppu / Yufuin",
+  "days": "2 nights (together with friend), onsen ryokan stay",
+  "imageQuery": "Beppu onsen steam Japan",
+  "overview": "Beppu and Yufuin are two of Kyushu's most famous onsen (hot spring) towns, sitting close together in Oita Prefecture but with quite different personalities: Beppu is a larger, steam-vented city producing more hot spring water than anywhere else in Japan (second only to Yellowstone worldwide), with a slightly gritty, industrial-hot-springs character; Yufuin is smaller, quieter, and more boutique/resort-like, known for scenic views of Mount Yufu. This is the genuine slow-down stretch of the whole trip — 2 nights at an onsen ryokan rather than splitting a night with Fukuoka — with a real hike/scenic viewpoint built in per request, since 'purely low-key' wasn't quite the goal. Lodging needs to be tattoo-friendly with a private bath option.",
+  "recommendations": [
+    {
+      "slug": "mount-tsurumi",
+      "title": "Mount Tsurumi + Beppu Ropeway",
+      "category": "nature",
+      "imageQuery": "Mount Tsurumi ropeway Beppu",
+      "summary": "1,375m peak, panoramic views, winter hoarfrost is a seasonal bonus.",
+      "body": "Mount Tsurumi rises to 1,375 meters directly behind Beppu, and on clear days its summit offers panoramic views across to Mount Yufu, the Kuju mountain range, and down over Beppu Bay. The Beppu Ropeway covers most of the ascent in about 10 minutes (roughly ¥1,600-1,800 round trip), followed by a 15-minute walk to the true summit; alternatively, a full hiking trail covers the whole ascent on foot in about 2-3 hours each way for a more demanding, ropeway-free option. Given the explicit wish for a genuine hike rather than just a viewpoint, doing the ascent on foot one direction and the ropeway the other balances effort with practicality. February specifically brings a seasonal bonus: winter months (December through mid-March) produce hoarfrost that coats the trees and shrubs near the summit in a crystalline ice layer, a distinctive look unique to this time of year rather than a lesser cold-season substitute for a 'better' season. A small shrine (Tsurumi Sanjo Gongen) sits at the summit, adding a touch of traditional/historic interest to the hike. Worth flagging: February is a windier month, and the ropeway closes irregularly in high winds — see the trail-based backups below."
+    },
+    {
+      "slug": "mount-tsurumi-trail",
+      "title": "Mount Tsurumi hiking trail (wind backup)",
+      "category": "nature",
+      "imageQuery": "Mount Tsurumi hiking trail",
+      "summary": "Same mountain, same views, entirely on foot — unaffected by ropeway closures.",
+      "body": "A separate hiking trail runs from the base station to the summit entirely on foot, covering the same mountain and reaching the same panoramic views as the ropeway route, just without the gondola — roughly 2-3 hours each way. Since this doesn't depend on the ropeway operating, it remains a viable plan even on days when high wind shuts the cable car down, making it the most direct backup if this specific mountain and its views are the priority."
+    },
+    {
+      "slug": "mount-yufu",
+      "title": "Mount Yufu (Yufu-dake)",
+      "category": "nature",
+      "imageQuery": "Mount Yufu twin peaks Japan",
+      "summary": "Standalone hike near Yufuin, twin-peak profile, no cable car involved.",
+      "body": "Mount Yufu is a dormant volcano near Yufuin recognizable by its distinctive twin-peaked silhouette, and one of the most popular hiking destinations in the Oita region — a genuinely separate mountain from Tsurumi, with no cable car or ropeway involved at all, meaning wind conditions that affect the Beppu Ropeway have no bearing here. It's more physically demanding than the Tsurumi routes, with real elevation gain and some exposed, narrower sections near the twin summits, so it's worth a quick gut-check on the group's hiking fitness and comfort with exposure before committing — but for a comparable full mountain-hike experience as a wind-day backup, this is the strongest option rather than a lesser substitute."
+    },
+    {
+      "slug": "kannawa-walk",
+      "title": "Kannawa hot spring district walk",
+      "category": "nature",
+      "imageQuery": "Kannawa Beppu steam streets",
+      "summary": "Lower-key fallback if weather turns bad enough for neither hike.",
+      "body": "Kannawa is one of Beppu's eight distinct hot spring districts (the 'Beppu Hatto'), notable for steam rising visibly from vents and drainage channels throughout its streets — bathhouses here often use the natural steam directly for a specific style of steam-bath treatment (mushi-yu). It's a much lower-key, low-effort walking option than either mountain hike, and a sensible fallback specifically for days when weather conditions (not just wind, but rain or genuinely poor visibility) make neither Tsurumi nor Yufu-dake appealing."
+    },
+    {
+      "slug": "jigoku-meguri",
+      "title": "Jigoku Meguri (Hells Tour)",
+      "category": "if-time-allows",
+      "imageQuery": "Beppu Hells Tour hot spring ponds",
+      "summary": "Low priority — viewing-only tour of colorful boiling hot spring ponds.",
+      "body": "The 'Jigoku' ('Hells') are a set of dramatically colored, naturally boiling hot spring ponds around Beppu, each named and themed differently — Umi Jigoku's striking cobalt-blue water from dissolved minerals, Chinoike Jigoku's blood-red pond from iron oxide, Oniishibozu Jigoku's bubbling grey mud, among others. These are viewing-only attractions, not bathing spots (the water is far too hot), typically visited via a paid multi-site pass covering several of the ponds. Rated as a low priority here — worth treating as a flexible, drop-in option on whichever of the two days ends up lighter, rather than something specifically planned around."
+    },
+    {
+      "slug": "yudofu",
+      "title": "Yudofu and tofu-based dishes",
+      "category": "food",
+      "imageQuery": "yudofu hot pot tofu Japan",
+      "summary": "Good vegetarian option, specialty of onsen towns like this.",
+      "body": "Yudofu — tofu gently simmered in a light kombu (kelp) broth, usually served with dipping sauces — is a specialty strongly associated with onsen towns and temple food traditions generally, and is reliably vegetarian in a way that stands out from some of the meat-heavy regional specialties encountered elsewhere on this trip (Nagoya's dishes, Fukuoka's ramen). If a ryokan's included kaiseki (multi-course) dinner is part of the lodging package, it's worth flagging the vegetarian requirement directly when booking, since many ryokan kitchens can prepare a modified vegetarian kaiseki with advance notice, though it's rarely offered as a default menu option."
+    },
+    {
+      "slug": "tattoo-friendly-lodging",
+      "title": "Tattoo-friendly, private-bath ryokan",
+      "category": "logistics",
+      "imageQuery": "ryokan private bath Japan",
+      "summary": "Needs a private bath (kashikiri/kazoku-buro) option for tattoo-friendly bathing.",
+      "body": "Many traditional Japanese communal baths still restrict entry for visible tattoos, a policy rooted in tattoos' historical association with organized crime, though this is loosening somewhat, especially in areas with high foreign tourist traffic like Beppu. The most reliable solution regardless of any individual bath's policy is booking a ryokan offering kashikiri-buro or kazoku-buro (a privately reservable family/couple bath, rented for a set time slot rather than shared communally) — this sidesteps the tattoo question entirely since it's a private space. When searching booking platforms like Rakuten Travel or Jalan, look for these terms explicitly in the amenities list, or properties advertising 'tattoo OK' / 'irezumi OK' directly; when uncertain, contacting the property directly is the most reliable way to confirm, since online listings aren't always current. Beppu has a large enough volume of tattoo-friendly, private-bath options that this shouldn't meaningfully narrow the choices; Yufuin, being smaller, has fewer such properties, so it's worth double-checking availability there specifically before assuming."
+    }
+  ],
+  "openQuestions": [
+    "Specific ryokan shortlist, filtered on tattoo-friendly + private bath + can accommodate vegetarian kaiseki",
+    "Whether to do the Mount Tsurumi hike on day 1 or day 2 of the stay"
+  ]
+}

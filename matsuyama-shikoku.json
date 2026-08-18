@@ -1,0 +1,69 @@
+{
+  "slug": "matsuyama-shikoku",
+  "name": "Matsuyama (Shikoku)",
+  "days": "1 (transit day, ferry-to-ferry, together with friend)",
+  "imageQuery": "Matsuyama Castle Shikoku",
+  "overview": "A light, food/wandering-focused stopover between the Hiroshima and Beppu ferry legs, rather than a packed sightseeing day. Skipping Dogo Onsen bathing (already getting onsen time in Beppu/Yufuin) and treating the castle as \"only if convenient.\"",
+  "recommendations": [
+    {
+      "slug": "ferry-logistics",
+      "title": "Ferry logistics",
+      "category": "logistics",
+      "imageQuery": "Setouchi ferry Japan",
+      "summary": "Hiroshima→Matsuyama ~70 min jet; Matsuyama→Beppu is a 2-leg journey.",
+      "body": "Hiroshima→Matsuyama: high-speed jet, about 70 minutes, roughly 8 daily departures — faster than the car ferry option (2.5 hrs). Matsuyama→Beppu is less direct: Matsuyama connects to Yawatahama port (about an hour by bus/train), then a separate ferry from Yawatahama to Beppu takes about 2 hours 50 minutes. Worth checking for an overnight sailing option on this leg specifically — some regional routes run overnight, which could mean sleeping through the crossing instead of losing daytime hours."
+    },
+    {
+      "slug": "matsuyama-castle",
+      "title": "Matsuyama Castle",
+      "category": "historic",
+      "imageQuery": "Matsuyama Castle Japan",
+      "summary": "Only if convenient — central, reachable by tram, ropeway up.",
+      "body": "Central, reachable by tram, with a ropeway/chairlift up to the keep. Rated \"if convenient\" rather than a priority."
+    },
+    {
+      "slug": "dogo-onsen-honkan",
+      "title": "Dogo Onsen Honkan building",
+      "category": "art-design",
+      "imageQuery": "Dogo Onsen Honkan building architecture",
+      "summary": "Striking bathhouse architecture — worth a look even while skipping the bath.",
+      "body": "Even skipping the bath itself, the building is a striking piece of architecture, often cited as inspiration for the bathhouse in Spirited Away — worth a quick look from outside if it fits the route."
+    },
+    {
+      "slug": "okaido-gintengai",
+      "title": "Okaido / Gintengai shopping arcades",
+      "category": "food",
+      "imageQuery": "Okaido shopping arcade Matsuyama",
+      "summary": "Covered shopping streets, casual food and browsing between ferries.",
+      "body": "Covered shopping streets in central Matsuyama, good for casual food and browsing between ferries."
+    },
+    {
+      "slug": "taruto",
+      "title": "Taruto",
+      "category": "food",
+      "imageQuery": "Taruto Japanese sweet cake",
+      "summary": "Local specialty, rolled sponge cake with sweet bean paste.",
+      "body": "Local specialty — rolled sponge cake with sweet bean paste, a good food souvenir."
+    },
+    {
+      "slug": "shiroyama-park",
+      "title": "Shiroyama Park",
+      "category": "nature",
+      "imageQuery": "Shiroyama Park Matsuyama forest",
+      "summary": "The forested hill the castle sits on.",
+      "body": "The ropeway/chairlift ride up passes through wooded parkland, so even a \"castle if convenient\" visit doubles as a green-space walk."
+    },
+    {
+      "slug": "mount-ishizuchi",
+      "title": "Mount Ishizuchi",
+      "category": "nature",
+      "imageQuery": "Mount Ishizuchi Shikoku",
+      "summary": "Highest peak in Shikoku — likely not realistic on this transit day.",
+      "body": "Matsuyama is a gateway to Mount Ishizuchi, the highest peak in Shikoku, but it's a longer trip out of the city — likely not realistic given this is a ferry-to-ferry transit day. Flagged for a future, longer Shikoku visit instead."
+    }
+  ],
+  "openQuestions": [
+    "Confirm exact Matsuyama → Yawatahama → Beppu connection timing once dates are locked, including whether an overnight sailing option exists",
+    "Vegetarian food options in Matsuyama not yet researched in detail"
+  ]
+}

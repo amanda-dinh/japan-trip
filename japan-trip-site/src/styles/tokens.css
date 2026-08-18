@@ -1,0 +1,156 @@
+/* ─────────────────────────────────────────────
+   Japan Trip 2026 — Design tokens
+   ───────────────────────────────────────────── */
+
+/* Google Fonts: Shippori Mincho (display), Zen Kaku Gothic New (body),
+   JetBrains Mono (utility/day numbers).
+   Import this file first, or add the @import here. */
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;600;700&family=Zen+Kaku+Gothic+New:wght@300;400;500;700&family=JetBrains+Mono:wght@400;600&display=swap');
+
+:root {
+  /* ── Colors ─────────────────────────────────── */
+
+  /* Primary — ai-iro (indigo), referencing aizome / indigo-dyed textiles */
+  --color-ai-iro: #2C3E66;
+
+  /* Background — washi cream, referencing handmade paper */
+  --color-washi: #F3EDE0;
+
+  /* Accent — shu-iro (vermillion), referencing torii gates.
+     Use sparingly: active states, route line, key CTAs only.
+     Never as a large fill or background. */
+  --color-shu-iro: #C1440E;
+
+  /* Text — sumi ink */
+  --color-sumi: #201F1D;
+
+  /* Category accent — moss, used specifically for "nature" tags */
+  --color-moss: #6B7A5E;
+
+  /* Secondary/muted — mist blue, used for ferry-leg route segments */
+  --color-mist-blue: #AAC0C6;
+
+  /* Derived surface tones */
+  --color-surface:        var(--color-washi);
+  --color-surface-raised: #EDE6D6;          /* slightly warmer card surface */
+  --color-border:         #D9CFC0;          /* subtle warm border */
+  --color-border-strong:  #B8AD9C;
+
+  /* Text hierarchy */
+  --color-text-primary:   var(--color-sumi);
+  --color-text-secondary: #4E4840;          /* muted body copy */
+  --color-text-muted:     #7A7168;          /* captions, metadata */
+  --color-text-on-dark:   #F3EDE0;          /* text on ai-iro backgrounds */
+
+  /* Interactive */
+  --color-link:           var(--color-ai-iro);
+  --color-link-hover:     #1E2B4A;
+  --color-focus-ring:     var(--color-shu-iro);
+
+  /* Route line */
+  --color-route-train:    var(--color-shu-iro);
+  --color-route-ferry:    var(--color-mist-blue);
+  --color-route-marker:   var(--color-ai-iro);
+
+  /* Category colors — extend as needed */
+  --color-cat-nature:     var(--color-moss);
+  --color-cat-food:       #B56A2F;
+  --color-cat-historic:   var(--color-ai-iro);
+  --color-cat-pop-culture: #7B5EA7;
+  --color-cat-art-design: #5C7A8A;
+  --color-cat-default:    var(--color-text-muted);
+
+  /* ── Typography ─────────────────────────────── */
+
+  --font-display:  'Shippori Mincho', Georgia, serif;
+  --font-body:     'Zen Kaku Gothic New', 'Noto Sans JP', system-ui, sans-serif;
+  --font-mono:     'JetBrains Mono', 'Courier New', monospace;
+
+  /* Scale (Major Third, 1.25 ratio) */
+  --text-xs:   0.64rem;    /* ~10px */
+  --text-sm:   0.8rem;     /* ~13px */
+  --text-base: 1rem;       /* 16px  */
+  --text-md:   1.25rem;    /* 20px  */
+  --text-lg:   1.563rem;   /* 25px  */
+  --text-xl:   1.953rem;   /* 31px  */
+  --text-2xl:  2.441rem;   /* 39px  */
+  --text-3xl:  3.052rem;   /* 49px  */
+
+  --leading-tight:  1.2;
+  --leading-snug:   1.4;
+  --leading-normal: 1.6;
+  --leading-loose:  1.8;
+
+  --tracking-tight:  -0.02em;
+  --tracking-normal:  0;
+  --tracking-wide:    0.05em;
+  --tracking-widest:  0.12em;
+
+  /* Font weights */
+  --weight-light:   300;
+  --weight-normal:  400;
+  --weight-medium:  500;
+  --weight-semibold: 600;
+  --weight-bold:    700;
+
+  /* ── Spacing ─────────────────────────────────── */
+  /* 4px base grid */
+  --space-1:  0.25rem;   /*  4px */
+  --space-2:  0.5rem;    /*  8px */
+  --space-3:  0.75rem;   /* 12px */
+  --space-4:  1rem;      /* 16px */
+  --space-5:  1.25rem;   /* 20px */
+  --space-6:  1.5rem;    /* 24px */
+  --space-8:  2rem;      /* 32px */
+  --space-10: 2.5rem;    /* 40px */
+  --space-12: 3rem;      /* 48px */
+  --space-16: 4rem;      /* 64px */
+  --space-20: 5rem;      /* 80px */
+  --space-24: 6rem;      /* 96px */
+
+  /* ── Layout ─────────────────────────────────── */
+  --max-width-content: 72rem;    /* 1152px — main content cap */
+  --max-width-prose:   44rem;    /* ~700px — readable text columns */
+  --max-width-card:    22rem;
+
+  /* ── Border radius ───────────────────────────── */
+  --radius-sm:   4px;
+  --radius-md:   8px;
+  --radius-lg:   14px;
+  --radius-xl:   20px;
+  --radius-full: 9999px;
+
+  /* ── Shadows ─────────────────────────────────── */
+  --shadow-sm:  0 1px 3px rgba(32, 31, 29, 0.10);
+  --shadow-md:  0 4px 12px rgba(32, 31, 29, 0.12);
+  --shadow-lg:  0 8px 24px rgba(32, 31, 29, 0.14);
+
+  /* ── Transitions ─────────────────────────────── */
+  --duration-fast:   120ms;
+  --duration-normal: 220ms;
+  --duration-slow:   400ms;
+  --ease-standard:   cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* ── Z-index scale ───────────────────────────── */
+  --z-base:    0;
+  --z-raised:  10;
+  --z-overlay: 100;
+  --z-modal:   200;
+
+  /* ── Route line geometry ─────────────────────── */
+  --route-line-width:     3px;
+  --route-marker-size:    14px;
+  --route-marker-size-lg: 20px;
+}
+
+/* ── Reduced-motion: disable all transitions/animations ── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration:   0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration:  0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

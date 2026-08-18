@@ -1,0 +1,94 @@
+{
+  "slug": "nagoya",
+  "name": "Nagoya / Ghibli Park",
+  "days": "1 full day for Ghibli Park (together with friend, her must-see too), plus reconvene-day free time on arrival",
+  "imageQuery": "Ghibli Park Studio Ghibli",
+  "overview": "Nagoya is Japan's fourth-largest city and a major industrial/manufacturing hub (Toyota is headquartered in the surrounding region), historically overshadowed as a tourist destination by Kyoto and Osaka nearby — but it's now the reason for a dedicated stop on this trip, since Ghibli Park, which opened in November 2022 inside a park in neighboring Nagakute, is a must-do for both travelers. Ghibli Park is not a traditional theme park with rides; it's a series of walk-through recreations and exhibitions built directly into the existing forested Expo park grounds, designed to preserve as much of the natural landscape as possible rather than clearing it for construction. The day is fully dedicated to it, with Nagoya city itself as backup/reconvene-day content.",
+  "recommendations": [
+    {
+      "slug": "grand-warehouse",
+      "title": "Ghibli's Grand Warehouse",
+      "category": "ghibli-park",
+      "imageQuery": "Ghibli Park Grand Warehouse",
+      "summary": "Largest indoor area, exhibition zones and film set recreations. ~3 hours.",
+      "body": "The Grand Warehouse is the largest single area and the closest thing to a traditional 'main building' — a converted indoor space (formerly the Expo's Aichi pavilion) holding immersive, walk-through recreations of scenes and sets from multiple Ghibli films, including a full-scale reproduction of the bathhouse boiler room from Spirited Away and displays exploring the studio's animation process. There's also a small in-house cinema showing rotating original short films made exclusively for Ghibli Park, not available anywhere else. Given the density of exhibits, budget around 3 hours here alone — it's easy to underestimate given it doesn't look large from outside."
+    },
+    {
+      "slug": "hill-of-youth",
+      "title": "Hill of Youth",
+      "category": "ghibli-park",
+      "imageQuery": "Ghibli Park Hill of Youth",
+      "summary": "Antique shop from Whisper of the Heart, Cat Bureau from The Cat Returns.",
+      "body": "This area recreates the antique shop and clock tower setting from Whisper of the Heart (1995) along with the whimsical Cat Bureau building from The Cat Returns (2002) — both walk-through, photo-friendly reconstructions rather than ride-based attractions, built to match the films' distinctive architectural details closely."
+    },
+    {
+      "slug": "dondoko-forest",
+      "title": "Dondoko Forest",
+      "category": "ghibli-park",
+      "imageQuery": "Ghibli Park Totoro house forest",
+      "summary": "Satsuki & Mei's House from My Neighbor Totoro. Premium ticket required for interior.",
+      "body": "The centerpiece here is a full-scale, fully furnished reproduction of Satsuki and Mei's House from My Neighbor Totoro (1988), built to real architectural standards (not just a facade) with period-accurate 1950s furnishings and details throughout. Exterior viewing is included with any ticket, but stepping inside the house requires the Premium ticket tier specifically — a meaningful distinction to plan around given how iconic this particular set is for Totoro fans."
+    },
+    {
+      "slug": "mononoke-village",
+      "title": "Mononoke Village",
+      "category": "ghibli-park",
+      "imageQuery": "Ghibli Park Mononoke village",
+      "summary": "Themed area based on Princess Mononoke.",
+      "body": "Modeled on the Iron Town setting from Princess Mononoke (1997), this area recreates the film's rustic, industrial forest-village architecture — one of the newer additions to the park, with a rougher, more rugged aesthetic than the other areas' storybook charm, matching the film's tone."
+    },
+    {
+      "slug": "valley-of-witches",
+      "title": "Valley of Witches",
+      "category": "ghibli-park",
+      "imageQuery": "Ghibli Park Howl's Moving Castle",
+      "summary": "Newest area — Howl's Moving Castle, Okino Residence, Witch's House.",
+      "body": "The newest of the five areas, opened in 2023, built around Howl's Moving Castle — a large-scale walk-around exterior reproduction of the castle itself, plus the Okino family's residence from Spirited Away and the Witch's House from Kiki's Delivery Service. As with Dondoko Forest, interior access to the Howl's Castle and Witch's House structures requires the Premium ticket tier."
+    },
+    {
+      "slug": "ghibli-ticket-logistics",
+      "title": "Ghibli Park ticket logistics",
+      "category": "logistics",
+      "imageQuery": "Studio Ghibli Park entrance",
+      "summary": "Time-sensitive — tickets release 2 months out, Premium pass recommended.",
+      "body": "Tickets release at 2pm JST on the 10th of the month, exactly two months before the visit date — for a February 2026 visit, that's a December 2025 on-sale date. Since the goal is seeing everything rather than picking one or two areas, the Premium All-Access Pass is the right tier: Standard tickets grant entry to all five areas' exteriors but exclude interior access to Satsuki & Mei's House and the Howl's Castle/Witch's House buildings specifically, and there is no day-of upgrade option once inside. International visitors book through a separate official overseas purchase page, which has noticeably fewer available time slots than the domestic Japanese booking site — the first 15-30 minutes after tickets go live see the heaviest demand and fastest sellouts, so being logged in and ready at exactly 2pm JST matters. A passport number is required at the time of booking, and the same passport must be shown at the entrance gate. Given all this, Ghibli Park tickets are the single most time-sensitive booking on the entire trip and worth locking in as soon as dates are confirmed."
+    },
+    {
+      "slug": "moricoro-park-nature",
+      "title": "Expo 2005 Aichi Commemorative Park (Moricoro Park)",
+      "category": "nature",
+      "imageQuery": "Moricoro Park Aichi forest",
+      "summary": "The forested grounds surrounding Ghibli Park itself.",
+      "body": "Ghibli Park was deliberately built inside the existing grounds of the 2005 World Expo site, now a public park called Moricoro Park, rather than on newly cleared land — part of the design philosophy was minimizing environmental disruption to the existing forest. The wider park includes forested walking paths, gardens, and a preserved satoyama area (a traditional Japanese term for managed rural woodland/farmland landscape), all free to enter even without a Ghibli Park ticket. Given the day here is fully dedicated to the ticketed Ghibli Park areas, this is more of an ambient note than a separate planned stop — but it's worth knowing the surrounding grounds are genuinely green rather than a parking-lot theme park experience."
+    },
+    {
+      "slug": "atsuta-shrine",
+      "title": "Atsuta Shrine",
+      "category": "historic",
+      "imageQuery": "Atsuta Shrine Nagoya forest",
+      "summary": "Major shrine with old-growth forest grounds — best pick for the reconvene-day window.",
+      "body": "Atsuta Shrine, founded roughly 1,900 years ago, is considered one of Shinto's most sacred sites — it's said to house the Kusanagi sword, one of the three Imperial Regalia of Japan (the sword, mirror, and jewel tied to the imperial line), though the sword itself is never displayed publicly and its actual presence can't be verified by visitors. The shrine grounds are heavily forested with genuine old-growth trees, giving it a quieter, more contemplative atmosphere than Nagoya's more commercial center, and it draws far fewer international visitors than comparable shrines in Kyoto or Nara despite its historical significance. This combination — real traditional/historic weight plus genuine forest grounds — makes it the strongest single pick for the reconvene-day free-time window, and it's easy to cut short or leave on short notice once friend's flight status is confirmed, unlike a booked experience with a fixed time slot."
+    },
+    {
+      "slug": "osu-shopping-street",
+      "title": "Osu Shopping Street",
+      "category": "food",
+      "imageQuery": "Osu Shopping Street Nagoya",
+      "summary": "Nagoya's international food district — best bet for vegetarian options.",
+      "body": "Nagoya's signature local dishes — miso katsu (pork cutlet with a thick red miso sauce), tebasaki (a specific style of double-fried, heavily seasoned chicken wings), and hitsumabushi (grilled eel over rice, served three different ways in one meal) — are all meat or fish-based, so this isn't a city where the famous local specialties can simply be sampled as-is on a vegetarian diet. Osu Shopping Street, a covered arcade dating back centuries but now known for its international, youth-culture, and retro-tech character, is the more reliable food option: it has a genuine concentration of halal grocers and Indian, Nepali, and Middle Eastern restaurants that cater to non-traditional-Japanese diets far more readily than the city's famous dishes do. Osu doubles as a subculture shopping district too — vintage clothing, anime merchandise, and electronics shops sit alongside the food, giving it some overlap with the Akihabara/Nakano Broadway pull noted for Tokyo."
+    },
+    {
+      "slug": "nagoya-castle",
+      "title": "Nagoya Castle",
+      "category": "historic",
+      "imageQuery": "Nagoya Castle Japan",
+      "summary": "Major castle (largely reconstructed), if a second castle stop fits.",
+      "body": "Nagoya Castle was originally built in 1612 as a strategic stronghold for the Tokugawa shogunate and was famous for its pair of golden shachihoko (mythical tiger-headed carp) ornaments atop the main keep, but the original structure was destroyed in WWII bombing; the current keep is a 1959 concrete reconstruction (currently undergoing further restoration work in parts). Since Matsuyama Castle is already an 'if convenient' stop elsewhere on this trip, Nagoya Castle would be a second castle visit rather than a unique addition — worth weighing whether a repeat castle experience adds enough versus spending that time elsewhere. The surrounding grounds include a moat and garden areas in the same vein as Osaka Castle Park."
+    }
+  ],
+  "openQuestions": [
+    "Confirm exact on-sale date once actual trip dates are locked",
+    "Confirm friend's actual flight arrival time, to know how much of the reconvene-day window is really available",
+    "Specific vegetarian restaurant picks in Osu, if that ends up being the food stop during the free window"
+  ]
+}
