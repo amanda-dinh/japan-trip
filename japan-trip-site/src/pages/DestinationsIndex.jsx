@@ -23,7 +23,7 @@ export default function DestinationsIndex() {
       <header className={styles.header}>
         <div className="container">
           <h1 className={styles.title}>Destinations</h1>
-          <p className={styles.subtitle}>9 stops · Jan 31 – Feb 15, 2026</p>
+          <p className={styles.subtitle}>9 stops · Jan 30 – Feb 14, 2027</p>
         </div>
       </header>
 

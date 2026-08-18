@@ -8,7 +8,7 @@ export default function SiteNav() {
     <nav className={styles.nav} aria-label="Site navigation">
       <div className={`container ${styles.inner}`}>
         <Link to="/" className={styles.home}>
-          Japan Trip 2026
+          Japan Trip 2027
         </Link>
         <ul className={styles.links}>
           <li>

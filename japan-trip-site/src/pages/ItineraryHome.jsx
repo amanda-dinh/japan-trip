@@ -27,8 +27,8 @@ export default function ItineraryHome() {
       )}
       <header className={styles.header}>
         <div className="container">
-          <p className={styles.eyebrow}>Jan 30 – Feb 15, 2026</p>
-          <h1 className={styles.title}>Japan Trip 2026</h1>
+          <p className={styles.eyebrow}>Jan 29 – Feb 14, 2027</p>
+          <h1 className={styles.title}>Japan Trip 2027</h1>
           <p className={styles.tagline}>16 days · 9 destinations</p>
         </div>
       </header>
