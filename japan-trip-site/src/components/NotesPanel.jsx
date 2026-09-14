@@ -13,7 +13,11 @@ export default function NotesPanel({ noteKey, title = 'Notes', description }) {
   const [allNotes, setAllNotes] = useState({})
   const [author, setAuthor] = useState('')
   const [content, setContent] = useState('')
+  const [replyingTo, setReplyingTo] = useState(null)
+  const [replyAuthor, setReplyAuthor] = useState('')
+  const [replyContent, setReplyContent] = useState('')
   const notes = allNotes[noteKey] ?? []
+  const topLevelNotes = notes.filter(note => !note.parentNoteId)
 
   useEffect(() => {
     let active = true
@@ -38,7 +42,22 @@ export default function NotesPanel({ noteKey, title = 'Notes', description }) {
     if (!window.confirm('Delete this note?')) return
 
     await deleteNote(noteId, noteKey)
-    setAllNotes(current => ({ ...current, [noteKey]: (current[noteKey] ?? []).filter(note => note.id !== noteId) }))
+    setAllNotes(current => ({
+      ...current,
+      [noteKey]: (current[noteKey] ?? []).filter(note => note.id !== noteId && note.parentNoteId !== noteId),
+    }))
+  }
+
+  async function addReply(event) {
+    event.preventDefault()
+    const trimmedAuthor = replyAuthor.trim()
+    const trimmedContent = replyContent.trim()
+    if (!replyingTo || !trimmedAuthor || !trimmedContent) return
+
+    const reply = await addNote(noteKey, trimmedAuthor, trimmedContent, replyingTo)
+    setAllNotes(current => ({ ...current, [noteKey]: [...(current[noteKey] ?? []), reply] }))
+    setReplyingTo(null)
+    setReplyContent('')
   }
 
   return (
@@ -53,7 +72,7 @@ export default function NotesPanel({ noteKey, title = 'Notes', description }) {
 
       {notes.length > 0 ? (
         <ul className={styles.list}>
-          {notes.map(note => (
+          {topLevelNotes.map(note => (
             <li className={styles.note} key={note.id}>
               <div className={styles.meta}>
                 <strong>{note.author}</strong>
@@ -71,6 +90,33 @@ export default function NotesPanel({ noteKey, title = 'Notes', description }) {
                 </span>
               </div>
               <p>{note.content}</p>
+              <div className={styles.noteActions}>
+                <button type="button" className={styles.replyButton} onClick={() => setReplyingTo(note.id)}>
+                  Reply
+                </button>
+              </div>
+              {notes.filter(reply => reply.parentNoteId === note.id).map(reply => (
+                <div className={styles.reply} key={reply.id}>
+                  <div className={styles.meta}>
+                    <strong>{reply.author}</strong>
+                    <span className={styles.metaRight}>
+                      <time dateTime={reply.createdAt}>{formatDate(reply.createdAt)}</time>
+                      <button type="button" className={styles.deleteButton} onClick={() => handleDeleteNote(reply.id)} aria-label="Delete reply" title="Delete reply">🗑</button>
+                    </span>
+                  </div>
+                  <p>{reply.content}</p>
+                </div>
+              ))}
+              {replyingTo === note.id && (
+                <form className={styles.replyForm} onSubmit={addReply}>
+                  <input value={replyAuthor} onChange={event => setReplyAuthor(event.target.value)} placeholder="Your name" aria-label="Reply author" required />
+                  <textarea value={replyContent} onChange={event => setReplyContent(event.target.value)} placeholder="Write a reply..." aria-label="Reply" rows="2" required />
+                  <div className={styles.replyFormActions}>
+                    <button type="button" onClick={() => setReplyingTo(null)}>Cancel</button>
+                    <button type="submit">Reply</button>
+                  </div>
+                </form>
+              )}
             </li>
           ))}
         </ul>

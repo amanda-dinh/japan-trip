@@ -165,6 +165,66 @@
   line-height: var(--leading-normal);
 }
 
+.noteActions {
+  margin-top: var(--space-3);
+}
+
+.replyButton,
+.replyFormActions button {
+  color: var(--color-ai-iro);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  cursor: pointer;
+}
+
+.replyButton {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.reply {
+  margin-top: var(--space-3);
+  margin-left: var(--space-5);
+  padding: var(--space-3) var(--space-4);
+  background: var(--color-surface);
+  border-left: 2px solid var(--color-border-strong);
+}
+
+.replyForm {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  margin: var(--space-3) 0 0 var(--space-5);
+  padding: var(--space-3);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+}
+
+.replyForm input,
+.replyForm textarea {
+  width: 100%;
+  border: 1px solid var(--color-border-strong);
+  border-radius: var(--radius-sm);
+  background: var(--color-washi);
+  color: var(--color-text-primary);
+  padding: var(--space-2) var(--space-3);
+  font: inherit;
+  resize: vertical;
+}
+
+.replyFormActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--space-3);
+}
+
+.replyFormActions button:last-child {
+  background: var(--color-ai-iro);
+  color: var(--color-text-on-dark);
+  border-radius: var(--radius-sm);
+  padding: var(--space-2) var(--space-3);
+}
+
 .deleteButton {
   color: var(--color-text-muted);
   font-size: var(--text-sm);

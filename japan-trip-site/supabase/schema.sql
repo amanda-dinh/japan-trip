@@ -12,11 +12,19 @@ create table if not exists public.trip_notes (
   note_key text not null,
   author text not null,
   content text not null,
+  parent_note_id uuid references public.trip_notes(id) on delete cascade,
   created_at timestamptz not null default now()
 );
 
+-- Run this line separately for an existing project created before threads were added.
+alter table public.trip_notes
+  add column if not exists parent_note_id uuid references public.trip_notes(id) on delete cascade;
+
 create index if not exists trip_notes_lookup
   on public.trip_notes (trip_id, note_key, created_at);
+
+create index if not exists trip_notes_thread_lookup
+  on public.trip_notes (parent_note_id);
 
 alter table public.trip_checklist enable row level security;
 alter table public.trip_notes enable row level security;

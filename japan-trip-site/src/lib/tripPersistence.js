@@ -57,7 +57,7 @@ export async function loadNotes() {
   if (!supabase) return mergeLocalNotes()
   const { data, error } = await supabase
     .from('trip_notes')
-    .select('id, note_key, author, content, created_at')
+    .select('id, note_key, author, content, parent_note_id, created_at')
     .eq('trip_id', TRIP_ID)
     .order('created_at', { ascending: true })
   if (error) throw error
@@ -68,20 +68,21 @@ export async function loadNotes() {
       id: note.id,
       author: note.author,
       content: note.content,
+      parentNoteId: note.parent_note_id,
       createdAt: note.created_at,
     })
     return grouped
   }, {})
 }
 
-export async function addNote(noteKey, author, content) {
+export async function addNote(noteKey, author, content, parentNoteId = null) {
   if (!supabase) {
     const notes = mergeLocalNotes()
     const nextNotes = {
       ...notes,
       [noteKey]: [
         ...(notes[noteKey] ?? []),
-        { id: `${noteKey}-${Date.now()}`, author, content, createdAt: new Date().toISOString() },
+        { id: `${noteKey}-${Date.now()}`, author, content, parentNoteId, createdAt: new Date().toISOString() },
       ],
     }
     writeLocal(NOTES_STORAGE_KEY, nextNotes)
@@ -89,11 +90,11 @@ export async function addNote(noteKey, author, content) {
   }
   const { data, error } = await supabase
     .from('trip_notes')
-    .insert({ trip_id: TRIP_ID, note_key: noteKey, author, content })
-    .select('id, author, content, created_at')
+    .insert({ trip_id: TRIP_ID, note_key: noteKey, author, content, parent_note_id: parentNoteId })
+    .select('id, author, content, parent_note_id, created_at')
     .single()
   if (error) throw error
-  return { id: data.id, author: data.author, content: data.content, createdAt: data.created_at }
+  return { id: data.id, author: data.author, content: data.content, parentNoteId: data.parent_note_id, createdAt: data.created_at }
 }
 
 export async function deleteNote(noteId, noteKey) {
@@ -103,7 +104,7 @@ export async function deleteNote(noteId, noteKey) {
       if (!notes[noteKey]) continue
       writeLocal(key, {
         ...notes,
-        [noteKey]: notes[noteKey].filter(note => note.id !== noteId),
+        [noteKey]: notes[noteKey].filter(note => note.id !== noteId && note.parentNoteId !== noteId),
       })
     }
     return

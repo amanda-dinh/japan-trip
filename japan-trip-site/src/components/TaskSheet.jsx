@@ -13,6 +13,9 @@ export default function TaskSheet({ task, checked, onToggle, onClose }) {
   const [notes, setNotes] = useState({})
   const [author, setAuthor] = useState('')
   const [content, setContent] = useState('')
+  const [replyingTo, setReplyingTo] = useState(null)
+  const [replyAuthor, setReplyAuthor] = useState('')
+  const [replyContent, setReplyContent] = useState('')
 
   useEffect(() => {
     let active = true
@@ -41,6 +44,7 @@ export default function TaskSheet({ task, checked, onToggle, onClose }) {
   if (!task) return null
 
   const taskNotes = notes[`task:${task.id}`] ?? []
+  const topLevelNotes = taskNotes.filter(note => !note.parentNoteId)
 
   async function addNoteToTask(event) {
     event.preventDefault()
@@ -57,7 +61,22 @@ export default function TaskSheet({ task, checked, onToggle, onClose }) {
     if (!window.confirm('Delete this note?')) return
 
     await deleteNote(noteId, `task:${task.id}`)
-    setNotes(current => ({ ...current, [`task:${task.id}`]: taskNotes.filter(note => note.id !== noteId) }))
+    setNotes(current => ({
+      ...current,
+      [`task:${task.id}`]: taskNotes.filter(note => note.id !== noteId && note.parentNoteId !== noteId),
+    }))
+  }
+
+  async function addReply(event) {
+    event.preventDefault()
+    const trimmedAuthor = replyAuthor.trim()
+    const trimmedContent = replyContent.trim()
+    if (!replyingTo || !trimmedAuthor || !trimmedContent) return
+
+    const reply = await addNote(`task:${task.id}`, trimmedAuthor, trimmedContent, replyingTo)
+    setNotes(current => ({ ...current, [`task:${task.id}`]: [...(current[`task:${task.id}`] ?? []), reply] }))
+    setReplyingTo(null)
+    setReplyContent('')
   }
 
   return (
@@ -98,7 +117,7 @@ export default function TaskSheet({ task, checked, onToggle, onClose }) {
 
             {taskNotes.length > 0 ? (
               <ul className={styles.notesList}>
-                {taskNotes.map(note => (
+                {topLevelNotes.map(note => (
                   <li key={note.id} className={styles.note}>
                     <div className={styles.noteMeta}>
                       <strong>{note.author}</strong>
@@ -116,6 +135,31 @@ export default function TaskSheet({ task, checked, onToggle, onClose }) {
                       </span>
                     </div>
                     <p>{note.content}</p>
+                    <div className={styles.noteActions}>
+                      <button type="button" className={styles.replyButton} onClick={() => setReplyingTo(note.id)}>Reply</button>
+                    </div>
+                    {taskNotes.filter(reply => reply.parentNoteId === note.id).map(reply => (
+                      <div className={styles.reply} key={reply.id}>
+                        <div className={styles.noteMeta}>
+                          <strong>{reply.author}</strong>
+                          <span className={styles.noteMetaRight}>
+                            <time dateTime={reply.createdAt}>{formatDate(reply.createdAt)}</time>
+                            <button type="button" className={styles.deleteButton} onClick={() => handleDeleteNote(reply.id)} aria-label="Delete reply" title="Delete reply">🗑</button>
+                          </span>
+                        </div>
+                        <p>{reply.content}</p>
+                      </div>
+                    ))}
+                    {replyingTo === note.id && (
+                      <form className={styles.replyForm} onSubmit={addReply}>
+                        <input value={replyAuthor} onChange={event => setReplyAuthor(event.target.value)} placeholder="Your name" aria-label="Reply author" required />
+                        <textarea value={replyContent} onChange={event => setReplyContent(event.target.value)} placeholder="Write a reply..." aria-label="Reply" rows="2" required />
+                        <div className={styles.replyFormActions}>
+                          <button type="button" onClick={() => setReplyingTo(null)}>Cancel</button>
+                          <button type="submit">Reply</button>
+                        </div>
+                      </form>
+                    )}
                   </li>
                 ))}
               </ul>
