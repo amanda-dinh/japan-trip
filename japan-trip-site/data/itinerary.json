@@ -9,21 +9,20 @@
     { "day": 4, "date": "Tue Feb 2", "location": "Kyoto", "plan": "Travel, settle in", "friend": "Hokkaido", "destinationSlug": "kyoto" },
     { "day": 5, "date": "Wed Feb 3", "location": "Kyoto", "plan": "Temples/shrines", "friend": "Hokkaido (festival begins)", "destinationSlug": "kyoto" },
     { "day": 6, "date": "Thu Feb 4", "location": "Kyoto", "plan": "Arashiyama, more temples", "friend": "Hokkaido", "destinationSlug": "kyoto" },
-    { "day": 7, "date": "Fri Feb 5", "location": "Nara", "plan": "Day trip", "friend": "Hokkaido", "destinationSlug": "nara" },
+    { "day": 7, "date": "Fri Feb 5", "location": "Nara → Osaka", "plan": "Day trip in Nara; leave for Osaka at night", "friend": "Hokkaido", "destinationSlug": "nara" },
     { "day": 8, "date": "Sat Feb 6", "location": "Osaka", "plan": "Food, Dotonbori", "friend": "Hokkaido", "destinationSlug": "osaka" },
     { "day": 9, "date": "Sun Feb 7", "location": "Nagoya", "plan": "Travel from Osaka (quick shinkansen); likely free time before friend's flight lands — Atsuta Shrine is the pick for this window; reconvene once she flies New Chitose→Centrair", "friend": "Reconvene", "destinationSlug": "nagoya" },
     { "day": 10, "date": "Mon Feb 8", "location": "Nagoya", "plan": "Ghibli Park together", "friend": "Together", "destinationSlug": "nagoya" },
-    { "day": 11, "date": "Tue Feb 9", "location": "Hiroshima", "plan": "Peace Park + Miyajima", "friend": "Together", "destinationSlug": "hiroshima" },
-    { "day": 12, "date": "Wed Feb 10", "location": "Matsuyama (Shikoku)", "plan": "Ferry from Hiroshima; Dogo Onsen building, castle if convenient", "friend": "Together (festival ends)", "destinationSlug": "matsuyama-shikoku" },
+    { "day": 11, "date": "Tue Feb 9", "location": "Hiroshima → Matsuyama (Shikoku)", "plan": "Peace Park + Miyajima; leave for Matsuyama via speed boat", "friend": "Together", "destinationSlug": "hiroshima" },
+    { "day": 12, "date": "Wed Feb 10", "location": "Matsuyama (Shikoku) → Beppu/Yufuin (Kyushu)", "plan": "Day in Matsuyama; leave for Beppu at night", "friend": "Together (festival ends)", "destinationSlug": "matsuyama-shikoku" },
     { "day": 13, "date": "Thu Feb 11", "location": "Beppu/Yufuin (Kyushu)", "plan": "Ferry from Matsuyama; settle in, onsen", "friend": "Together", "destinationSlug": "beppu-yufuin" },
-    { "day": 14, "date": "Fri Feb 12", "location": "Beppu/Yufuin", "plan": "Second day, hike/scenic viewpoint, relaxed pace", "friend": "Together", "destinationSlug": "beppu-yufuin" },
-    { "day": 15, "date": "Sat Feb 13", "location": "Fukuoka → Tokyo", "plan": "Food stop in Fukuoka, continue to Tokyo", "friend": "Together", "destinationSlug": "fukuoka" },
-    { "day": 16, "date": "Sun Feb 14", "location": null, "plan": "Fly home", "friend": "Together", "destinationSlug": null }
+    { "day": 14, "date": "Fri Feb 12", "location": "Beppu/Yufuin → Tokyo", "plan": "Second day, hike/scenic viewpoint, relaxed pace; fly to Tokyo at night", "friend": "Together", "destinationSlug": "beppu-yufuin" },
+    { "day": 15, "date": "Sat Feb 13", "location": "Tokyo", "plan": "Explore Tokyo; fly to the US at night", "friend": "Together", "destinationSlug": "tokyo" }
   ],
   "notes": [
     "Friend's Hokkaido stretch: evening Feb 2 through morning Feb 8 (~5.5 days), overlapping the first 5 days of the 8-day Sapporo Snow Festival (Feb 4-11).",
     "Nagoya→Hiroshima and the Kyoto/Osaka/Hiroshima/Fukuoka corridor all run on the Tokaido-Sanyo Shinkansen line — a JR Pass may be worth pricing out.",
-    "Hiroshima→Matsuyama and Matsuyama→Beppu legs are by ferry, not shinkansen — confirm actual sailing times once closer to booking.",
-    "Flying in/out of Tokyo (vs. open-jaw into Tokyo/out of Fukuoka) costs a backtrack day at the end — worth pricing both before locking in."
+    "Hiroshima→Matsuyama is by speed boat, and Matsuyama→Beppu is by ferry — confirm actual sailing times once closer to booking.",
+    "Day 14 includes a night flight from Beppu to Tokyo, followed by a final Tokyo exploration day and the flight home that night."
   ]
 }

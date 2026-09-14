@@ -162,6 +162,10 @@
   gap: var(--space-4);
 }
 
+.notesSection {
+  padding-top: var(--space-10);
+}
+
 /* ── 404 fallback ── */
 .notFound {
   padding-top: var(--space-16);

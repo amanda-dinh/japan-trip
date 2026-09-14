@@ -3,6 +3,7 @@ import styles from './DayTicketCard.module.css'
 export default function DayTicketCard({ day, onSelect }) {
   const hasDay = day.day !== null && day.day !== undefined
   const isDestination = !!day.destinationSlug
+  const [weekday, month, date] = day.date.split(' ')
   const Wrapper = isDestination ? 'button' : 'article'
   const wrapperProps = isDestination
     ? { type: 'button', className: styles.card, onClick: () => onSelect(day.destinationSlug) }
@@ -10,26 +11,25 @@ export default function DayTicketCard({ day, onSelect }) {
 
   return (
     <Wrapper {...wrapperProps}>
-      {/* ── Stub: day number (JetBrains Mono, "stamped" look) ── */}
+      {/* ── Stub: date ── */}
       <div className={styles.stub}>
-        {hasDay ? (
-          <>
-            <span className={styles.dayLabel}>DAY</span>
-            <span className={styles.dayNum}>
-              {String(day.day).padStart(2, '0')}
-            </span>
-          </>
-        ) : (
-          <span className={styles.departureIcon} aria-label="Departure day">
-            ✈︎
-          </span>
-        )}
+        <span className={styles.month}>{month}</span>
+        <span className={styles.dateNum}>{date}</span>
+        <span className={styles.weekday}>{weekday}</span>
       </div>
 
-      {/* ── Body: date + location + plan + friend ── */}
+      {/* ── Body: day number + location + plan + friend ── */}
       <div className={styles.body}>
         <div className={styles.topRow}>
-          <span className={styles.date}>{day.date}</span>
+          {hasDay ? (
+            <span className={styles.dayNumber}>
+              DAY {String(day.day).padStart(2, '0')}
+            </span>
+          ) : (
+            <span className={styles.departureIcon} aria-label="Departure day">
+              ✈︎
+            </span>
+          )}
           {day.location && (
             <span className={styles.location}>{day.location}</span>
           )}

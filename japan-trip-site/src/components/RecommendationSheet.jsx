@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 import PulledImage from './PulledImage'
 import { CATEGORY_LABELS } from './RecommendationCard'
+import NotesPanel from './NotesPanel'
 import styles from './RecommendationSheet.module.css'
 
 export default function RecommendationSheet({ rec, onClose }) {
@@ -53,6 +54,11 @@ export default function RecommendationSheet({ rec, onClose }) {
           <h2 className={styles.title}>{rec.title}</h2>
           <p className={styles.summary}>{rec.summary}</p>
           <p className={styles.body}>{rec.body}</p>
+          <NotesPanel
+            noteKey={`activity:${rec.slug}`}
+            title="Activity notes"
+            description="Add a question, booking detail, or decision about this activity."
+          />
         </div>
       </div>
     </div>

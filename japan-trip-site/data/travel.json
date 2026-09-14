@@ -1,0 +1,121 @@
+{
+  "updated": "2026-09-14",
+  "currency": "USD",
+  "exchangeRate": "Planning conversion: ¥150 = $1 USD. Verify the live exchange rate when booking.",
+  "disclaimer": "Times are typical city-to-city planning estimates. Costs are adult one-way estimates in USD using ¥150 = $1; flights vary significantly by booking date, baggage, and airline. Verify schedules and prices before booking.",
+  "legs": [
+    {
+      "day": "3 → 4",
+      "from": "tokyo",
+      "to": "kyoto",
+      "type": "train",
+      "icon": "🚆",
+      "route": "Tokyo → Kyoto",
+      "method": "Nozomi shinkansen",
+      "time": "about 2 hr 15 min",
+      "cost": "$94–100",
+      "note": "Reserved ordinary seat; allow extra time for getting to Tokyo Station.",
+      "source": "https://global.jr-central.co.jp/en/info/tokaido_shinkansen/"
+    },
+    {
+      "day": "7",
+      "from": "kyoto",
+      "to": "nara",
+      "type": "train",
+      "icon": "🚆",
+      "route": "Kyoto → Nara",
+      "method": "JR Miyakoji rapid",
+      "time": "about 45–50 min",
+      "cost": "about $5",
+      "note": "Use Kyoto Station to JR Nara Station for the simplest rail connection.",
+      "source": "https://www.westjr.co.jp/global/en/"
+    },
+    {
+      "day": "7",
+      "from": "nara",
+      "to": "osaka",
+      "type": "train",
+      "icon": "🚆",
+      "route": "Nara → Osaka",
+      "method": "JR Yamatoji rapid",
+      "time": "about 30–50 min",
+      "cost": "about $4–6",
+      "note": "Fare and time depend on the Osaka station used; Osaka Station is the most useful arrival for this itinerary.",
+      "source": "https://www.jr-odekake.net/"
+    },
+    {
+      "day": "8 → 9",
+      "from": "osaka",
+      "to": "nagoya",
+      "type": "train",
+      "icon": "🚆",
+      "route": "Osaka → Nagoya",
+      "method": "Tokaido shinkansen",
+      "time": "about 50–70 min",
+      "cost": "about $40–43",
+      "note": "Shin-Osaka to Nagoya; local travel to/from each shinkansen station is extra.",
+      "source": "https://global.jr-central.co.jp/en/info/tokaido_shinkansen/"
+    },
+    {
+      "day": "10 → 11",
+      "from": "nagoya",
+      "to": "hiroshima",
+      "type": "train",
+      "icon": "🚆",
+      "route": "Nagoya → Hiroshima",
+      "method": "Tokaido/Sanyo shinkansen",
+      "time": "about 2 hr 15–30 min",
+      "cost": "about $94–100",
+      "note": "Usually a direct Nozomi; reserve ahead for a morning departure.",
+      "source": "https://global.jr-central.co.jp/en/info/tokaido_shinkansen/"
+    },
+    {
+      "day": "11",
+      "from": "hiroshima",
+      "to": "matsuyama-shikoku",
+      "type": "boat",
+      "icon": "⛴",
+      "route": "Hiroshima → Matsuyama",
+      "method": "Setonaikaikisen Linear Jet",
+      "time": "70 min on the boat; about 2–2.5 hr from central Hiroshima",
+      "cost": "$60 boat fare + city/port transit",
+      "note": "Departs Hiroshima Port, not Hiroshima Station. Check in before boarding; service and fares are revised periodically.",
+      "source": "https://setonaikaikisen.co.jp/language/en/jet/"
+    },
+    {
+      "day": "12 → 13",
+      "from": "matsuyama-shikoku",
+      "to": "beppu-yufuin",
+      "type": "boat",
+      "icon": "⛴",
+      "route": "Matsuyama → Beppu",
+      "method": "Train or bus to Yawatahama + Uwajima Unyu ferry",
+      "time": "about 4.5–5.5 hr door to door",
+      "cost": "about $47–60",
+      "note": "There is no direct Matsuyama–Beppu ferry. Yawatahama–Beppu ferry crossing is 2 hr 50 min; add Matsuyama–Yawatahama transfer and port connection time.",
+      "source": "https://www.uwajimaunyu.co.jp/timetable/"
+    },
+    {
+      "day": "14",
+      "from": "beppu-yufuin",
+      "to": "tokyo",
+      "type": "airplane",
+      "icon": "✈",
+      "route": "Beppu → Tokyo",
+      "method": "Local transfer to Oita Airport + flight",
+      "time": "about 3.5–5 hr total",
+      "cost": "about $67–233 flight + airport transfer",
+      "note": "The nearest practical airport is Oita Airport. Flight fares depend heavily on how early you book and whether baggage is included.",
+      "source": "https://www.oita-airport.jp/en/"
+    },
+    {
+      "day": "15",
+      "route": "Tokyo → US",
+      "method": "International flight",
+      "time": "about 10–12 hr nonstop, airport to airport",
+      "cost": "about US$500–1,500 round-trip planning range",
+      "note": "Use HND when possible for easier access from central Tokyo; arrive at least 3 hours before an international departure.",
+      "source": "https://www.tokyo-haneda.com/en/"
+    }
+  ]
+}

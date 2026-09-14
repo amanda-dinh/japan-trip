@@ -22,11 +22,29 @@ export default function SiteNav() {
           </li>
           <li>
             <Link
+              to="/travel"
+              className={styles.link}
+              aria-current={pathname === '/travel' ? 'page' : undefined}
+            >
+              Travel
+            </Link>
+          </li>
+          <li>
+            <Link
               to="/destinations"
               className={styles.link}
               aria-current={pathname.startsWith('/destinations') ? 'page' : undefined}
             >
               Destinations
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/checklist"
+              className={styles.link}
+              aria-current={pathname === '/checklist' ? 'page' : undefined}
+            >
+              Checklist
             </Link>
           </li>
         </ul>

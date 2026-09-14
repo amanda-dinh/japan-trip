@@ -1,10 +1,6 @@
 import DayTicketCard from './DayTicketCard'
+import travel from '../../data/travel.json'
 import styles from './RouteLine.module.css'
-
-/** True when the first day of a group arrived by ferry (plan contains "Ferry from"). */
-function isFerryLeg(plan) {
-  return /ferry from/i.test(plan ?? '')
-}
 
 /** Group consecutive days with the same destinationSlug into stops. */
 function groupByDestination(days) {
@@ -27,9 +23,8 @@ export default function RouteLine({ days, destinations, onSelect }) {
     <ol className={styles.routeLine} aria-label="Trip itinerary">
       {groups.map((group, gi) => {
         const nextGroup = groups[gi + 1]
-        // The connector below this stop is colored by how we ARRIVE at the next stop
-        const legType = nextGroup
-          ? isFerryLeg(nextGroup.days[0]?.plan) ? 'ferry' : 'train'
+        const leg = nextGroup
+          ? travel.legs.find(item => item.from === group.slug && item.to === nextGroup.slug)
           : null
         const dest = group.slug ? destinations[group.slug] : null
 
@@ -45,9 +40,7 @@ export default function RouteLine({ days, destinations, onSelect }) {
                 className={styles.markerDot}
                 data-transit={!group.slug || undefined}
               />
-              {legType && (
-                <div className={styles.connector} data-type={legType} />
-              )}
+              {leg && <div className={styles.connector} data-type={leg.type} />}
             </div>
 
             {/* ── Content column ── */}
@@ -68,6 +61,12 @@ export default function RouteLine({ days, destinations, onSelect }) {
                   </li>
                 ))}
               </ul>
+              {leg && (
+                <div className={styles.travelSummary}>
+                  <span className={styles.travelIcon} aria-hidden="true">{leg.icon}</span>
+                  <span>{leg.method} ({leg.time})</span>
+                </div>
+              )}
             </div>
           </li>
         )

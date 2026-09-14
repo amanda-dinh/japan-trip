@@ -61,13 +61,24 @@
 }
 
 /* Ferry leg: dashed mist-blue — visually distinct from train */
-.connector[data-type='ferry'] {
+.connector[data-type='boat'] {
   background-image: repeating-linear-gradient(
     to bottom,
     var(--color-route-ferry) 0,
     var(--color-route-ferry) 8px,
     transparent 8px,
     transparent 14px
+  );
+}
+
+/* Flight leg: dotted route to distinguish air travel from rail and sea. */
+.connector[data-type='airplane'] {
+  background-image: repeating-linear-gradient(
+    to bottom,
+    var(--color-shu-iro) 0,
+    var(--color-shu-iro) 3px,
+    transparent 3px,
+    transparent 9px
   );
 }
 
@@ -107,6 +118,23 @@
   display: flex;
   flex-direction: column;
   gap: var(--space-2);
+}
+
+.travelSummary {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  color: var(--color-text-muted);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  line-height: var(--leading-snug);
+  padding: var(--space-2) 0 0;
+}
+
+.travelIcon {
+  font-size: var(--text-base);
+  line-height: 1;
+  flex-shrink: 0;
 }
 
 /* ── Draw-in animations ── */

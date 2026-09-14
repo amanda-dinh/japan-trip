@@ -1,6 +1,7 @@
 {
   "slug": "tokyo",
   "name": "Tokyo",
+  "weather": { "month": "February", "high": "51°F (10°C)", "low": "35°F (2°C)", "source": "Climate-Data.org 1991–2021 normals" },
   "days": "3 (Day 1 arrival/jet lag, Day 2 full day with friend, Day 3 extra day before she flies out)",
   "imageQuery": "Tokyo skyline night",
   "overview": "Tokyo is the trip's opening and closing anchor — the world's largest metro area, a sprawl of distinct neighborhoods that each feel like their own city. It's the shared leg with friend for all 3 days, so it needs to balance her one specific ask (a full day of icons plus a Pokemon Center) with enough breathing room to explore at a relaxed pace given jet lag on arrival. Expect a mix of hyper-modern (neon, skyscrapers, vending machines every block) and deeply traditional (shrines, temples, century-old shops) sitting side by side, often on the same street.",

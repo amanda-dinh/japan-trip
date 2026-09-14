@@ -4,6 +4,9 @@ import itinerary from '../../data/itinerary.json'
 import PulledImage from '../components/PulledImage'
 import RecommendationCard from '../components/RecommendationCard'
 import RecommendationSheet from '../components/RecommendationSheet'
+import WeatherSummary from '../components/WeatherSummary'
+import DestinationChecklist from '../components/DestinationChecklist'
+import NotesPanel from '../components/NotesPanel'
 import styles from './DestinationDetail.module.css'
 
 // All destinations keyed by slug, loaded at build time
@@ -112,6 +115,10 @@ export default function DestinationDetail() {
       <section className={`container ${styles.overviewSection}`} aria-label="Overview">
         <p className={styles.overview}>{dest.overview}</p>
 
+        <WeatherSummary weather={dest.weather} />
+
+        <DestinationChecklist slug={dest.slug} />
+
         {dest.openQuestions?.length > 0 && (
           <aside className={styles.openQuestions} aria-label="Still deciding">
             <h2 className={styles.oqHeading}>Still deciding…</h2>
@@ -144,6 +151,14 @@ export default function DestinationDetail() {
           </ul>
         </section>
       ))}
+
+      <section className={`container ${styles.notesSection}`}>
+        <NotesPanel
+          noteKey={`destination:${dest.slug}`}
+          title="Destination notes"
+          description="Keep shared ideas, questions, and decisions for this stop here."
+        />
+      </section>
 
       {/* ── Prev / next destination navigation ── */}
       <nav

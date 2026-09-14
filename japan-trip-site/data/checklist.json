@@ -1,0 +1,63 @@
+{
+  "title": "Trip checklist",
+  "intro": "A detailed planning pass for bookings, reservations, and final trip preparation.",
+  "groups": [
+    {
+      "title": "Flights and intercity travel",
+      "items": [
+        { "id": "international-flights", "label": "Book international flights and confirm airport terminals" },
+        { "id": "tokyo-travel", "label": "Confirm airport transfer and Tokyo arrival travel", "destinations": ["tokyo"] },
+        { "id": "tokyo-kyoto-travel", "label": "Book Tokyo → Kyoto shinkansen", "destinations": ["tokyo", "kyoto"] },
+        { "id": "kyoto-nara-travel", "label": "Confirm Kyoto ↔ Nara train plan", "destinations": ["kyoto", "nara"] },
+        { "id": "nara-osaka-travel", "label": "Confirm Nara → Osaka evening train", "destinations": ["nara", "osaka"] },
+        { "id": "osaka-nagoya-travel", "label": "Book Osaka → Nagoya shinkansen", "destinations": ["osaka", "nagoya"] },
+        { "id": "nagoya-hiroshima-travel", "label": "Book Nagoya → Hiroshima shinkansen", "destinations": ["nagoya", "hiroshima"] },
+        { "id": "hiroshima-matsuyama-travel", "label": "Reserve Hiroshima → Matsuyama Linear Jet", "destinations": ["hiroshima", "matsuyama-shikoku"] },
+        { "id": "matsuyama-beppu-travel", "label": "Plan Matsuyama → Yawatahama → Beppu ferry connection", "destinations": ["matsuyama-shikoku", "beppu-yufuin"] },
+        { "id": "beppu-tokyo-travel", "label": "Book Beppu/Oita → Tokyo flight", "destinations": ["beppu-yufuin", "tokyo"] },
+        { "id": "fukuoka-travel", "label": "Decide whether Fukuoka remains in the itinerary and book travel if retained", "destinations": ["fukuoka"] }
+      ]
+    },
+    {
+      "title": "Stays by destination",
+      "items": [
+        { "id": "tokyo-stay", "label": "Book Tokyo stay for arrival and final night", "destinations": ["tokyo"] },
+        { "id": "kyoto-stay", "label": "Book Kyoto stay", "destinations": ["kyoto"] },
+        { "id": "nara-stay", "label": "Confirm whether Nara is a day trip or needs a stay", "destinations": ["nara"] },
+        { "id": "osaka-stay", "label": "Book Osaka stay", "destinations": ["osaka"] },
+        { "id": "nagoya-stay", "label": "Book Nagoya stay", "destinations": ["nagoya"] },
+        { "id": "hiroshima-stay", "label": "Confirm Hiroshima stay for the one-day visit", "destinations": ["hiroshima"] },
+        { "id": "matsuyama-stay", "label": "Book Matsuyama stay", "destinations": ["matsuyama-shikoku"] },
+        { "id": "beppu-stay", "label": "Book Beppu/Yufuin onsen stay", "destinations": ["beppu-yufuin"] },
+        { "id": "fukuoka-stay", "label": "Decide whether Fukuoka needs a stay if retained", "destinations": ["fukuoka"] }
+      ]
+    },
+    {
+      "title": "Activities and reservations",
+      "items": [
+        { "id": "pokemon-center", "label": "Confirm Pokemon Center plans and opening hours", "destinations": ["tokyo"] },
+        { "id": "kyoto-reservations", "label": "Identify Kyoto temples, restaurants, and timed-entry reservations", "destinations": ["kyoto"] },
+        { "id": "nara-park", "label": "Confirm Nara Park route, feeding guidance, and return timing", "destinations": ["nara"] },
+        { "id": "ghibli-park", "label": "Book Ghibli Park tickets and confirm entry details", "destinations": ["nagoya"] },
+        { "id": "hiroshima-miyajima", "label": "Decide whether Miyajima fits after the Peace Park visit", "destinations": ["hiroshima"] },
+        { "id": "ferry-reservations", "label": "Confirm ferry and speed-boat schedules and reservations" },
+        { "id": "onsen-reservations", "label": "Check onsen reservation, etiquette, and tattoo policies", "destinations": ["matsuyama-shikoku", "beppu-yufuin"] },
+        { "id": "restaurant-reservations", "label": "Make any priority restaurant reservations", "destinations": ["tokyo", "kyoto", "osaka", "nagoya", "hiroshima", "matsuyama-shikoku", "beppu-yufuin", "fukuoka"] }
+      ]
+    },
+    {
+      "title": "Final planning",
+      "items": [
+        { "id": "travel-documents", "label": "Check passports, entry requirements, and travel documents" },
+        { "id": "travel-insurance", "label": "Arrange travel insurance" },
+        { "id": "connectivity", "label": "Arrange phone data, eSIM, or pocket Wi-Fi" },
+        { "id": "money-access", "label": "Plan payment methods, IC cards, and access to cash" },
+        { "id": "luggage", "label": "Decide luggage strategy for frequent city changes" },
+        { "id": "packing", "label": "Pack for winter temperatures and changing destinations" },
+        { "id": "offline-info", "label": "Save confirmations, maps, addresses, and emergency contacts offline" },
+        { "id": "final-itinerary", "label": "Finalize the day-by-day itinerary and share it with everyone" },
+        { "id": "booking-audit", "label": "Audit every booking for dates, names, cancellation rules, and check-in times" }
+      ]
+    }
+  ]
+}

@@ -11,16 +11,15 @@ Working dates, assuming Friday Jan 30 US departure (adjust if actual dates shift
 | 4 | Tue Feb 3 | Kyoto | Travel, settle in | Hokkaido |
 | 5 | Wed Feb 4 | Kyoto | Temples/shrines | Hokkaido (festival begins) |
 | 6 | Thu Feb 5 | Kyoto | Arashiyama, more temples | Hokkaido |
-| 7 | Fri Feb 6 | Nara | Day trip | Hokkaido |
+| 7 | Fri Feb 6 | Nara → Osaka | Day trip in Nara; leave for Osaka at night | Hokkaido |
 | 8 | Sat Feb 7 | Osaka | Food, Dotonbori | Hokkaido |
 | 9 | Sun Feb 8 | Nagoya | Travel from Osaka (quick shinkansen); likely free time before friend's flight lands — Atsuta Shrine is the pick for this window; reconvene once she flies New Chitose→Centrair | Reconvene |
 | 10 | Mon Feb 9 | Nagoya | Ghibli Park together | Together |
-| 11 | Tue Feb 10 | Hiroshima | Peace Park + Miyajima | Together |
-| 12 | Wed Feb 11 | Matsuyama (Shikoku) | Ferry from Hiroshima; Dogo Onsen, castle | Together (festival ends) |
+| 11 | Tue Feb 10 | Hiroshima → Matsuyama (Shikoku) | Peace Park + Miyajima; leave for Matsuyama via speed boat | Together |
+| 12 | Wed Feb 11 | Matsuyama (Shikoku) → Beppu/Yufuin (Kyushu) | Day in Matsuyama; leave for Beppu at night | Together (festival ends) |
 | 13 | Thu Feb 12 | Beppu/Yufuin (Kyushu) | Ferry from Matsuyama; settle in, onsen | Together |
-| 14 | Fri Feb 13 | Beppu/Yufuin | Second day, relaxed pace | Together |
-| 15 | Sat Feb 14 | Fukuoka → Tokyo | Food stop in Fukuoka, continue to Tokyo | Together |
-| 16 | Sun Feb 15 | — | Fly home | Together |
+| 14 | Fri Feb 13 | Beppu/Yufuin → Tokyo | Second day, hike/scenic viewpoint, relaxed pace; fly to Tokyo at night | Together |
+| 15 | Sat Feb 14 | Tokyo | Explore Tokyo; fly to the US at night | Together |
 
 ## Notes
 
@@ -29,7 +28,7 @@ Working dates, assuming Friday Jan 30 US departure (adjust if actual dates shift
   She'll miss the closing days unless dates shift later.
 - Nagoya→Hiroshima and the Kyoto/Osaka/Hiroshima/Fukuoka corridor all run on the
   Tokaido-Sanyo Shinkansen line — a JR Pass may be worth pricing out.
-- Hiroshima→Matsuyama and Matsuyama→Beppu legs are by ferry, not shinkansen —
-  confirm actual sailing times once closer to booking (less frequent than trains).
-- Flying in/out of Tokyo (vs. open-jaw into Tokyo/out of Fukuoka) costs a backtrack
-  day at the end — worth pricing both before locking in.
+- Hiroshima→Matsuyama is by speed boat, and Matsuyama→Beppu is by ferry — confirm
+  actual sailing times once closer to booking (less frequent than trains).
+- Day 14 includes a night flight from Beppu to Tokyo, followed by a final Tokyo
+  exploration day and the flight home that night.
