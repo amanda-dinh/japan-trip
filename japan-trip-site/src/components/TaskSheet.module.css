@@ -183,6 +183,7 @@
 }
 
 .reply {
+  position: relative;
   margin-top: var(--space-3);
   margin-left: var(--space-5);
   padding: var(--space-3) var(--space-4);
