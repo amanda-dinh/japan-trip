@@ -29,7 +29,45 @@
           "title": "Modesty note for temples and shrines",
           "body": "There's no strict dress code enforced at most temples and shrines, but overly revealing clothing can draw stares or feel out of place given the reflective, quiet atmosphere of these sites — not a hard rule, just worth keeping in mind when packing for the Kyoto/Nara-heavy days specifically."
         }
-      ]
+      ],
+      "packingChecklist": {
+        "title": "Packing list",
+        "intro": "Use a mix-and-match winter capsule: pack for about 7 days, do laundry once during the two-week trip, and use the same core kit for Maddi's one-week visit without needing a laundry stop.",
+        "groups": [
+          {
+            "title": "Clothes",
+            "items": [
+              { "id": "winter-coat", "label": "1 warm, weather-resistant winter coat with room for layers" },
+              { "id": "base-layers", "label": "2 thermal or moisture-wicking base-layer tops" },
+              { "id": "mid-layers", "label": "2 sweaters or fleece mid-layers for insulating over base layers" },
+              { "id": "mix-match-tops", "label": "4–5 versatile long-sleeve tops in a mix-and-match color palette" },
+              { "id": "mix-match-bottoms", "label": "3 bottoms: 2 comfortable walking pants plus 1 flexible backup" },
+              { "id": "underwear-socks", "label": "7 pairs of underwear and 7 pairs of warm walking socks" },
+              { "id": "sleepwear", "label": "1 set of sleepwear or comfortable lounge clothes" }
+            ]
+          },
+          {
+            "title": "Shoes & accessories",
+            "items": [
+              { "id": "walking-shoes", "label": "1 pair of broken-in walking shoes that are easy to slip off" },
+              { "id": "second-shoes", "label": "1 optional lightweight backup pair, if luggage space allows" },
+              { "id": "warm-accessories", "label": "1 scarf, 1 pair of gloves, and 1 warm hat" },
+              { "id": "compact-umbrella", "label": "1 compact umbrella or room to buy one in Japan" },
+              { "id": "day-bag", "label": "Small day bag with room for water, layers, and purchases" }
+            ]
+          },
+          {
+            "title": "Travel essentials",
+            "items": [
+              { "id": "passport-documents", "label": "Passport, copies, travel confirmations, and emergency contacts" },
+              { "id": "medications", "label": "Personal medications and a small travel first-aid kit" },
+              { "id": "chargers", "label": "Phone chargers, battery pack, and necessary adapters" },
+              { "id": "laundry-kit", "label": "Laundry bag and a few detergent sheets for one mid-trip wash" },
+              { "id": "onsen-items", "label": "Private-bath plan instead of a swimsuit for traditional onsen" }
+            ]
+          }
+        ]
+      }
     },
     {
       "slug": "money-payments",

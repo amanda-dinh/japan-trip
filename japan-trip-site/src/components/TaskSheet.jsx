@@ -10,6 +10,10 @@ function formatDate(timestamp) {
   }).format(new Date(timestamp))
 }
 
+function authorInitial(author) {
+  return author.trim().charAt(0).toUpperCase()
+}
+
 export default function TaskSheet({ task, checked, onToggle, onClose, subtaskProgress = {}, onToggleSubtask }) {
   const [notes, setNotes] = useState({})
   const [author, setAuthor] = useState('')
@@ -139,7 +143,12 @@ export default function TaskSheet({ task, checked, onToggle, onClose, subtaskPro
                 {topLevelNotes.map(note => (
                   <li key={note.id} className={styles.note}>
                     <div className={styles.noteMeta}>
-                      <strong>{note.author}</strong>
+                      <span className={styles.author}>
+                        <span className={styles.avatar} data-author={note.author.toLowerCase()} aria-hidden="true">
+                          {authorInitial(note.author)}
+                        </span>
+                        <strong>{note.author}</strong>
+                      </span>
                       <span className={styles.noteMetaRight}>
                         <time dateTime={note.createdAt}>{formatDate(note.createdAt)}</time>
                         <button
@@ -160,7 +169,12 @@ export default function TaskSheet({ task, checked, onToggle, onClose, subtaskPro
                     {taskNotes.filter(reply => reply.parentNoteId === note.id).map(reply => (
                       <div className={styles.reply} key={reply.id}>
                         <div className={styles.noteMeta}>
-                          <strong>{reply.author}</strong>
+                          <span className={styles.author}>
+                            <span className={styles.avatar} data-author={reply.author.toLowerCase()} aria-hidden="true">
+                              {authorInitial(reply.author)}
+                            </span>
+                            <strong>{reply.author}</strong>
+                          </span>
                           <span className={styles.noteMetaRight}>
                             <time dateTime={reply.createdAt}>{formatDate(reply.createdAt)}</time>
                             <button type="button" className={styles.deleteButton} onClick={() => handleDeleteNote(reply.id)} aria-label="Delete reply" title="Delete reply">🗑</button>

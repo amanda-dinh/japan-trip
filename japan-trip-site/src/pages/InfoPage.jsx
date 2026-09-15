@@ -4,6 +4,21 @@ import styles from './InfoPage.module.css'
 
 export default function InfoPage() {
   const [openSection, setOpenSection] = useState(null)
+  const [packingChecked, setPackingChecked] = useState(() => {
+    try {
+      return JSON.parse(localStorage.getItem('japan-trip-packing-list') ?? '{}')
+    } catch {
+      return {}
+    }
+  })
+
+  function togglePackingItem(id) {
+    setPackingChecked(current => {
+      const next = { ...current, [id]: !current[id] }
+      localStorage.setItem('japan-trip-packing-list', JSON.stringify(next))
+      return next
+    })
+  }
 
   function toggleSection(slug) {
     const isOpening = openSection !== slug
@@ -70,6 +85,32 @@ export default function InfoPage() {
                       <p>{item.body}</p>
                     </article>
                   ))}
+                  {section.packingChecklist && (
+                    <div className={styles.packingList}>
+                      <h3>{section.packingChecklist.title}</h3>
+                      <p className={styles.packingIntro}>{section.packingChecklist.intro}</p>
+                      {section.packingChecklist.groups.map(group => (
+                        <div className={styles.packingGroup} key={group.title}>
+                          <h4>{group.title}</h4>
+                          <ul>
+                            {group.items.map(item => (
+                              <li key={item.id}>
+                                <label className={styles.packingItem} data-checked={packingChecked[item.id] || undefined}>
+                                  <input
+                                    type="checkbox"
+                                    checked={Boolean(packingChecked[item.id])}
+                                    onChange={() => togglePackingItem(item.id)}
+                                  />
+                                  <span className={styles.packingBox} aria-hidden="true">✓</span>
+                                  <span>{item.label}</span>
+                                </label>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      ))}
+                    </div>
+                  )}
                 </div>
               )}
             </section>

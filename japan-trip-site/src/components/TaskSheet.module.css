@@ -166,6 +166,47 @@
   color: var(--color-ai-iro);
 }
 
+.author {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: var(--radius-full);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  font-weight: var(--weight-bold);
+  background: var(--color-border-strong);
+  color: var(--color-text-primary);
+}
+
+.avatar[data-author='amanda'] {
+  background: #d81b60;
+  color: #ffffff;
+}
+
+.avatar[data-author='kate'] {
+  background: #f59e0b;
+  color: #201f1d;
+}
+
+.avatar[data-author='tirta'] {
+  background: #2e7d32;
+  color: #ffffff;
+}
+
+.avatar[data-author='maddi'] {
+  background: #38bdf8;
+  color: #201f1d;
+}
+
 .noteMetaRight {
   display: flex;
   flex-direction: column;

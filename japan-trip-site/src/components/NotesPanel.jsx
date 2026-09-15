@@ -10,6 +10,10 @@ function formatDate(timestamp) {
   }).format(new Date(timestamp))
 }
 
+function authorInitial(author) {
+  return author.trim().charAt(0).toUpperCase()
+}
+
 export default function NotesPanel({ noteKey, title = 'Notes', description }) {
   const [allNotes, setAllNotes] = useState({})
   const [author, setAuthor] = useState('')
@@ -76,7 +80,12 @@ export default function NotesPanel({ noteKey, title = 'Notes', description }) {
           {topLevelNotes.map(note => (
             <li className={styles.note} key={note.id}>
               <div className={styles.meta}>
-                <strong>{note.author}</strong>
+                <span className={styles.author}>
+                  <span className={styles.avatar} data-author={note.author.toLowerCase()} aria-hidden="true">
+                    {authorInitial(note.author)}
+                  </span>
+                  <strong>{note.author}</strong>
+                </span>
                 <span className={styles.metaRight}>
                   <time dateTime={note.createdAt}>{formatDate(note.createdAt)}</time>
                   <button
@@ -99,7 +108,12 @@ export default function NotesPanel({ noteKey, title = 'Notes', description }) {
               {notes.filter(reply => reply.parentNoteId === note.id).map(reply => (
                 <div className={styles.reply} key={reply.id}>
                   <div className={styles.meta}>
-                    <strong>{reply.author}</strong>
+                    <span className={styles.author}>
+                      <span className={styles.avatar} data-author={reply.author.toLowerCase()} aria-hidden="true">
+                        {authorInitial(reply.author)}
+                      </span>
+                      <strong>{reply.author}</strong>
+                    </span>
                     <span className={styles.metaRight}>
                       <time dateTime={reply.createdAt}>{formatDate(reply.createdAt)}</time>
                       <button type="button" className={styles.deleteButton} onClick={() => handleDeleteNote(reply.id)} aria-label="Delete reply" title="Delete reply">🗑</button>
