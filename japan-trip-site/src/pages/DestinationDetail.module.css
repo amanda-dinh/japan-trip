@@ -127,6 +127,60 @@
   padding-top: var(--space-10);
 }
 
+.staySection {
+  padding-top: var(--space-10);
+}
+
+.stayHeader {
+  max-width: var(--max-width-prose);
+  margin-bottom: var(--space-5);
+}
+
+.stayHeader .categoryHeading {
+  margin-bottom: var(--space-2);
+}
+
+.stayIntro {
+  color: var(--color-text-muted);
+  font-size: var(--text-sm);
+}
+
+.stayGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: var(--space-4);
+}
+
+.stayCard {
+  padding: var(--space-4) var(--space-5);
+  background: var(--color-surface-raised);
+  border: 1px solid var(--color-border);
+  border-top: 3px solid var(--color-mist-blue);
+}
+
+.stayCard h3 {
+  font-family: var(--font-display);
+  font-size: var(--text-md);
+  font-weight: var(--weight-semibold);
+  color: var(--color-ai-iro);
+  line-height: var(--leading-tight);
+  margin-bottom: var(--space-2);
+}
+
+.stayCard p {
+  color: var(--color-text-secondary);
+  font-size: var(--text-sm);
+  line-height: var(--leading-snug);
+}
+
+.stayCard .stayFit {
+  color: var(--color-shu-iro);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: var(--tracking-wide);
+  margin-bottom: var(--space-2);
+}
+
 .categoryHeading {
   font-family: var(--font-display);
   font-size: var(--text-lg);

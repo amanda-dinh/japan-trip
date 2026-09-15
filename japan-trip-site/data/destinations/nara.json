@@ -5,6 +5,11 @@
   "days": "1 (day trip, solo, while friend is in Hokkaido)",
   "imageQuery": "Nara deer park Japan",
   "overview": "Nara was Japan's first permanent capital (710-784 AD), predating Kyoto in that role, and it packs an outsized concentration of ancient temples and shrines into a compact, walkable park area — several of its sites are older than anything in Kyoto. It's most famous today for its 1,000+ free-roaming sacred deer, considered messengers of the gods in local Shinto tradition, who wander the park and bow for shika-senbei (deer crackers) sold by vendors throughout. Easily done as a day trip from Kyoto or Osaka (about 45 minutes by train), and winter is a genuinely good time to visit rather than a compromise season.",
+  "stayAreas": [
+    { "name": "Naramachi", "fit": "Best for atmosphere", "note": "Traditional lanes, machiya homes, cafes, and a calmer evening base near the park." },
+    { "name": "Near Kintetsu Nara Station", "fit": "Best for a short visit", "note": "Closest to the main sightseeing loop and convenient for arriving and leaving by train." },
+    { "name": "Near JR Nara Station", "fit": "Best for rail connections", "note": "Useful if combining Nara with Kyoto or Osaka and prioritizing straightforward transport." }
+  ],
   "recommendations": [
     {
       "slug": "nara-park-deer",

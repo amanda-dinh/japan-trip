@@ -5,6 +5,11 @@
   "days": "1 (transit day, ferry-to-ferry, together with friend)",
   "imageQuery": "Matsuyama Castle Shikoku",
   "overview": "Shikoku is the smallest and least-visited of Japan's four main islands, historically connected to the rest of the country mainly by ferry rather than land routes (bridges to Honshu weren't completed until the late 20th century), giving it a slower, less internationally touristed character than Honshu's major cities. Matsuyama is the island's largest city and the natural stop given the ferry routing on this trip — a light, food/wandering-focused stopover between the Hiroshima and Beppu legs rather than a packed sightseeing day, with Dogo Onsen bathing skipped (there's dedicated onsen time coming up in Beppu/Yufuin) and the castle treated as 'only if convenient.'",
+  "stayAreas": [
+    { "name": "Dogo Onsen", "fit": "Best for the Matsuyama experience", "note": "Closest to the historic bathhouses, ryokan atmosphere, and evening strolls." },
+    { "name": "Okaido / city center", "fit": "Best for dining and convenience", "note": "Central shopping arcade, restaurants, castle access, and easy tram connections." },
+    { "name": "Near Matsuyama Station", "fit": "Best for transit", "note": "Practical for a one-night stop, though less atmospheric than Dogo Onsen." }
+  ],
   "recommendations": [
     {
       "slug": "ferry-logistics",

@@ -6,6 +6,7 @@
       "title": "Flights and intercity travel",
       "items": [
         { "id": "international-flights", "label": "Book international flights and confirm airport terminals", "subtasks": ["Amanda", "Kate", "Maddi", "Tirta"] },
+        { "id": "kate-hokkaido-flights", "label": "Book Kate's flights to and from Hokkaido", "assignee": "Kate" },
         { "id": "tokyo-travel", "label": "Confirm airport transfer and Tokyo arrival travel", "destinations": ["tokyo"], "subtasks": ["Amanda", "Kate", "Maddi", "Tirta"] },
         { "id": "tokyo-kyoto-travel", "label": "Book Tokyo → Kyoto shinkansen", "destinations": ["tokyo", "kyoto"], "subtasks": ["Amanda", "Kate", "Maddi", "Tirta"] },
         { "id": "kyoto-nara-travel", "label": "Confirm Kyoto ↔ Nara train plan", "destinations": ["kyoto", "nara"], "subtasks": ["Amanda", "Kate", "Maddi", "Tirta"] },
@@ -22,6 +23,7 @@
       "title": "Stays by destination",
       "items": [
         { "id": "tokyo-stay", "label": "Book Tokyo stay for arrival and final night", "destinations": ["tokyo"] },
+        { "id": "kate-hokkaido-stay", "label": "Book Kate's Hokkaido stay", "assignee": "Kate" },
         { "id": "kyoto-stay", "label": "Book Kyoto stay", "destinations": ["kyoto"] },
         { "id": "nara-stay", "label": "Confirm whether Nara is a day trip or needs a stay", "destinations": ["nara"] },
         { "id": "osaka-stay", "label": "Book Osaka stay", "destinations": ["osaka"] },

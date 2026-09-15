@@ -5,6 +5,11 @@
   "days": "~half day (transit stop en route from Beppu/Yufuin to Tokyo, together with friend)",
   "imageQuery": "Fukuoka yatai food stalls night",
   "overview": "Fukuoka is Kyushu's largest city and, thanks to its position facing the Korean Strait, has historically been one of Japan's main gateways for trade and cultural exchange with continental Asia — a legacy still visible in its food culture and cosmopolitan feel relative to its size. It's consistently ranked among the most livable cities in Japan, with a notably relaxed, less frenetic pace than Tokyo or Osaka. Given the short transit-stop timing here, the day is food-focused, with a deliberate choice to flex vegetarian preferences for the city's single most famous dish rather than seek out substitutes.",
+  "stayAreas": [
+    { "name": "Hakata", "fit": "Best for transport", "note": "The practical base for shinkansen connections, Hakata Station, and a possible short stop." },
+    { "name": "Tenjin", "fit": "Best for food and nightlife", "note": "Central shopping, restaurants, yatai access, and a livelier evening atmosphere." },
+    { "name": "Nakasu", "fit": "Best for nightlife and yatai", "note": "Very central and energetic, though noisier and less relaxed than Hakata or Tenjin." }
+  ],
   "recommendations": [
     {
       "slug": "hakata-ramen",

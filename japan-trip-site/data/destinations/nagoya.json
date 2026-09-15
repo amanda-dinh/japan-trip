@@ -5,6 +5,11 @@
   "days": "1 full day for Ghibli Park (together with friend, her must-see too), plus reconvene-day free time on arrival",
   "imageQuery": "Ghibli Park Studio Ghibli",
   "overview": "Nagoya is Japan's fourth-largest city and a major industrial/manufacturing hub (Toyota is headquartered in the surrounding region), historically overshadowed as a tourist destination by Kyoto and Osaka nearby — but it's now the reason for a dedicated stop on this trip, since Ghibli Park, which opened in November 2022 inside a park in neighboring Nagakute, is a must-do for both travelers. Ghibli Park is not a traditional theme park with rides; it's a series of walk-through recreations and exhibitions built directly into the existing forested Expo park grounds, designed to preserve as much of the natural landscape as possible rather than clearing it for construction. The day is fully dedicated to it, with Nagoya city itself as backup/reconvene-day content.",
+  "stayAreas": [
+    { "name": "Nagoya Station", "fit": "Best for this itinerary", "note": "The simplest base for shinkansen arrivals and departures, with plentiful hotels and food." },
+    { "name": "Sakae", "fit": "Best for nightlife and city energy", "note": "Central shopping, restaurants, and nightlife, with a more neighborhood feel than the station district." },
+    { "name": "Kanayama", "fit": "Best for value and connections", "note": "A useful southern transport hub with generally lower rates and straightforward rail access." }
+  ],
   "recommendations": [
     {
       "slug": "grand-warehouse",

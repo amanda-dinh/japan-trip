@@ -145,6 +145,24 @@ export default function DestinationDetail() {
         )}
       </section>
 
+      {dest.stayAreas?.length > 0 && (
+        <section className={`container ${styles.staySection}`} aria-label="Where to stay">
+          <div className={styles.stayHeader}>
+            <h2 className={styles.categoryHeading}>Where to stay</h2>
+            <p className={styles.stayIntro}>Areas to compare before choosing a hotel or ryokan.</p>
+          </div>
+          <div className={styles.stayGrid}>
+            {dest.stayAreas.map(area => (
+              <article className={styles.stayCard} key={area.name}>
+                <h3>{area.name}</h3>
+                <p className={styles.stayFit}>{area.fit}</p>
+                <p>{area.note}</p>
+              </article>
+            ))}
+          </div>
+        </section>
+      )}
+
       {/* ── Recommendations grouped by category ── */}
       {categoryGroups.map(([category, recs]) => (
         <section

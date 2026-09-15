@@ -5,6 +5,11 @@
   "days": "1 (together with friend, part of the reconvened group leg)",
   "imageQuery": "Hiroshima Peace Memorial Park",
   "overview": "Hiroshima was destroyed by the world's first wartime use of an atomic bomb on August 6, 1945, and the city has rebuilt itself around remembrance and a global message of peace ever since — it's now a genuinely thriving modern city, not a somber ruin, but the Peace Memorial site remains the emotional and historical center of any visit. Given only 1 day here and a stated wish to take real time with the memorial, the day is built around it as the anchor, with the nearby island of Miyajima treated as a bonus rather than a planned certainty.",
+  "stayAreas": [
+    { "name": "Hatchobori / Hondori", "fit": "Best for a short city stay", "note": "Central for restaurants, transit, and a manageable walk or tram ride to Peace Memorial Park." },
+    { "name": "Near Hiroshima Station", "fit": "Best for a fast in-and-out visit", "note": "Convenient for the shinkansen and port connections, especially with luggage and a short schedule." },
+    { "name": "Miyajima", "fit": "Best for a slower island experience", "note": "Worth considering only if the itinerary expands beyond one Hiroshima city day." }
+  ],
   "recommendations": [
     {
       "slug": "peace-memorial-museum",

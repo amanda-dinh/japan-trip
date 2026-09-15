@@ -5,6 +5,11 @@
   "days": "2 nights (together with friend), onsen ryokan stay",
   "imageQuery": "Beppu onsen steam Japan",
   "overview": "Beppu and Yufuin are two of Kyushu's most famous onsen (hot spring) towns, sitting close together in Oita Prefecture but with quite different personalities: Beppu is a larger, steam-vented city producing more hot spring water than anywhere else in Japan (second only to Yellowstone worldwide), with a slightly gritty, industrial-hot-springs character; Yufuin is smaller, quieter, and more boutique/resort-like, known for scenic views of Mount Yufu. This is the genuine slow-down stretch of the whole trip — 2 nights at an onsen ryokan rather than splitting a night with Fukuoka — with a real hike/scenic viewpoint built in per request, since 'purely low-key' wasn't quite the goal. Lodging needs to be tattoo-friendly with a private bath option.",
+  "stayAreas": [
+    { "name": "Yufuin town center", "fit": "Best for a scenic ryokan stay", "note": "Quieter, more boutique, and strongest for a traditional stay with Mount Yufu views." },
+    { "name": "Kannawa, Beppu", "fit": "Best for steam and hot-spring character", "note": "A concentrated onsen district with visible steam, public baths, and easy access to the Hells." },
+    { "name": "Beppu waterfront / station area", "fit": "Best for transport and value", "note": "More practical for ferry connections, restaurants, and a wider range of lodging prices." }
+  ],
   "recommendations": [
     {
       "slug": "mount-tsurumi",
