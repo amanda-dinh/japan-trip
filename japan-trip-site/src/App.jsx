@@ -5,6 +5,7 @@ import DestinationsIndex from './pages/DestinationsIndex'
 import DestinationDetail from './pages/DestinationDetail'
 import TravelReferencePage from './pages/TravelReferencePage'
 import ChecklistPage from './pages/ChecklistPage'
+import InfoPage from './pages/InfoPage'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/destinations/:slug" element={<DestinationDetail />} />
           <Route path="/travel" element={<TravelReferencePage />} />
           <Route path="/checklist" element={<ChecklistPage />} />
+          <Route path="/info" element={<InfoPage />} />
         </Route>
       </Routes>
     </BrowserRouter>

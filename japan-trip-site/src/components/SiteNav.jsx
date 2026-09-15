@@ -47,6 +47,15 @@ export default function SiteNav() {
               Checklist
             </Link>
           </li>
+          <li>
+            <Link
+              to="/info"
+              className={styles.link}
+              aria-current={pathname === '/info' ? 'page' : undefined}
+            >
+              Info
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>
