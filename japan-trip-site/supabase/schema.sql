@@ -16,6 +16,16 @@ create table if not exists public.trip_notes (
   created_at timestamptz not null default now()
 );
 
+create table if not exists public.trip_checklist_subtasks (
+  trip_id text not null,
+  subtask_id text not null,
+  parent_item_id text not null,
+  assignee text not null,
+  completed boolean not null default false,
+  updated_at timestamptz not null default now(),
+  primary key (trip_id, subtask_id)
+);
+
 -- Run this line separately for an existing project created before threads were added.
 alter table public.trip_notes
   add column if not exists parent_note_id uuid references public.trip_notes(id) on delete cascade;
@@ -28,6 +38,20 @@ create index if not exists trip_notes_thread_lookup
 
 alter table public.trip_checklist enable row level security;
 alter table public.trip_notes enable row level security;
+alter table public.trip_checklist_subtasks enable row level security;
+
+create policy "Anyone can read shared checklist subtasks"
+  on public.trip_checklist_subtasks for select
+  using (trip_id = 'japan-trip-2027');
+
+create policy "Anyone can update shared checklist subtasks"
+  on public.trip_checklist_subtasks for insert
+  with check (trip_id = 'japan-trip-2027');
+
+create policy "Anyone can change shared checklist subtasks"
+  on public.trip_checklist_subtasks for update
+  using (trip_id = 'japan-trip-2027')
+  with check (trip_id = 'japan-trip-2027');
 
 -- Shared-trip mode: the public anon key can read and write this trip.
 -- Add authentication and replace these policies before using the site for private data.

@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { addNote, deleteNote, loadNotes } from '../lib/tripPersistence'
+import { NOTE_AUTHORS } from '../lib/noteAuthors'
 import styles from './NotesPanel.module.css'
 
 function formatDate(timestamp) {
@@ -109,7 +110,10 @@ export default function NotesPanel({ noteKey, title = 'Notes', description }) {
               ))}
               {replyingTo === note.id && (
                 <form className={styles.replyForm} onSubmit={addReply}>
-                  <input value={replyAuthor} onChange={event => setReplyAuthor(event.target.value)} placeholder="Your name" aria-label="Reply author" required />
+                  <select value={replyAuthor} onChange={event => setReplyAuthor(event.target.value)} aria-label="Reply author" required>
+                    <option value="">Select your name</option>
+                    {NOTE_AUTHORS.map(name => <option key={name} value={name}>{name}</option>)}
+                  </select>
                   <textarea value={replyContent} onChange={event => setReplyContent(event.target.value)} placeholder="Write a reply..." aria-label="Reply" rows="2" required />
                   <div className={styles.replyFormActions}>
                     <button type="button" onClick={() => setReplyingTo(null)}>Cancel</button>
@@ -125,7 +129,10 @@ export default function NotesPanel({ noteKey, title = 'Notes', description }) {
       )}
 
       <form className={styles.form} onSubmit={addNoteToThread}>
-        <input value={author} onChange={event => setAuthor(event.target.value)} placeholder="Your name" aria-label="Your name" required />
+        <select value={author} onChange={event => setAuthor(event.target.value)} aria-label="Your name" required>
+          <option value="">Select your name</option>
+          {NOTE_AUTHORS.map(name => <option key={name} value={name}>{name}</option>)}
+        </select>
         <textarea value={content} onChange={event => setContent(event.target.value)} placeholder="Add a note..." aria-label="Add a note" rows="3" required />
         <button type="submit">Add note</button>
       </form>

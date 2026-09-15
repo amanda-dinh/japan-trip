@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { addNote, deleteNote, loadNotes } from '../lib/tripPersistence'
+import { NOTE_AUTHORS } from '../lib/noteAuthors'
 import styles from './TaskSheet.module.css'
 
 function formatDate(timestamp) {
@@ -9,7 +10,7 @@ function formatDate(timestamp) {
   }).format(new Date(timestamp))
 }
 
-export default function TaskSheet({ task, checked, onToggle, onClose }) {
+export default function TaskSheet({ task, checked, onToggle, onClose, subtaskProgress = {}, onToggleSubtask }) {
   const [notes, setNotes] = useState({})
   const [author, setAuthor] = useState('')
   const [content, setContent] = useState('')
@@ -109,6 +110,24 @@ export default function TaskSheet({ task, checked, onToggle, onClose }) {
             <span>{checked ? 'Complete' : 'Mark as complete'}</span>
           </label>
 
+          {task.subtasks?.length > 0 && (
+            <section className={styles.subtasks} aria-label="Booking subtasks">
+              <div className={styles.sectionHeading}>
+                <h3>Booking status</h3>
+                <span>{task.subtasks.filter(name => subtaskProgress[`${task.id}-${name.toLowerCase()}`]).length}/{task.subtasks.length}</span>
+              </div>
+              {task.subtasks.map(name => {
+                const subtaskId = `${task.id}-${name.toLowerCase()}`
+                return (
+                  <label className={styles.subtask} key={name}>
+                    <input type="checkbox" checked={Boolean(subtaskProgress[subtaskId])} onChange={() => onToggleSubtask?.(task, name)} />
+                    <span>{name}</span>
+                  </label>
+                )
+              })}
+            </section>
+          )}
+
           <section className={styles.notesSection} aria-labelledby="task-notes-title">
             <div className={styles.sectionHeading}>
               <h3 id="task-notes-title">Notes</h3>
@@ -152,7 +171,10 @@ export default function TaskSheet({ task, checked, onToggle, onClose }) {
                     ))}
                     {replyingTo === note.id && (
                       <form className={styles.replyForm} onSubmit={addReply}>
-                        <input value={replyAuthor} onChange={event => setReplyAuthor(event.target.value)} placeholder="Your name" aria-label="Reply author" required />
+                        <select value={replyAuthor} onChange={event => setReplyAuthor(event.target.value)} aria-label="Reply author" required>
+                          <option value="">Select your name</option>
+                          {NOTE_AUTHORS.map(name => <option key={name} value={name}>{name}</option>)}
+                        </select>
                         <textarea value={replyContent} onChange={event => setReplyContent(event.target.value)} placeholder="Write a reply..." aria-label="Reply" rows="2" required />
                         <div className={styles.replyFormActions}>
                           <button type="button" onClick={() => setReplyingTo(null)}>Cancel</button>
@@ -171,7 +193,10 @@ export default function TaskSheet({ task, checked, onToggle, onClose }) {
           <form className={styles.form} onSubmit={addNoteToTask}>
             <label>
               <span>Your name</span>
-              <input value={author} onChange={event => setAuthor(event.target.value)} placeholder="e.g. Amanda" required />
+              <select value={author} required onChange={event => setAuthor(event.target.value)}>
+                <option value="">Select your name</option>
+                {NOTE_AUTHORS.map(name => <option key={name} value={name}>{name}</option>)}
+              </select>
             </label>
             <label>
               <span>Add a note</span>

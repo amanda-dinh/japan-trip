@@ -16,7 +16,7 @@ export const CATEGORY_LABELS = {
   'ghibli-park':           'Ghibli Park',
 }
 
-export default function RecommendationCard({ rec, onSelect }) {
+export default function RecommendationCard({ rec, onSelect, commentCount = 0 }) {
   return (
     <button
       type="button"
@@ -36,6 +36,9 @@ export default function RecommendationCard({ rec, onSelect }) {
         </span>
         <h3 className={styles.title}>{rec.title}</h3>
         <p className={styles.summary}>{rec.summary}</p>
+        {commentCount > 0 && (
+          <span className={styles.commentBadge}>{commentCount} comments</span>
+        )}
       </div>
     </button>
   )

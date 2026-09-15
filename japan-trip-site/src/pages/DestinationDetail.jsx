@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import itinerary from '../../data/itinerary.json'
 import PulledImage from '../components/PulledImage'
@@ -7,6 +7,7 @@ import RecommendationSheet from '../components/RecommendationSheet'
 import WeatherSummary from '../components/WeatherSummary'
 import DestinationChecklist from '../components/DestinationChecklist'
 import NotesPanel from '../components/NotesPanel'
+import { loadNotes } from '../lib/tripPersistence'
 import styles from './DestinationDetail.module.css'
 
 // All destinations keyed by slug, loaded at build time
@@ -82,6 +83,19 @@ export default function DestinationDetail() {
   const nextDest = currentIdx < TRIP_ORDER.length - 1 ? destinations[TRIP_ORDER[currentIdx + 1]] : null
 
   const [activeRec, setActiveRec] = useState(null)
+  const [commentCounts, setCommentCounts] = useState({})
+
+  useEffect(() => {
+    let active = true
+    loadNotes().then(notes => {
+      if (!active) return
+      const counts = Object.fromEntries(
+        (dest.recommendations ?? []).map(rec => [rec.slug, (notes[`activity:${rec.slug}`] ?? []).length]),
+      )
+      setCommentCounts(counts)
+    }).catch(() => {})
+    return () => { active = false }
+  }, [dest])
 
   return (
     <main className={styles.page}>
@@ -145,7 +159,7 @@ export default function DestinationDetail() {
           <ul className={styles.recGrid}>
             {recs.map(rec => (
               <li key={rec.slug}>
-                <RecommendationCard rec={rec} onSelect={setActiveRec} />
+                <RecommendationCard rec={rec} onSelect={setActiveRec} commentCount={commentCounts[rec.slug]} />
               </li>
             ))}
           </ul>

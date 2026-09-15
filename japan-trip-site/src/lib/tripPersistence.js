@@ -2,6 +2,7 @@ import { createClient } from '@supabase/supabase-js'
 
 export const TRIP_ID = 'japan-trip-2027'
 const CHECKLIST_STORAGE_KEY = 'japan-trip-checklist'
+const SUBTASK_STORAGE_KEY = 'japan-trip-checklist-subtasks'
 const NOTES_STORAGE_KEY = 'japan-trip-notes'
 const TASK_NOTES_STORAGE_KEY = 'japan-trip-task-notes'
 
@@ -43,6 +44,28 @@ export async function saveChecklistProgress(itemId, completed) {
   const { error } = await supabase
     .from('trip_checklist')
     .upsert({ trip_id: TRIP_ID, item_id: itemId, completed, updated_at: new Date().toISOString() })
+  if (error) throw error
+}
+
+export async function loadSubtaskProgress() {
+  if (!supabase) return readLocal(SUBTASK_STORAGE_KEY, {})
+  const { data, error } = await supabase
+    .from('trip_checklist_subtasks')
+    .select('subtask_id, completed')
+    .eq('trip_id', TRIP_ID)
+  if (error) throw error
+  return Object.fromEntries(data.map(row => [row.subtask_id, row.completed]))
+}
+
+export async function saveSubtaskProgress(subtaskId, parentItemId, assignee, completed) {
+  if (!supabase) {
+    const current = readLocal(SUBTASK_STORAGE_KEY, {})
+    writeLocal(SUBTASK_STORAGE_KEY, { ...current, [subtaskId]: completed })
+    return
+  }
+  const { error } = await supabase
+    .from('trip_checklist_subtasks')
+    .upsert({ trip_id: TRIP_ID, subtask_id: subtaskId, parent_item_id: parentItemId, assignee, completed, updated_at: new Date().toISOString() })
   if (error) throw error
 }
 

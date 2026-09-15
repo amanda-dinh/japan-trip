@@ -1,11 +1,13 @@
 import { useEffect, useState } from 'react'
 import checklist from '../../data/checklist.json'
 import TaskSheet from '../components/TaskSheet'
-import { loadChecklistProgress, saveChecklistProgress } from '../lib/tripPersistence'
+import { loadChecklistProgress, loadNotes, loadSubtaskProgress, saveChecklistProgress, saveSubtaskProgress } from '../lib/tripPersistence'
 import styles from './ChecklistPage.module.css'
 
 export default function ChecklistPage() {
   const [checked, setChecked] = useState({})
+  const [commentCounts, setCommentCounts] = useState({})
+  const [subtaskProgress, setSubtaskProgress] = useState({})
   const [activeTask, setActiveTask] = useState(null)
   const items = checklist.groups.flatMap(group => group.items)
   const completedCount = items.filter(item => checked[item.id]).length
@@ -18,11 +20,37 @@ export default function ChecklistPage() {
     return () => { active = false }
   }, [])
 
+  useEffect(() => {
+    let active = true
+    loadSubtaskProgress().then(progress => {
+      if (active) setSubtaskProgress(progress)
+    }).catch(() => {})
+    return () => { active = false }
+  }, [])
+
+  useEffect(() => {
+    let active = true
+    loadNotes().then(notes => {
+      if (!active) return
+      setCommentCounts(Object.fromEntries(items.map(item => [item.id, (notes[`task:${item.id}`] ?? []).length])))
+    }).catch(() => {})
+    return () => { active = false }
+  }, [])
+
   function toggleItem(id) {
     setChecked(current => {
       const completed = !current[id]
       saveChecklistProgress(id, completed).catch(() => {})
       return { ...current, [id]: completed }
+    })
+  }
+
+  function toggleSubtask(item, assignee) {
+    const subtaskId = `${item.id}-${assignee.toLowerCase()}`
+    setSubtaskProgress(current => {
+      const completed = !current[subtaskId]
+      saveSubtaskProgress(subtaskId, item.id, assignee, completed).catch(() => {})
+      return { ...current, [subtaskId]: completed }
     })
   }
 
@@ -65,7 +93,11 @@ export default function ChecklistPage() {
                         <span className={styles.customBox} aria-hidden="true">✓</span>
                       </label>
                       <button type="button" className={styles.taskButton} onClick={() => setActiveTask(item)}>
-                        <span className={styles.label}>{item.label}</span>
+                        <span className={styles.taskText}>
+                          <span className={styles.label}>{item.label}</span>
+                          {item.subtasks && <span className={styles.subtaskBadge}>{item.subtasks.filter(name => subtaskProgress[`${item.id}-${name.toLowerCase()}`]).length}/{item.subtasks.length} booked</span>}
+                          {commentCounts[item.id] > 0 && <span className={styles.commentBadge}>{commentCounts[item.id]} comments</span>}
+                        </span>
                         <span className={styles.openHint}>Details →</span>
                       </button>
                     </div>
@@ -80,6 +112,8 @@ export default function ChecklistPage() {
         task={activeTask}
         checked={activeTask ? checked[activeTask.id] : false}
         onToggle={() => activeTask && toggleItem(activeTask.id)}
+        subtaskProgress={subtaskProgress}
+        onToggleSubtask={toggleSubtask}
         onClose={() => setActiveTask(null)}
       />
     </main>

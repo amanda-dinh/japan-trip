@@ -125,6 +125,31 @@
   cursor: pointer;
 }
 
+.taskText {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.commentBadge {
+  align-self: flex-start;
+  color: var(--color-shu-iro);
+  background: rgba(193, 68, 14, 0.10);
+  border: 1px solid rgba(193, 68, 14, 0.25);
+  border-radius: var(--radius-sm);
+  padding: 2px var(--space-2);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: var(--tracking-wide);
+}
+
+.subtaskBadge {
+  color: var(--color-text-muted);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: var(--tracking-wide);
+}
+
 .openHint {
   color: var(--color-text-muted);
   font-family: var(--font-mono);

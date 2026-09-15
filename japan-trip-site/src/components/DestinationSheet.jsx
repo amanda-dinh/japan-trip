@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import PulledImage from './PulledImage'
 import RecommendationSheet from './RecommendationSheet'
 import WeatherSummary from './WeatherSummary'
-import DestinationChecklist from './DestinationChecklist'
 import { CATEGORY_LABELS } from './RecommendationCard'
 import styles from './DestinationSheet.module.css'
 
@@ -88,8 +87,6 @@ export default function DestinationSheet({ dest, onClose }) {
             <p className={styles.overview}>{dest.overview}</p>
 
             <WeatherSummary weather={dest.weather} />
-
-            <DestinationChecklist slug={dest.slug} />
 
             {/* Recommendations, grouped by category */}
             {categoryGroups.map(([category, recs]) => (
